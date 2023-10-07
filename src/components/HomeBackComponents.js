@@ -17,13 +17,15 @@ const HomeBackComponents = () => {
       <div className="carousel-item active">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-            Welcome to <span>Moderna</span>
+            Welcome to <span>ASP</span>
           </h2>
           <p className="animate__animated animate__fadeInUp">
-            Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
-            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-            Similique ea voluptatem. Esse doloremque accusamus repellendus
-            deleniti vel. Minus et tempore modi architecto.
+          20 Years of experience <br/>
+          for the supply of various software’s and Instruments
+          to the Agency, Organization and Academic Institutes  
+
+
+          
           </p>
           <a
             href=""
@@ -37,13 +39,16 @@ const HomeBackComponents = () => {
       <div className="carousel-item">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-            Lorem Ipsum Dolor
+           Mission
           </h2>
           <p className="animate__animated animate__fadeInUp">
-            Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
-            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-            Similique ea voluptatem. Esse doloremque accusamus repellendus
-            deleniti vel. Minus et tempore modi architecto.
+          Our Mission is to provide outstanding Software solutions
+           & services by understanding the requirement of the
+            clients and to build long term relationship through
+             mutual trust & co-ordination.
+          
+          
+
           </p>
           <a
             href=""
@@ -57,13 +62,13 @@ const HomeBackComponents = () => {
       <div className="carousel-item">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-            Sequi ea ut et est quaerat
+            Our Vision
           </h2>
           <p className="animate__animated animate__fadeInUp">
-            Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
-            quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
-            Similique ea voluptatem. Esse doloremque accusamus repellendus
-            deleniti vel. Minus et tempore modi architecto.
+          Our Vision is to be the best in Geoscientific services
+           with the emphasis on empowering the users with the 
+           latest techniques & technology.
+
           </p>
           <a
             href=""
