@@ -17,7 +17,7 @@ const HomeMidComponent = () => {
                                         <i className="bx bxl-dribbble" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Lorem Ipsum</a>
+                                        <a href="">Hydrogeological Services</a>
                                     </h4>
                                     <p className="description">
                                         Voluptatum deleniti atque corrupti quos dolores et quas
@@ -35,7 +35,7 @@ const HomeMidComponent = () => {
                                         <i className="bx bx-file" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Sed ut perspiciatis</a>
+                                        <a href="">IT Services</a>
                                     </h4>
                                     <p className="description">
                                         Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -53,7 +53,7 @@ const HomeMidComponent = () => {
                                         <i className="bx bx-tachometer" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Magni Dolores</a>
+                                        <a href="">Instruments</a>
                                     </h4>
                                     <p className="description">
                                         Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -71,7 +71,7 @@ const HomeMidComponent = () => {
                                         <i className="bx bx-world" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Nemo Enim</a>
+                                        <a href="">Other Services</a>
                                     </h4>
                                     <p className="description">
                                         At vero eos et accusamus et iusto odio dignissimos ducimus qui
