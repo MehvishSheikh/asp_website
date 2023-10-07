@@ -57,45 +57,46 @@ const FooterComponent = () => {
                                 <h4>Our Services</h4>
                                 <ul>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#">Web Design</a>
+                                        <i className="bx bx-chevron-right" /> <a href="#"> Hydrogeological Services </a>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Web Development</a>
+                                        <a href="#">IT Services</a>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Product Management</a>
+                                        <a href="#">Instruments</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <i className="bx bx-chevron-right" /> <a href="#">Marketing</a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Graphic Design</a>
+                                        <a href="#">Comming Soon</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-contact">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    A108 Adam Street <br />
-                                    New York, NY 535022
+                                    B-3, First Floor, Swapnil Apartment, Abhyankar Road,
+                                    Dhantoli, <br />
+                                    Nagpur - 440 012
+
                                     <br />
-                                    United States <br />
+                                    Maharashtra India <br />
                                     <br />
-                                    <strong>Phone:</strong> +1 5589 55488 55
+                                    <strong>Phone:</strong> +91 9422802118 / 8830763438
                                     <br />
-                                    <strong>Email:</strong> info@example.com
+                                    <strong>Email:</strong> aditiinfotech1@gmail.com
                                     <br />
                                 </p>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-info">
-                                <h3>About Moderna</h3>
+                                <h3>About ASP</h3>
                                 <p>
-                                    Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                                    nada terra videa magna derita valies darta donna mare fermentum
-                                    iaculis eu non diam phasellus.
+                                    We have 20 Years of experience
+                                    for the supply of various software's and Instruments to the Agency
                                 </p>
                                 <div className="social-links mt-3">
                                     <a href="#" className="twitter">
