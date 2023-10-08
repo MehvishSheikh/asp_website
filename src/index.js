@@ -5,7 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import  { createBrowserRouter, RouterProvider, Route,} from "react-router-dom";
 import SercvicesComponent from './components/services_Page/SercvicesComponent';
-import HeadComponent from './components/HeadComponent';
+import AboutComponent from './components/AboutComponent/AboutComponent';
+import InstrumentsComponent from './components/Instruments_page/InstrumentsComponent';
+import PortfolioComponent from './components/Portfolio_page/PortfolioComponent';
+import ContactComponent from './components/Contact_page/ContactComponent';
+import InstrumentDetails from './components/Instruments_page/InstrumentDetails';
+import InstrumentDetails2 from './components/Instruments_page/InstrumentDetails2';
+import InstrumentDetails3 from './components/Instruments_page/InstrumentDetails3';
+import InstrumentDetails4 from './components/Instruments_page/InstrumentDetails4';
+import InstrumentDetails5 from './components/Instruments_page/InstrumentDetails5';
+import InstrumentDetails6 from './components/Instruments_page/InstrumentDetails6';
+import InstrumentDetails7 from './components/Instruments_page/InstrumentDetails7';
+import InstrumentDetails8 from './components/Instruments_page/InstrumentDetails8';
+import InstrumentDetails9 from './components/Instruments_page/InstrumentDetails9';
+import InstrumentDetails10 from './components/Instruments_page/instrumentDetails10';
 
 
 const router = createBrowserRouter([
@@ -20,10 +33,77 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "/header",
-    element: <HeadComponent/>
+    path: "/About",
+    element: <AboutComponent/>
 
   },
+  {
+    path: "/Instruments",
+    element: <InstrumentsComponent/>
+
+  },
+  {
+    path: "/Portfolio",
+    element: <PortfolioComponent/>
+
+  },
+  {
+    path: "/Contact",
+    element: <ContactComponent/>
+
+  },
+  {
+    path: "/InstrumentDetails",
+    element: <InstrumentDetails/>
+
+  },
+  {
+    path: "/InstrumentDetails2",
+    element: <InstrumentDetails2/>
+
+  },
+  {
+    path: "/InstrumentDetails3",
+    element: <InstrumentDetails3/>
+
+  },
+  {
+    path: "/InstrumentDetails4",
+    element: <InstrumentDetails4/>
+
+  },
+  {
+    path: "/InstrumentDetails5",
+    element: <InstrumentDetails5/>
+
+  },
+  {
+    path: "/InstrumentDetails6",
+    element: <InstrumentDetails6/>
+
+  },
+  {
+    path: "/InstrumentDetails7",
+    element: <InstrumentDetails7/>
+
+  },
+  {
+    path: "/InstrumentDetails8",
+    element: <InstrumentDetails8/>
+
+  },
+  {
+    path: "/InstrumentDetails9",
+    element: <InstrumentDetails9/>
+
+  },
+  {
+    path: "/InstrumentDetails10",
+    element: <InstrumentDetails10/>
+
+  },
+
+
 
 ]);
 

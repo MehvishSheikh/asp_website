@@ -28,20 +28,21 @@ const HeadComponent = () => {
                                 </a>
                             </li>
                             <li>
-                                <Link to="/header"> About </Link>
+                                <Link to="/About"> About </Link>
                             </li>
                             <li>
                                 <Link to="/Services" > Services </Link>
                             </li>
                             <li>
-                                <Link to="/Services" >Portfolio</Link>
+                                <Link to="/Instruments" >Instruments</Link>
+                            </li>
+                            <li>
+                                <Link to="/Portfolio" >Portfolio</Link>
                             </li>
                             <li>
                                 <Link to="/Services" >Team</Link>
                             </li>
-                            <li>
-                                <Link to="/Services" >Blog</Link>
-                            </li>
+
                             <li className="dropdown">
                                 <a href="#">
                                     <span>Drop Down</span> <i className="bi bi-chevron-down" />
@@ -85,7 +86,7 @@ const HeadComponent = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Contact Us</a>
+                                <Link to="/Contact">Contact Us</Link>
                             </li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle" />
