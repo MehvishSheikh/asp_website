@@ -39,7 +39,7 @@ const FooterComponent = () => {
                                         <i className="bx bx-chevron-right" /> <Link to="/">Home</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <Link to="/">About us</Link>
+                                        <i className="bx bx-chevron-right" /> <Link to="/About">About us</Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" /> <Link to="/Services">Services</Link>
