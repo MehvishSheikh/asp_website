@@ -38,11 +38,10 @@ const SercvicesComponent = () => {
                 <i className="bx bxl-dribbble" />
               </div>
               <h4 className="title">
-                <a href="">Lorem Ipsum</a>
+                <a href="">Hydrogeological Services</a>
               </h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
+              Experts in hydrogeological services and groundwater assessments.
               </p>
             </div>
           </div>
@@ -56,11 +55,10 @@ const SercvicesComponent = () => {
                 <i className="bx bx-file" />
               </div>
               <h4 className="title">
-                <a href="">Sed ut perspiciatis</a>
+                <a href="">IT Services</a>
               </h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
+              Leading IT services provider, for seamless digital transformation.
               </p>
             </div>
           </div>
@@ -74,11 +72,10 @@ const SercvicesComponent = () => {
                 <i className="bx bx-tachometer" />
               </div>
               <h4 className="title">
-                <a href="">Magni Dolores</a>
+                <a href="">Instruments</a>
               </h4>
               <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
+              Cutting-edge instruments for precise data collection and analysis.
               </p>
             </div>
           </div>
@@ -92,11 +89,10 @@ const SercvicesComponent = () => {
                 <i className="bx bx-world" />
               </div>
               <h4 className="title">
-                <a href="">Nemo Enim</a>
+                <a href="">Other Services</a>
               </h4>
               <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
+              Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
               </p>
             </div>
           </div>
@@ -264,7 +260,7 @@ const SercvicesComponent = () => {
     </section>
     {/* End Service Details Section */}
     {/* ======= Pricing Section ======= */}
-    <section className="pricing section-bg" data-aos="fade-up">
+    {/* <section className="pricing section-bg" data-aos="fade-up">
       <div className="container">
         <div className="section-title">
           <h2>Pricing</h2>
@@ -358,7 +354,7 @@ const SercvicesComponent = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     {/* End Pricing Section */}
   </main>
   {/* End #main */}
