@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+
 
 const HeadComponent = () => {
     return (
@@ -20,24 +23,24 @@ const HeadComponent = () => {
                     <nav id="navbar" className="navbar">
                         <ul>
                             <li>
-                                <a className="active " href="index.html">
-                                    Home
+                                <a className="active ">
+                                    <Link to="/"> Home </Link>
                                 </a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <Link to="/header"> About </Link>
                             </li>
                             <li>
-                                <a href="services.html">Services</a>
+                                <Link to="/Services" > Services </Link>
                             </li>
                             <li>
-                                <a href="portfolio.html">Portfolio</a>
+                                <Link to="/Services" >Portfolio</Link>
                             </li>
                             <li>
-                                <a href="team.html">Team</a>
+                                <Link to="/Services" >Team</Link>
                             </li>
                             <li>
-                                <a href="blog.html">Blog</a>
+                                <Link to="/Services" >Blog</Link>
                             </li>
                             <li className="dropdown">
                                 <a href="#">
