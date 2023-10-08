@@ -17,14 +17,16 @@ const HomeBackComponents = () => {
       <div className="carousel-item active">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-            Welcome to <span>ASP</span>
+            Welcome to <span>ASP<br/>
+            <h3>Consultancy Services</h3>
+
+            </span>
           </h2>
           <p className="animate__animated animate__fadeInUp">
-          20 Years of experience <br/>
-          for the supply of various software’s and Instruments
-          to the Agency, Organization and Academic Institutes  
-
-
+          Accredited Institute by  Central Ground Water Authority (CGWA), <br/>
+          We specialize in providinG comprehensive consultancy services 
+          and monitoring instruments. With our officiaL accreditation from
+          CGWA, that ensure the highest standards of quality.
           
           </p>
           <a
@@ -39,7 +41,7 @@ const HomeBackComponents = () => {
       <div className="carousel-item">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-           Mission
+           Our Mission
           </h2>
           <p className="animate__animated animate__fadeInUp">
           Our Mission is to provide outstanding Software solutions
@@ -65,10 +67,10 @@ const HomeBackComponents = () => {
             Our Vision
           </h2>
           <p className="animate__animated animate__fadeInUp">
-          Our Vision is to be the best in Geoscientific services
-           with the emphasis on empowering the users with the 
-           latest techniques & technology.
-
+          Our vision is to excel in Geoscientific services, prioritizing user
+          empowerment through cutting-edge techniques and technology. We are
+          committed to leading the industry, ensuring our clients have access
+          to the latest advancements in the field."
           </p>
           <a
             href=""
