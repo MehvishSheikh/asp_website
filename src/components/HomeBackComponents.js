@@ -23,11 +23,6 @@ const HomeBackComponents = () => {
             </span>
           </h2>
           <p className="animate__animated animate__fadeInUp">
-          Accredited Institute by  Central Ground Water Authority (CGWA), <br/>
-          We specialize in providinG comprehensive consultancy services 
-          and monitoring instruments. With our officiaL accreditation from
-          CGWA, that ensure the highest standards of quality.
-          
           </p>
           <a
             href=""
