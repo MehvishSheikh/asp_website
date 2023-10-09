@@ -30,39 +30,35 @@ const AboutComponent = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+            <img src="assets\img\about.jpg" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
             <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
+            One of the Accredited Institute by CGWA, Govt of India to carry out the Impact Assessment/Comprehensive 
+              Hydrogeological Studies, Groundwater Survey along with Rainwater Harvesting.
+           
+
             </h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consultancy Services provider company in the field of  GIS & Image Processing software’s,  & 
+  
+
             </p>
             <ul>
               <li>
-                <i className="bi bi-check2-circle" /> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+                <i className="bi bi-check2-circle" /> Geology, Geophysics, Hydrogeology, Groundwater, Surface water, 
+            Watershed Modeling.
               </li>
               <li>
-                <i className="bi bi-check2-circle" /> Duis aute irure dolor in
-                reprehenderit in voluptate velit.
+                <i className="bi bi-check2-circle" /> Handheld GPS, 
+            Differential GPS (DGPS), Groundwater Monitoring Instruments
               </li>
               <li>
-                <i className="bi bi-check2-circle" /> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate trideta storacalaperda mastiro dolore
-                eu fugiat nulla pariatur.
+                <i className="bi bi-check2-circle" /> Data Loggers for data 
+            capture, data processing, analysis, interpretation & modeling purpose. 
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum
             </p>
           </div>
         </div>
@@ -70,26 +66,23 @@ const AboutComponent = () => {
     </section>
     {/* End About Section */}
     {/* ======= Facts Section ======= */}
-    <section className="facts section-bg" data-aos="fade-up">
+    <section className="facts section-bg text-center" data-aos="fade-up">
+    <p> We are a service providing company 
+to various mines and Industry in the area of Comprehensive Hydrogeological Survey, Rainwater Harvesting plan 
+for obtaining the NOC to Abstract Ground Water/Dewatering (NOCAP) from CGWA, Ministry of Jal Shakti and Ganga 
+Rejuvenation, Government of India for the following categories: </p>
       <div className="container">
         <div className="row counters">
-          <div className="col-lg-3 col-6 text-center">
+          <div className="col-lg-4 col-md-4 col-sm-12  text-center">
             <span
               data-purecounter-start={0}
               data-purecounter-end={232}
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p>Clients</p>
-          </div>
-          <div className="col-lg-3 col-6 text-center">
-            <span
-              data-purecounter-start={0}
-              data-purecounter-end={521}
-              data-purecounter-duration={1}
-              className="purecounter"
-            />
-            <p>Projects</p>
+            
+            
+            <p>Industrial</p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -98,7 +91,7 @@ const AboutComponent = () => {
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p>Hours Of Support</p>
+            <p>Infrastructure</p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -107,14 +100,14 @@ const AboutComponent = () => {
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p>Hard Workers</p>
+            <p>Mining</p>
           </div>
         </div>
       </div>
     </section>
     {/* End Facts Section */}
     {/* ======= Our Skills Section ======= */}
-    <section className="skills" data-aos="fade-up">
+    {/* <section className="skills" data-aos="fade-up">
       <div className="container">
         <div className="section-title">
           <h2>Our Skills</h2>
@@ -180,7 +173,7 @@ const AboutComponent = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     {/* End Our Skills Section */}
     {/* ======= Tetstimonials Section ======= */}
     <section className="testimonials" data-aos="fade-up">
@@ -188,27 +181,27 @@ const AboutComponent = () => {
         <div className="section-title">
           <h2>Tetstimonials</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+          Our clients speak volumes about our exceptional services.
+          Discover the testimonials that reflect our commitment 
+          to excellence and client satisfaction.Exceptional team and
+          outstanding services! The company's ability to solve complex challenges
+          have greatly benefited our projects.
           </p>
         </div>
         <div className="testimonials-carousel swiper">
           <div className="swiper-wrapper">
             <div className="testimonial-item swiper-slide">
               <img
-                src="assets/img/testimonials/testimonials-1.jpg"
+                src="assets\img\ceoimg1.jpeg"
                 className="testimonial-img"
                 alt=""
               />
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>S.K Chaurasia</h3>
+              <h4>Chief Executive</h4>
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left" />
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                I encourage each of you to embrace challenges as opportunities,
+                 innovate fearlessly, and foster a collaborative to achieve remarkable milestones.
                 <i className="bx bxs-quote-alt-right quote-icon-right" />
               </p>
             </div>

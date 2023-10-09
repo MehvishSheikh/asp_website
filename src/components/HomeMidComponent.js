@@ -20,8 +20,7 @@ const HomeMidComponent = () => {
                                         <a href="">Hydrogeological Services</a>
                                     </h4>
                                     <p className="description">
-                                        Voluptatum deleniti atque corrupti quos dolores et quas
-                                        molestias excepturi sint occaecati cupiditate non provident
+                                    Experts in hydrogeological services and groundwater assessments.
                                     </p>
                                 </div>
                             </div>
@@ -38,8 +37,7 @@ const HomeMidComponent = () => {
                                         <a href="">IT Services</a>
                                     </h4>
                                     <p className="description">
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur
+                                    Leading IT services provider, for seamless digital transformation.
                                     </p>
                                 </div>
                             </div>
@@ -56,8 +54,8 @@ const HomeMidComponent = () => {
                                         <a href="">Instruments</a>
                                     </h4>
                                     <p className="description">
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                        qui officia deserunt mollit anim id est laborum
+                                    Cutting-edge instruments for precise data collection and analysis.
+                                    
                                     </p>
                                 </div>
                             </div>
@@ -74,8 +72,7 @@ const HomeMidComponent = () => {
                                         <a href="">Other Services</a>
                                     </h4>
                                     <p className="description">
-                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                        blanditiis praesentium voluptatum deleniti atque
+                                    Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
                                     </p>
                                 </div>
                             </div>
@@ -92,12 +89,9 @@ const HomeMidComponent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 video-box">
-                                <img src="assets/img/why-us.jpg" className="img-fluid" alt="" />
+                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
                                 <a
-                                    href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                                    className="venobox play-btn mb-4"
-                                    data-vbtype="video"
-                                    data-autoplay="true"
+                                    href="assets\img\homeimg.jpg"
                                 />
                             </div>
                             <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
@@ -106,25 +100,37 @@ const HomeMidComponent = () => {
                                         <i className="bx bx-fingerprint" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Lorem Ipsum</a>
+                                        <a href="">INDUSTRIAL</a>
                                     </h4>
                                     <p className="description">
-                                        Voluptatum deleniti atque corrupti quos dolores et quas
-                                        molestias excepturi sint occaecati cupiditate non provident
+                                    Permission to Abstract Groundwater for Industrial Use
                                     </p>
                                 </div>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bx bx-fingerprint" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INFRASTRUCTURE</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
+                                    </p>
+                                </div>
+                                
                                 <div className="icon-box">
                                     <div className="icon">
                                         <i className="bx bx-gift" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Nemo Enim</a>
+                                        <a href="">MINING</a>
                                     </h4>
                                     <p className="description">
-                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                        blanditiis praesentium voluptatum deleniti atque
+                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
+
                                     </p>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -136,10 +142,11 @@ const HomeMidComponent = () => {
                         <div className="section-title">
                             <h2>Features</h2>
                             <p>
-                                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-                                aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-                                quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                                fugiat sit in iste officiis commodi quidem hic quas.
+                            "Our company stands out with its state-of-the-art technology, 
+                            ensuring precision in data collection and analysis. We pride 
+                            ourselves on expert consultations, timely project delivery, 
+                            and a commitment to sustainable practices, making us the trusted 
+                            choice for geoscientific solutions."
                             </p>
                         </div>
                         <div className="row" data-aos="fade-up">
@@ -148,21 +155,17 @@ const HomeMidComponent = () => {
                             </div>
                             <div className="col-md-7 pt-4">
                                 <h3>
-                                    Voluptatem dignissimos provident quasi corporis voluptates sit
-                                    assumenda.
+                                    Hydrogeological Services
                                 </h3>
                                 <p className="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
+                                We are one of the Accredited Institute by CGWA, Govt of India to carry out following.
+                                 </p>
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Ullamco laboris nisi ut aliquip ex
-                                        ea commodo consequat.
+                                        <i className="bi bi-check" /> Impact Assessment/Comprehensive Hydrogeological Studies.
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Duis aute irure dolor in
-                                        reprehenderit in voluptate velit.
+                                        <i className="bi bi-check" /> Groundwater Survey along with Rainwater Harvesting
                                     </li>
                                 </ul>
                             </div>
@@ -172,17 +175,16 @@ const HomeMidComponent = () => {
                                 <img src="assets/img/features-2.svg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5 order-2 order-md-1">
-                                <h3>Corporis temporibus maiores provident</h3>
+                                <h3>IT Services</h3>
                                 <p className="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                From precise data analysis to advanced mapping, our services are designed to enhance decision-making 
+                                    processes and drive sustainable outcomes. 
                                 </p>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum
+                                With a dedicated team of 
+                                    professionals, we are committed to delivering exceptional results, 
+                                    ensuring client satisfaction, and contributing positively to projects 
+                                    of all scales.
                                 </p>
                             </div>
                         </div>
@@ -192,26 +194,31 @@ const HomeMidComponent = () => {
                             </div>
                             <div className="col-md-7 pt-5">
                                 <h3>
-                                    Sunt consequatur ad ut est nulla consectetur reiciendis animi
-                                    voluptas
+                                    Instruments that we provide are:
                                 </h3>
                                 <p>
-                                    Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus
-                                    quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas
-                                    dolor doloremque.
+                                These cutting-edge tools enable accurate geoscientific research 
+                                    and efficient water resource management.Our instruments guarantee
+                                    precision, reliability, and efficiency.
                                 </p>
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Ullamco laboris nisi ut aliquip ex
-                                        ea commodo consequat.
+                                        <i className="bi bi-check" /> Garmin’s Hand Held GPS (Global Positioning System)
+
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Duis aute irure dolor in
-                                        reprehenderit in voluptate velit.
+                                        <i className="bi bi-check" /> DGPS (Differential Global Positioning System) – GNSS Survey
+
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Facilis ut et voluptatem aperiam.
-                                        Autem soluta ad fugiat.
+                                        <i className="bi bi-check" /> Resistivity Meter
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Digital Water Level Recorder
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> And many more.
                                     </li>
                                 </ul>
                             </div>
@@ -222,19 +229,20 @@ const HomeMidComponent = () => {
                             </div>
                             <div className="col-md-7 pt-5 order-2 order-md-1">
                                 <h3>
-                                    Quas et necessitatibus eaque impedit ipsum animi consequatur
-                                    incidunt in
+                                    Other Services
                                 </h3>
                                 <p className="fst-italic">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                In addition to our advanced instruments, we offer a 
+                                    comprehensive suite of services aimed at enhancing 
+                                    geoscientific research and water resource management.
+                                    
+                                    
                                 </p>
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum
+                                Our expert team provides tailored consultancy services,
+                                    precise data analysis, geophysical surveys, and groundwater
+                                    modeling to  to optimize processes. 
+                                   
                                 </p>
                             </div>
                         </div>
