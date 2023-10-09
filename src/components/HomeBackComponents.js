@@ -21,7 +21,7 @@ const HomeBackComponents = () => {
           </h2>
           <p className="animate__animated animate__fadeInUp">
           20 Years of experience <br/>
-          for the supply of various software’s and Instruments
+          for the supply of various software's and Instruments
           to the Agency, Organization and Academic Institutes  
 
 

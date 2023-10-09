@@ -101,7 +101,7 @@ const router = createBrowserRouter([
     path: "/InstrumentDetails10",
     element: <InstrumentDetails10/>
 
-  },
+  }
 
 
 
