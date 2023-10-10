@@ -19,6 +19,7 @@ import InstrumentDetails7 from './components/Instruments_page/InstrumentDetails7
 import InstrumentDetails8 from './components/Instruments_page/InstrumentDetails8';
 import InstrumentDetails9 from './components/Instruments_page/InstrumentDetails9';
 import InstrumentDetails10 from './components/Instruments_page/instrumentDetails10';
+import HydroServices from './components/services_Page/HydroServices';
 
 
 const router = createBrowserRouter([
@@ -100,6 +101,11 @@ const router = createBrowserRouter([
   {
     path: "/InstrumentDetails10",
     element: <InstrumentDetails10/>
+
+  },
+  {
+    path: "/HydroServices",
+    element: <HydroServices/>
 
   }
 

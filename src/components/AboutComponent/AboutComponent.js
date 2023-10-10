@@ -82,7 +82,7 @@ Rejuvenation, Government of India for the following categories: </p>
             />
             
             
-            <p>Industrial</p>
+            <p><b>Industrial</b></p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -91,7 +91,7 @@ Rejuvenation, Government of India for the following categories: </p>
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p>Infrastructure</p>
+            <p><b>Infrastructure</b></p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -100,7 +100,7 @@ Rejuvenation, Government of India for the following categories: </p>
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p>Mining</p>
+            <p><b>Mining</b></p>
           </div>
         </div>
       </div>

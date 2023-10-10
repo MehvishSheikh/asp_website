@@ -35,8 +35,8 @@ const InstrumentsComponent = () => {
                   <ul id="portfolio-flters">
                     <li data-filter="*" className="filter-active"> All </li>
                     <li data-filter=".filter-app">GPS </li>
-                    <li data-filter=".filter-card"> Category 2 </li>
-                    <li data-filter=".filter-web"> Category 3 </li>
+                    <li data-filter=".filter-card"> DWLR </li>
+                    <li data-filter=".filter-web"> CMR </li>
                   </ul>
                 </div>
               </div>

@@ -38,7 +38,9 @@ const ContactComponent = () => {
                 <div className="info-box">
                   <i className="bx bx-map" />
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>B-1, First Floor, Swapnil Apartment, Abhyankar Marg,
+Dhantoli, Nagpur, Maharashtra 440012 (INDIA)
+</p>
                 </div>
               </div>
               <div className="col-md-6">
@@ -46,9 +48,11 @@ const ContactComponent = () => {
                   <i className="bx bx-envelope" />
                   <h3>Email Us</h3>
                   <p>
-                    info@example.com
+                  aditiinfotech1@gmail.com
+
+
                     <br />
-                    contact@example.com
+                    aditi.infotech@bsnl.co.in
                   </p>
                 </div>
               </div>
@@ -57,9 +61,11 @@ const ContactComponent = () => {
                   <i className="bx bx-phone-call" />
                   <h3>Call Us</h3>
                   <p>
-                    +1 5589 55488 55
+                  +91 7122427355
+
+
                     <br />
-                    +1 6678 254445 41
+                    +91 8888477788
                   </p>
                 </div>
               </div>
@@ -72,6 +78,12 @@ const ContactComponent = () => {
               role="form"
               className="php-email-form"
             >
+              <h3 style={{ textAlign: 'center' }}><b>GOT A QUESTION?</b></h3>
+
+
+              <p>
+We’re here to help and answer any question you might have. We look forward to hearing from you!
+</p>
               <div className="row">
                 <div className="col-md-6 form-group">
                   <input

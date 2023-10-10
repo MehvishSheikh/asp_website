@@ -1,6 +1,7 @@
 import React from 'react'
 import HeadComponent from '../HeadComponent'
 import FooterComponent from '../FooterComponent'
+import { Link } from 'react-router-dom'
 
 const SercvicesComponent = () => {
   return (
@@ -102,50 +103,59 @@ const SercvicesComponent = () => {
     {/* End Services Section */}
     {/* ======= Why Us Section ======= */}
     <section
-      className="why-us section-bg"
-      data-aos="fade-up"
-      date-aos-delay={200}
-    >
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 video-box">
-            <img src="assets/img/why-us.jpg" className="img-fluid" alt="" />
-            <a
-              href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-              className="venobox play-btn mb-4"
-              data-vbtype="video"
-              data-autoplay="true"
-            />
-          </div>
-          <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-            <div className="icon-box">
-              <div className="icon">
-                <i className="bx bx-fingerprint" />
-              </div>
-              <h4 className="title">
-                <a href="">Lorem Ipsum</a>
-              </h4>
-              <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
-              </p>
-            </div>
-            <div className="icon-box">
-              <div className="icon">
-                <i className="bx bx-gift" />
-              </div>
-              <h4 className="title">
-                <a href="">Nemo Enim</a>
-              </h4>
-              <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                    className="why-us section-bg"
+                    data-aos="fade-up"
+                    date-aos-delay={200}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 video-box">
+                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
+                                <a
+                                    href="assets\img\homeimg.jpg"
+                                />
+                            </div>
+                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bx bx-fingerprint" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INDUSTRIAL</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract Groundwater for Industrial Use
+                                    </p>
+                                </div>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bx bx-fingerprint" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INFRASTRUCTURE</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
+                                    </p>
+                                </div>
+                                
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bx bx-gift" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">MINING</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
     {/* End Why Us Section */}
     {/* ======= Service Details Section ======= */}
     <section className="service-details">
@@ -161,17 +171,15 @@ const SercvicesComponent = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  <a href="#">Our Mission</a>
+                  <a href="#">Hydrogeological Services</a>
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat
+                Specializing in hydrogeological services, we offer in-depth groundwater assessments and modeling, guiding sustainable water resource management. Our expertise ensures accurate analysis, enabling informed decision-making and effective solutions for complex hydrogeological challenges
                 </p>
                 <div className="read-more">
                   <a href="#">
-                    <i className="bi bi-arrow-right" /> Read More
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/HydroServices">Read More</Link></h3>
                   </a>
                 </div>
               </div>
@@ -183,21 +191,19 @@ const SercvicesComponent = () => {
           >
             <div className="card">
               <div className="card-img">
-                <img src="assets/img/service-details-2.jpg" alt="..." />
+                <img src="assets/img/service-details-2.gif" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  <a href="#">Our Plan</a>
+                  <a href="#">IT Services</a>
                 </h5>
                 <p className="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo
+                Our IT services cater to diverse needs, providing comprehensive solutions for businesses seeking digital transformation. We specialize in custom software development, cybersecurity, cloud computing, and IT consulting. With a focus on innovation and efficiency, we empower our clients with scalable and secure technology solutions.
                 </p>
                 <div className="read-more">
                   <a href="#">
-                    <i className="bi bi-arrow-right" /> Read More
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/HydroServices">Read More</Link></h3>
                   </a>
                 </div>
               </div>
@@ -213,17 +219,16 @@ const SercvicesComponent = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  <a href="#">Our Vision</a>
+                  <a href="#">Other Services</a>
                 </h5>
                 <p className="card-text">
-                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                  fugit, sed quia magni dolores eos qui ratione voluptatem sequi
-                  nesciunt Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet
+                In addition to our advanced instruments, we offer a comprehensive
+                 suite of services aimed at enhancing geoscientific research and water resource management. Our expert team provides tailored consultancy services, precise data analysis, geophysical surveys, and groundwater modeling.
                 </p>
                 <div className="read-more">
                   <a href="#">
-                    <i className="bi bi-arrow-right" /> Read More
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/Instruments">Read More</Link></h3>
                   </a>
                 </div>
               </div>
@@ -239,17 +244,15 @@ const SercvicesComponent = () => {
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  <a href="#">Our Care</a>
+                  <a href="#">Instruments</a>
                 </h5>
                 <p className="card-text">
-                  Nostrum eum sed et autem dolorum perspiciatis. Magni porro
-                  quisquam laudantium voluptatem. In molestiae earum ab sit esse
-                  voluptatem. Eos ipsam cumque ipsum officiis qui nihil aut
-                  incidunt aut
+                At our institute, we offer an extensive array of cutting-edge instruments designed to elevate scientific research and industry practices. From precision measurement tools to advanced data analysis devices, our instruments ensure accurate and reliable results. Whether you require geospatial mapping, groundwater analysis, or environmental monitoring, our state-of-the-art equipment is tailored to meet diverse needs. 
                 </p>
                 <div className="read-more">
                   <a href="#">
-                    <i className="bi bi-arrow-right" /> Read More
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/Instruments">Read More</Link></h3>
                   </a>
                 </div>
               </div>
