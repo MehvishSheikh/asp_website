@@ -60,7 +60,13 @@ const HydroServices = () => {
                         <img src="assets/img/service-details-1.jpg" alt="" />
                         <br/>
                         <br/>
+                        <br/>
                         <img src="assets/img/hydro.jpg" alt="" />
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="assets/img/hydro1.jpg" alt="" />
+                        
                       </div>
                       <div className="swiper-slide">
                         <img src="assets/img/portfolio/eTrex30x.jpg" alt="" />
