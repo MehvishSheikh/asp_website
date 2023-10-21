@@ -34,9 +34,9 @@ const InstrumentsComponent = () => {
                 <div className="col-lg-12">
                   <ul id="portfolio-flters">
                     <li data-filter="*" className="filter-active"> All </li>
-                    <li data-filter=".filter-app">GPS </li>
-                    <li data-filter=".filter-card"> DWLR </li>
-                    <li data-filter=".filter-web"> CMR </li>
+                    <li data-filter=".filter-app">GPS</li>
+                    <li data-filter=".filter-card">DWLR</li>
+                    <li data-filter=".filter-web">CMR</li>
                   </ul>
                 </div>
               </div>
@@ -68,6 +68,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
                   <div className="portfolio-item">
                     <img
@@ -90,6 +91,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
                   <div className="portfolio-item">
                     <img
@@ -113,7 +115,8 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
+
+                <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/montana680.jpg"
@@ -135,6 +138,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
                   <div className="portfolio-item">
                     <img
@@ -157,6 +161,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
                   <div className="portfolio-item">
                     <img
@@ -179,6 +184,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
                   <div className="portfolio-item">
                     <img
@@ -201,6 +207,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
                   <div className="portfolio-item">
                     <img
@@ -223,6 +230,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
                   <div className="portfolio-item">
                     <img
@@ -245,6 +253,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
                   <div className="portfolio-item">
                     <img
@@ -267,6 +276,7 @@ const InstrumentsComponent = () => {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </section>
@@ -284,6 +294,7 @@ const InstrumentsComponent = () => {
       </>
 
     </div>
+
   )
 }
 
