@@ -53,7 +53,7 @@ const HydroServices = () => {
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
-                <div className="col-lg-8">
+                <div className="col-lg-5">
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
@@ -72,7 +72,7 @@ const HydroServices = () => {
                     <div className="swiper-pagination" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-7">
                   <div className="portfolio-info">
                     <h3>We are one of the Accredited Institute by CGWA, Govt of India to carry out the Impact Assessment/Comprehensive Hydrogeological Studies, Groundwater Survey along with Rainwater Harvesting.  We are a service providing company to various mines and Industry in the area of Comprehensive Hydrogeological Survey, Rainwater Harvesting plan for obtaining the NOC to Abstract Ground Water/Dewatering (NOCAP) from CGWA, Ministry of Jal Shakti and Ganga Rejuvenation, Government of India for the following categories: </h3>
                     <ul>
