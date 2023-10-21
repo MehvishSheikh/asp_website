@@ -14,7 +14,7 @@ const HeadComponent = () => {
                     <div className="logo">
                         <h1 className="text-light">
                             <a href="index.html">
-                                <span>ASP</span>
+                                <span> <h1><b>ASP</b></h1></span>
                             </a>
                         </h1>
                         {/* Uncomment below if you prefer to use an image logo */}
