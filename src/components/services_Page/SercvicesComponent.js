@@ -27,135 +27,10 @@ const SercvicesComponent = () => {
     </section>
     {/* End Our Services Section */}
     {/* ======= Services Section ======= */}
-    <section className="services">
-      <div className="container">
-        <div className="row">
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
-            data-aos="fade-up"
-          >
-            <div className="icon-box icon-box-pink">
-              <div className="icon">
-                <i className="bx bxl-dribbble" />
-              </div>
-              <h4 className="title">
-                <a href="">Hydrogeological Services</a>
-              </h4>
-              <p className="description">
-              Experts in hydrogeological services and groundwater assessments.
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay={100}
-          >
-            <div className="icon-box icon-box-cyan">
-              <div className="icon">
-                <i className="bx bx-file" />
-              </div>
-              <h4 className="title">
-                <a href="">IT Services</a>
-              </h4>
-              <p className="description">
-              Leading IT services provider, for seamless digital transformation.
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
-            <div className="icon-box icon-box-green">
-              <div className="icon">
-                <i className="bx bx-tachometer" />
-              </div>
-              <h4 className="title">
-                <a href="">Instruments</a>
-              </h4>
-              <p className="description">
-              Cutting-edge instruments for precise data collection and analysis.
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
-            <div className="icon-box icon-box-blue">
-              <div className="icon">
-                <i className="bx bx-world" />
-              </div>
-              <h4 className="title">
-                <a href="">Other Services</a>
-              </h4>
-              <p className="description">
-              Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     {/* End Services Section */}
     {/* ======= Why Us Section ======= */}
-    <section
-                    className="why-us section-bg"
-                    data-aos="fade-up"
-                    date-aos-delay={200}
-                >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 video-box">
-                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
-                                <a
-                                    href="assets\img\homeimg.jpg"
-                                />
-                            </div>
-                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bx bx-fingerprint" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">INDUSTRIAL</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract Groundwater for Industrial Use
-                                    </p>
-                                </div>
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bx bx-fingerprint" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">INFRASTRUCTURE</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
-                                    </p>
-                                </div>
-                                
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bx bx-gift" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">MINING</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
-
-                                    </p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
+    
     {/* End Why Us Section */}
     {/* ======= Service Details Section ======= */}
     <section className="service-details">
@@ -261,6 +136,133 @@ const SercvicesComponent = () => {
         </div>
       </div>
     </section>
+    <section className="services">
+      <div className="container">
+        <div className="row">
+          <div
+            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            <div className="icon-box icon-box-blue">
+              <div className="icon">
+                <i className="bi bi-moisture" />
+              </div>
+              <h4 className="title">
+                <a href="">Hydrogeological Services</a>
+              </h4>
+              <p className="description">
+              Experts in hydrogeological services and groundwater assessments.
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay={100}
+          >
+            <div className="icon-box icon-box-pink">
+              <div className="icon">
+                <i className="bi bi-pc-display" />
+              </div>
+              <h4 className="title">
+                <a href="">IT Services</a>
+              </h4>
+              <p className="description">
+              Leading IT services provider, for seamless digital transformation.
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
+            <div className="icon-box icon-box-green">
+              <div className="icon">
+                <i className="bi bi-robot" />
+              </div>
+              <h4 className="title">
+                <a href="">Instruments</a>
+              </h4>
+              <p className="description">
+              Cutting-edge instruments for precise data collection and analysis.
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
+            <div className="icon-box icon-box-cyan">
+              <div className="icon">
+                <i className="bi bi-globe" />
+              </div>
+              <h4 className="title">
+                <a href="">Other Services</a>
+              </h4>
+              <p className="description">
+              Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+                    className="why-us section-bg"
+                    data-aos="fade-up"
+                    date-aos-delay={200}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 video-box">
+                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
+                                <a
+                                    href="assets\img\homeimg.jpg"
+                                />
+                            </div>
+                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-buildings" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INDUSTRIAL</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract Groundwater for Industrial Use
+                                    </p>
+                                </div>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-building-gear" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INFRASTRUCTURE</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
+                                    </p>
+                                </div>
+                                
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-minecart-loaded" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">MINING</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
     {/* End Service Details Section */}
     {/* ======= Pricing Section ======= */}
     {/* <section className="pricing section-bg" data-aos="fade-up">
