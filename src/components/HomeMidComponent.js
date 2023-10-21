@@ -12,9 +12,10 @@ const HomeMidComponent = () => {
                                 className="col-md-6 col-lg-3 d-flex align-items-stretch"
                                 data-aos="fade-up"
                             >
-                                <div className="icon-box icon-box-pink">
+                                <div className="icon-box icon-box-blue">
                                     <div className="icon">
-                                        <i className="bx bxl-dribbble" />
+                                        {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
+                                        <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
                                     </div>
                                     <h4 className="title">
                                         <a href="">Hydrogeological Services</a>
@@ -29,9 +30,9 @@ const HomeMidComponent = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={100}
                             >
-                                <div className="icon-box icon-box-cyan">
+                                <div className="icon-box icon-box-pink">
                                     <div className="icon">
-                                        <i className="bx bx-file" />
+                                        <i className="bi bi-pc-display" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">IT Services</a>
@@ -48,7 +49,7 @@ const HomeMidComponent = () => {
                             >
                                 <div className="icon-box icon-box-green">
                                     <div className="icon">
-                                        <i className="bx bx-tachometer" />
+                                        <i className="bi bi-robot" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">Instruments</a>
@@ -64,9 +65,9 @@ const HomeMidComponent = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={200}
                             >
-                                <div className="icon-box icon-box-blue">
+                                <div className="icon-box icon-box-cyan">
                                     <div className="icon">
-                                        <i className="bx bx-world" />
+                                        <i className="bi bi-globe" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">Other Services</a>
@@ -97,7 +98,7 @@ const HomeMidComponent = () => {
                             <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bx bx-fingerprint" />
+                                        <i className="bi bi-buildings" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">INDUSTRIAL</a>
@@ -108,7 +109,7 @@ const HomeMidComponent = () => {
                                 </div>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bx bx-fingerprint" />
+                                        <i className="bi bi-building-gear" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">INFRASTRUCTURE</a>
@@ -120,7 +121,7 @@ const HomeMidComponent = () => {
                                 
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bx bx-gift" />
+                                        <i className="bi bi-minecart-loaded" />
                                     </div>
                                     <h4 className="title">
                                         <a href="">MINING</a>
