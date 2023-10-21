@@ -152,7 +152,7 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5">
-                                <img src="assets/img/features-1.svg" className="img-fluid" alt="" />
+                                <img src="assets/img/features-1.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-4">
                                 <h3>
@@ -173,7 +173,7 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5 order-1 order-md-2">
-                                <img src="assets/img/features-2.svg" className="img-fluid" alt="" />
+                                <img src="assets/img/features-2.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5 order-2 order-md-1">
                                 <h3>IT Services</h3>
@@ -191,7 +191,7 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5">
-                                <img src="assets/img/features-3.svg" className="img-fluid" alt="" />
+                                <img src="assets/img/features-3.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5">
                                 <h3>
@@ -226,7 +226,7 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5 order-1 order-md-2">
-                                <img src="assets/img/features-4.svg" className="img-fluid" alt="" />
+                                <img src="assets/img/features-4.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5 order-2 order-md-1">
                                 <h3>
