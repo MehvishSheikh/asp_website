@@ -20,6 +20,7 @@ import InstrumentDetails8 from './components/Instruments_page/InstrumentDetails8
 import InstrumentDetails9 from './components/Instruments_page/InstrumentDetails9';
 import InstrumentDetails10 from './components/Instruments_page/instrumentDetails10';
 import HydroServices from './components/services_Page/HydroServices';
+import It_homepage from './components/It_Services/It_homepage';
 
 
 const router = createBrowserRouter([
@@ -107,7 +108,11 @@ const router = createBrowserRouter([
     path: "/HydroServices",
     element: <HydroServices/>
 
-  }
+  },
+  {
+    path: "/IT-Services",
+    element: <It_homepage/>
+  },
 
 
 

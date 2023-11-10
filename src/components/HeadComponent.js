@@ -40,7 +40,7 @@ const HeadComponent = () => {
                                 <Link to="/Portfolio" >Portfolio</Link>
                             </li>
                             <li>
-                                <Link to="/Services" >Team</Link>
+                                <Link to="/IT-Services" >IT Services</Link>
                             </li>
 
                             <li className="dropdown">
