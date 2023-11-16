@@ -18,7 +18,7 @@ const HomeBackComponents = () => {
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
             Welcome to <span>ASP<br/>
-            <h3>Consultancy Services</h3>
+            <h3>Consultancy Services Pvt Ltd.</h3>
 
             </span>
           </h2>

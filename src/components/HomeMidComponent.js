@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeMidComponent = () => {
     return (
@@ -138,9 +139,116 @@ const HomeMidComponent = () => {
                 </section>
                 {/* End Why Us Section */}
                 {/* ======= Features Section ======= */}
+                
+
+                {/* <section className="service-details">
+      <div className="container">
+      
+        <div className="row">
+          <div
+            className="col-md-6 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            
+            <div className="card">
+              <div className="card-img">
+                <img src="assets/img/service-details-1.jpg" alt="..." />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">
+                  <a href="#">Hydrogeological Services</a>
+                </h5>
+                <p className="card-text">
+                Specializing in hydrogeological services, we offer in-depth groundwater assessments and modeling, guiding sustainable water resource management. Our expertise ensures accurate analysis, enabling informed decision-making and effective solutions for complex hydrogeological challenges
+                </p>
+                <div className="read-more">
+                  <a href="#">
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/HydroServices">Read More</Link></h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            <div className="card">
+              <div className="card-img">
+                <img src="assets/img/service-details-2.gif" alt="..." />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">
+                  <a href="#">IT Services</a>
+                </h5>
+                <p className="card-text">
+                Our IT services cater to diverse needs, providing comprehensive solutions for businesses seeking digital transformation. We specialize in custom software development, cybersecurity, cloud computing, and IT consulting. With a focus on innovation and efficiency, we empower our clients with scalable and secure technology solutions.
+                </p>
+                <div className="read-more">
+                  <a href="#">
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/HydroServices">Read More</Link></h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            <div className="card">
+              <div className="card-img">
+                <img src="assets/img/service-details-3.jpg" alt="..." />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">
+                  <a href="#">Other Services</a>
+                </h5>
+                <p className="card-text">
+                In addition to our advanced instruments, we offer a comprehensive
+                 suite of services aimed at enhancing geoscientific research and water resource management. Our expert team provides tailored consultancy services, precise data analysis, geophysical surveys, and groundwater modeling.
+                </p>
+                <div className="read-more">
+                  <a href="#">
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/Instruments">Read More</Link></h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6 d-flex align-items-stretch"
+            data-aos="fade-up"
+          >
+            <div className="card">
+              <div className="card-img">
+                <img src="assets/img/service-details-4.jpg" alt="..." />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">
+                  <a href="#">Instruments</a>
+                </h5>
+                <p className="card-text">
+                At our institute, we offer an extensive array of cutting-edge instruments designed to elevate scientific research and industry practices. From precision measurement tools to advanced data analysis devices, our instruments ensure accurate and reliable results. Whether you require geospatial mapping, groundwater analysis, or environmental monitoring, our state-of-the-art equipment is tailored to meet diverse needs. 
+                </p>
+                <div className="read-more">
+                  <a href="#">
+                    <i className="bi bi-arrow-right" /> 
+                    <h3><Link to="/Instruments">Read More</Link></h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> */}
                 <section className="features">
                     <div className="container">
-                        <div className="section-title">
+                    <div className="section-title">
                             <h2>Features</h2>
                             <p>
                             "Our company stands out with its state-of-the-art technology, 
@@ -150,6 +258,7 @@ const HomeMidComponent = () => {
                             choice for geoscientific solutions."
                             </p>
                         </div>
+                        
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5">
                                 <img src="assets/img/features-1.jpg" className="img-fluid" alt="" />

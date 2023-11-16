@@ -30,61 +30,46 @@ const HeadComponent = () => {
                             <li>
                                 <Link to="/About"> About </Link>
                             </li>
+
+                            <li className="dropdown" >
+                                <Link to="/IT-Services">
+                            
+                                    <span>IT Services</span> <i className="bi bi-chevron-down" />
+                            
+                                </Link>
+                                <ul>
+                                    <li>
+                                        <a href="#">Services and Priorities</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#">SAP Datasphere</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SAP Analytics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SAP S/4 HANA</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SAP Architectural Planning</a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li>
-                                <Link to="/Services" > Services </Link>
+                                <Link to="/HydroServices" > Hydrogeological Services </Link>
                             </li>
                             <li>
                                 <Link to="/Instruments" >Instruments</Link>
                             </li>
+                            
+                        
+                                
                             <li>
-                                <Link to="/Portfolio" >Portfolio</Link>
-                            </li>
-                            <li>
-                                <Link to="/IT-Services" >IT Services</Link>
+                                <Link to="/Portfolio" >Blog</Link>
                             </li>
 
-                            <li className="dropdown">
-                                <a href="#">
-                                    <span>Drop Down</span> <i className="bi bi-chevron-down" />
-                                </a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Drop Down 1</a>
-                                    </li>
-                                    <li className="dropdown">
-                                        <a href="#">
-                                            <span>Deep Drop Down</span>{" "}
-                                            <i className="bi bi-chevron-right" />
-                                        </a>
-                                        <ul>
-                                            <li>
-                                                <a href="#">Deep Drop Down 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Deep Drop Down 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Deep Drop Down 3</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Deep Drop Down 4</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Deep Drop Down 5</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drop Down 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drop Down 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drop Down 4</a>
-                                    </li>
-                                </ul>
-                            </li>
+                            
                             <li>
                                 <Link to="/Contact">Contact Us</Link>
                             </li>

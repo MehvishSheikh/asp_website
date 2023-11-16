@@ -12,8 +12,62 @@ const HydroServices = () => {
         <br/>
         <br/>
         <br/>
+        <section
+                    className="why-us section-bg"
+                    data-aos="fade-up"
+                    date-aos-delay={200}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 video-box">
+                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
+                                <a
+                                    href="assets\img\homeimg.jpg"
+                                />
+                            </div>
+                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-buildings" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INDUSTRIAL</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract Groundwater for Industrial Use
+                                    </p>
+                                </div>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-building-gear" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">INFRASTRUCTURE</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
+                                    </p>
+                                </div>
+                                
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-minecart-loaded" />
+                                    </div>
+                                    <h4 className="title">
+                                        <a href="">MINING</a>
+                                    </h4>
+                                    <p className="description">
+                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
+
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
          <div className="facts section-bg text-center" data-aos="fade-up">
-            <h1>HydroGeolical Services</h1>
+            <h1>HydroGeological Services</h1>
     
       <div className="container">
         <div className="row counters">
