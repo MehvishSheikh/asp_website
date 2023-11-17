@@ -258,10 +258,14 @@ const HomeMidComponent = () => {
                             choice for geoscientific solutions."
                             </p>
                         </div>
-                        
+                        <br/>
+                        <br/>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5">
-                                <img src="assets/img/features-2.jpg" className="img-fluid" alt="" />
+                                {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
+                                
+                                <img src="assets/img/service-details-2.gif" className="img-fluid" alt="" />
+                                
                             </div>
                             <div className="col-md-7 pt-4">
                             <h3>IT Services</h3>

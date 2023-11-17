@@ -813,6 +813,7 @@ section {
 .why-us .video-box img {
   padding-top: 15px;
   padding-bottom: 15px;
+  border-radius: 3%;
 }
 
 .why-us .play-btn {
@@ -899,6 +900,7 @@ section {
 --------------------------------------------------------------*/
 .features .row+.row {
   margin-top: 100px;
+ 
 }
 
 .features h3 {
