@@ -38,9 +38,12 @@ const ContactComponent = () => {
                 <div className="info-box">
                   <i className="bx bx-map" />
                   <h3>Our Address</h3>
-                  <p>B-1, First Floor, Swapnil Apartment, Abhyankar Marg,
-Dhantoli, Nagpur, Maharashtra 440012 (INDIA)
-</p>
+                  <p>Plot No. 44, Chhatrapati Nagar , 
+                                    Wardha Road , 
+                                    Nagpur - 440 015 <br/>
+                                    
+                                    Maharashtra (India) <br />
+                  </p>
                 </div>
               </div>
               <div className="col-md-6">
@@ -48,11 +51,7 @@ Dhantoli, Nagpur, Maharashtra 440012 (INDIA)
                   <i className="bx bx-envelope" />
                   <h3>Email Us</h3>
                   <p>
-                  aditiinfotech1@gmail.com
-
-
-                    <br />
-                    aditi.infotech@bsnl.co.in
+                  aspcsp122@gmail.com
                   </p>
                 </div>
               </div>
@@ -61,11 +60,11 @@ Dhantoli, Nagpur, Maharashtra 440012 (INDIA)
                   <i className="bx bx-phone-call" />
                   <h3>Call Us</h3>
                   <p>
-                  +91 7122427355
+                  +91 7972657590 
 
 
                     <br />
-                    +91 8888477788
+                    +91  8830763438
                   </p>
                 </div>
               </div>

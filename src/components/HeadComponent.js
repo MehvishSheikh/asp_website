@@ -18,14 +18,14 @@ const HeadComponent = () => {
                             </a>
                         </h1>
                         {/* Uncomment below if you prefer to use an image logo */}
-                        {/* <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
+                        {/* <a href="index.html"><img src="assets/img/about.jpg" alt="" class="img-fluid"> </a> */}
                     </div>
                     <nav id="navbar" className="navbar">
                         <ul>
-                            <li>
-                                <a className="active ">
+                            <li className="active ">
+                                
                                     <Link to="/"> Home </Link>
-                                </a>
+                                
                             </li>
                             <li>
                                 <Link to="/About"> About </Link>
@@ -33,43 +33,43 @@ const HeadComponent = () => {
 
                             <li className="dropdown" >
                                 <Link to="/IT-Services">
-                            
+
                                     <span>IT Services</span> <i className="bi bi-chevron-down" />
-                            
+
                                 </Link>
                                 <ul>
                                     <li>
                                         <a href="#">Services and Priorities</a>
                                     </li>
                                     <li>
-                                    <Link to="/IT-1">
-                            
-                                    <span>SAP Datasphere</span> <i className="bi bi-chevron-down" />
-                            
-                                </Link>
-                                </li>
-                                    <li>
-                                    <Link to="/IT-2">
-                            
-                            <span>SAP Analytics</span> <i className="bi bi-chevron-down" />
-                    
-                        </Link>
+                                        <Link to="/IT-1">
+
+                                            <span>SAP Datasphere</span> <i className="bi bi-chevron-down" />
+
+                                        </Link>
                                     </li>
                                     <li>
-                                    <Link to="/IT-3">
-                            
-                            <span>SAP S/4 HANA</span> <i className="bi bi-chevron-down" />
-                    
-                        </Link>
-                                       
+                                        <Link to="/IT-2">
+
+                                            <span>SAP Analytics</span> <i className="bi bi-chevron-down" />
+
+                                        </Link>
                                     </li>
                                     <li>
-                                    <Link to="/IT-4">
-                            
-                            <span>SAP Architectural Planning</span> <i className="bi bi-chevron-down" />
-                    
-                        </Link>
-                                       
+                                        <Link to="/IT-3">
+
+                                            <span>SAP S/4 HANA</span> <i className="bi bi-chevron-down" />
+
+                                        </Link>
+
+                                    </li>
+                                    <li>
+                                        <Link to="/IT-4">
+
+                                            <span>SAP Architectural Planning</span> <i className="bi bi-chevron-down" />
+
+                                        </Link>
+
                                     </li>
                                 </ul>
                             </li>
@@ -79,14 +79,14 @@ const HeadComponent = () => {
                             <li>
                                 <Link to="/Instruments" >Instruments</Link>
                             </li>
-                            
-                        
-                                
+
+
+
                             <li>
                                 <Link to="/Portfolio" >Blog</Link>
                             </li>
 
-                            
+
                             <li>
                                 <Link to="/Contact">Contact Us</Link>
                             </li>

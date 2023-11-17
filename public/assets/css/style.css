@@ -132,6 +132,12 @@ h6,
   list-style: none;
   align-items: center;
 }
+/* Add this CSS to your stylesheets or in a style tag within your component */
+
+#navbar ul li a {
+  text-decoration: none;
+}
+
 
 .navbar li {
   position: relative;
@@ -174,9 +180,10 @@ h6,
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  border-radius: 4%;
 }
 
 .navbar .dropdown ul li {

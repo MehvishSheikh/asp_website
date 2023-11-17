@@ -80,16 +80,17 @@ const FooterComponent = () => {
                             <div className="col-lg-3 col-md-6 footer-contact">
                                 <h4>Contact Us</h4>
                                 <p>
-                                    B-3, First Floor, Swapnil Apartment, Abhyankar Road,
-                                    Dhantoli, <br />
-                                    Nagpur - 440 012
+                                    Plot No. 44, Chhatrapati Nagar , <br />
+                                    Wardha Road , <br/>
+                                    Nagpur - 440 015 <br/>
+                                    
 
                                     <br />
-                                    Maharashtra India <br />
+                                    Maharashtra (India) <br />
                                     <br />
-                                    <strong>Phone:</strong> +91 9422802118 / 8830763438
+                                    <strong>Phone:</strong> +91 7972657590 / 8830763438
                                     <br />
-                                    <strong>Email:</strong> aditiinfotech1@gmail.com
+                                    <strong>Email:</strong> aspcsp122@gmail.com
                                     <br />
                                 </p>
                             </div>
