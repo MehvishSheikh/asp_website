@@ -21,6 +21,11 @@ import InstrumentDetails9 from './components/Instruments_page/InstrumentDetails9
 import InstrumentDetails10 from './components/Instruments_page/instrumentDetails10';
 import HydroServices from './components/services_Page/HydroServices';
 import It_homepage from './components/It_Services/It_homepage';
+import ItSap1 from './components/It_Services/ItSap1';
+import ItSap2 from './components/It_Services/ItSap2';
+import ItSap3 from './components/It_Services/ItSap3';
+import ItSap4 from './components/It_Services/ItSap4';
+
 
 
 const router = createBrowserRouter([
@@ -112,6 +117,22 @@ const router = createBrowserRouter([
   {
     path: "/IT-Services",
     element: <It_homepage/>
+  },
+  {
+    path: "/IT-1",
+    element: <ItSap1/>
+  },
+  {
+    path: "/IT-2",
+    element: <ItSap2/>
+  },
+  {
+    path: "/IT-3",
+    element: <ItSap3/>
+  },
+  {
+    path: "/IT-4",
+    element: <ItSap4/>
   },
  
 

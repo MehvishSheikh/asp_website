@@ -41,18 +41,35 @@ const HeadComponent = () => {
                                     <li>
                                         <a href="#">Services and Priorities</a>
                                     </li>
-                                    
                                     <li>
-                                        <a href="#">SAP Datasphere</a>
+                                    <Link to="/IT-1">
+                            
+                                    <span>SAP Datasphere</span> <i className="bi bi-chevron-down" />
+                            
+                                </Link>
+                                </li>
+                                    <li>
+                                    <Link to="/IT-2">
+                            
+                            <span>SAP Analytics</span> <i className="bi bi-chevron-down" />
+                    
+                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#">SAP Analytics</a>
+                                    <Link to="/IT-3">
+                            
+                            <span>SAP S/4 HANA</span> <i className="bi bi-chevron-down" />
+                    
+                        </Link>
+                                       
                                     </li>
                                     <li>
-                                        <a href="#">SAP S/4 HANA</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">SAP Architectural Planning</a>
+                                    <Link to="/IT-4">
+                            
+                            <span>SAP Architectural Planning</span> <i className="bi bi-chevron-down" />
+                    
+                        </Link>
+                                       
                                     </li>
                                 </ul>
                             </li>
