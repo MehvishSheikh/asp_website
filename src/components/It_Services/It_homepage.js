@@ -27,9 +27,10 @@ const It_homepage = () => {
       <div className="container" data-aos="fade-up">
         <div className="row">
         
-          <div className="col-lg-8 entries">
+          <div className="col-lg-9 entries">
           <article className="entry row">
-          <div className="col-md-8 ">
+          <div className="col-md-7 ">
+            
               <div className="entry-img">
               <img
                   src="assets\img\zp1.jpeg"
@@ -38,15 +39,17 @@ const It_homepage = () => {
                 />
               </div>
               </div>
-            <div className="col-md-4 ">
-              <h2 className="entry-title">
+            <div className="col-md-5 ">
+              {/* <h2 className="entry-title">
                 {/* <a href="blog-single.html"> */}
-                True to our motto</h2>
-               
+                {/* True to our motto</h2>  */}
+                <h2>True to our MOTO</h2>
                 <p>
             “PROVIDING SOLUTIONS WITH PASSION ”<br />
                We create sustainable, individual solutions
-               and accompany you in the implementation of high-quality information systems around  SAP ANALYTICS.</p>
+               and accompany you in the implementation of high-quality information systems around  SAP ANALYTICS.
+               With innovative, tailor-made solutions for your company, we support you throughout the entire lifecycle management.
+</p>
               
               </div>
               
@@ -58,7 +61,7 @@ const It_homepage = () => {
                 
              
               
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="sidebar">
              
               <h3 className="sidebar-title">Services</h3>
@@ -191,7 +194,7 @@ const It_homepage = () => {
     {/* End Blog Section */}
     <section className="services">
     <div className="section-title">
-                            <h2>Service Features</h2></div>
+                            <h2 className="breadcrumbs">Service Features</h2></div>
                     <div className="container">
                         <div className="row">
                             <div
@@ -254,7 +257,7 @@ const It_homepage = () => {
                 <section className="features">
                     <div className="container">
                     <div className="section-title">
-                            <h2>Focus</h2>
+                            <h2 className="breadcrumbs">Focus</h2>
                             <p>
                             In order to meet the challenges of the constantly changing SAP BI landscape, we as ZPARTNER have set ourselves priorities that we are convinced will play a major role in the future. All ZPARTNERs work internally on one of these focal points and build up the appropriate know-how so that we can use this in the future as part of our customer projects.
                             </p>
