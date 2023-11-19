@@ -25,6 +25,7 @@ import ItSap1 from './components/It_Services/ItSap1';
 import ItSap2 from './components/It_Services/ItSap2';
 import ItSap3 from './components/It_Services/ItSap3';
 import ItSap4 from './components/It_Services/ItSap4';
+import ItSP from './components/It_Services/itSP';
 
 
 
@@ -134,6 +135,10 @@ const router = createBrowserRouter([
     path: "/IT-4",
     element: <ItSap4/>
   },
+  {
+    path:"/IT-0",
+    element: <ItSP/>
+  }
  
 
 
