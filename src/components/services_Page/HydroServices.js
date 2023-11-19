@@ -8,88 +8,12 @@ const HydroServices = () => {
   return (
     <div>
         <HeadComponent />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <section
-                    className="why-us section-bg"
-                    data-aos="fade-up"
-                    date-aos-delay={200}
-                >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 video-box">
-                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
-                                <a
-                                    href="assets\img\homeimg.jpg"
-                                />
-                            </div>
-                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bi bi-buildings" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">INDUSTRIAL</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract Groundwater for Industrial Use
-                                    </p>
-                                </div>
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bi bi-building-gear" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">INFRASTRUCTURE</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract/Dewatering Groundwater for Infrastructure Projects 
-                                    </p>
-                                </div>
-                                
-                                <div className="icon-box">
-                                    <div className="icon">
-                                        <i className="bi bi-minecart-loaded" />
-                                    </div>
-                                    <h4 className="title">
-                                        <a href="">MINING</a>
-                                    </h4>
-                                    <p className="description">
-                                    Permission to Abstract/Dewatering Groundwater for Mining Industry
-
-                                    </p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-         <div className="facts section-bg text-center" data-aos="fade-up">
-            <h1>HydroGeological Services</h1>
-    
-      <div className="container">
-        <div className="row counters">
-          <div className="col-lg-4 col-md-4 col-sm-12  text-center">
-            <span
-              data-purecounter-start={0}
-              data-purecounter-end={232}
-              data-purecounter-duration={1}
-              className="purecounter"
-            />
-              </div>
-      </div>
-    
-    </div>
-            </div>
-             
         <main id="main">
           {/* ======= Our Portfolio Section ======= */}
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-              <h2> CGWA NOC For Withdrawal of Groundwater (NOCAP)</h2>
+              <h2> HydroGeological Services</h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -102,8 +26,191 @@ const HydroServices = () => {
               </div>
             </div>
           </section>
-          {/* End Our Portfolio Section */}
-          {/* ======= Portfolio Details Section ======= */}
+          <br/>
+          <section
+                    className="why-us section-bg"
+                    data-aos="fade-up"
+                    date-aos-delay={200}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 video-box">
+                                <img src="assets/img/service-details-1.jpg" className="img-fluid" alt="" />
+                                <a
+                                    href="assets\img\homeimg.jpg"
+                                />
+                            </div>
+                            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-buildings" />
+                                    </div>
+                                    {/* <h4 className="title">
+                                        <a href=""></a>
+                                    </h4> */}
+                                    <p className="description"><b>
+                                    Hydrogeological Studies For GroundWater Harvesting , Industries And Mining Projects</b>
+                                    </p>
+                                </div>
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-building-gear" />
+                                    </div>
+                                    {/* <h4 className="title">
+                                        <a href=""></a>
+                                    </h4> */}
+                                    <p className="description"><b>
+                                    Rain-Water Harvesting Plan And Structures</b>
+                                    </p>
+                                </div>
+                                
+                                <div className="icon-box">
+                                    <div className="icon">
+                                        <i className="bi bi-minecart-loaded" />
+                                    </div>
+                                    {/* <h4 className="title">
+                                        <a href=""></a>
+                                    </h4> */}
+                                    <p className="description"><b>
+                                    Geophysical Survey for GroundWater Exploration</b>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="features">
+                    <div className="container">
+                    <div className="section-title">
+                            <h2 className="breadcrumbs">Focus</h2>
+                            <p>
+                           
+                            Developing sustainable and efficient groundwater harvesting strategies to support environmental
+                             conservation and meet the water needs of various sectors.Providing comprehensive hydrogeological 
+                             studies tailored to the specific requirements of industrial projects.</p>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div className="row" data-aos="fade-up">
+                            <div className="col-md-5">
+                                {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
+                                
+                                <img src="assets/img/hydro1.jpg" className="img-fluid" alt="" />
+                                
+                            </div>
+                            <div className="col-md-7 pt-4">
+                            <h3>"Integrated Water Solutions: Expertise Beyond Boundaries"<br/></h3>
+                            <p>Features of Services that we provide are:</p>
+                                
+                                <ul>
+                                    <li>
+                                        <i className="bi bi-check" /> Preparation of Groundwater Availability & Rain Water Harvesting report for ground water abstraction 
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Site visit / field survey of the project area as per requirements.
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Borewell Recharge and Drainage Plan for the area (River/ nala, etc)
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Preparation of Recharge proposal
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" />  Preparation of Report for ground water abstraction by Land use plan details of the existing or proposed Industrial unit premises
+
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="row" data-aos="fade-up">
+                            <div className="col-md-5 order-1 order-md-2">
+                                <img src="assets\img\rainy.jpg" className="img-fluid" alt="" />
+                            </div>
+                            <div className="col-md-7 pt-5 order-2 order-md-1">
+
+                            <h3>"Empowering Sustainability through Comprehensive Water Management"</h3>
+                                <p className="fst-italic">
+                                We carry out following works:
+                                 </p>
+                                <ul>
+                                    <li>
+                                        <i className="bi bi-check" /> Preparation of Groundwater availability report and Implementation of Rain Water Harvesting Structures.
+</li>
+                                    <li>
+                                        <i className="bi bi-check" /> Borewell Recharge and Drainage Plan for the area (River/ nala) etc.
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Study of Sources of availability of surface water for Industrial use, if any
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Preparation / Details of water requirement /recycled water usage (STP/ ETP)
+
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <div className="row" data-aos="fade-up">
+                            <div className="col-md-5">
+                                <img src="assets/img/hydro.jpg" className="img-fluid" alt="" />
+                            </div>
+                            <div className="col-md-7 pt-5">
+                                <h3>"Innovation"</h3>
+                                <ul>
+                                    <li>
+                                        <i className="bi bi-check" /> Supply and Installation of Digital Water Meter
+
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Supply and lnstallation of DWLR (Digital Water Level Recorder)
+
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Construction of Rainwater Harvesting Structure
+
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Our team consists of competent professionals with extensive experience in their respective disciplines. Their expertise ensures quality service and support.
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        {/* <div className="row" data-aos="fade-up">
+                            <div className="col-md-5 order-1 order-md-2">
+                                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                            </div>
+                            <div className="col-md-7 pt-5 order-2 order-md-1">
+                                <h3>
+                                    Other Services
+                                </h3>
+                                <p className="fst-italic">
+                                In addition to our advanced instruments, we offer a 
+                                    comprehensive suite of services aimed at enhancing 
+                                    geoscientific research and water resource management.
+                                    
+                                    
+                                </p>
+                                <p>
+                                Our expert team provides tailored consultancy services,
+                                    precise data analysis, geophysical surveys, and groundwater
+                                    modeling to  to optimize processes. 
+                                   
+                                </p>
+                            </div>
+                        </div> */}
+                    </div>
+                </section>
+          
+          {/* <section className="breadcrumbs">
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
@@ -111,7 +218,7 @@ const HydroServices = () => {
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
-                        <img src="assets/img/service-details-1.jpg" alt="" />
+                        <img src="assets/img/hydro1.jpg" alt="" />
                         <br/>
                         <br/>
                         <br/>
@@ -119,7 +226,7 @@ const HydroServices = () => {
                         <br/>
                         <br/>
                         <br/>
-                        <img src="assets/img/hydro1.jpg" alt="" />
+                        
                         
                       </div>
                       <div className="swiper-slide">
@@ -132,23 +239,9 @@ const HydroServices = () => {
                     <div className="swiper-pagination" />
                   </div>
                 </div>
+                
                 <div className="col-lg-7">
-                  <div className="portfolio-info">
-                    <h3>We are one of the Accredited Institute by CGWA, Govt of India to carry out the Impact Assessment/Comprehensive Hydrogeological Studies, Groundwater Survey along with Rainwater Harvesting.  We are a service providing company to various mines and Industry in the area of Comprehensive Hydrogeological Survey, Rainwater Harvesting plan for obtaining the NOC to Abstract Ground Water/Dewatering (NOCAP) from CGWA, Ministry of Jal Shakti and Ganga Rejuvenation, Government of India for the following categories: </h3>
-                    <ul>
-                      <li>
-                        <strong>Industrial:</strong>  Permission to Abstract Groundwater for Industrial Use
-                      </li>
-                      <li>
-                        <strong>Infrastructure:</strong> Permission to Abstract/Dewatering Groundwater for Infrastructure Projects
-                      </li>
-                      <li>
-                        <strong>Mining</strong> Permission to Abstract/Dewatering Groundwater for Mining Industry
-
-                      </li>
-                      
-                    </ul>
-                  </div>
+                  
                   <h2>This service will have followings features / scope of work:</h2>
                   <p className="card-text">
                   
@@ -181,10 +274,12 @@ Construction of Rainwater Harvesting Structure
                     </p>
                   </div>
                 </div>
+                
               </div>
             </div>
-          </section>
-          {/* End Portfolio Details Section */}
+            </section>
+          </section> */}
+        
         </main>
         {/* End #main */}
         <FooterComponent />
