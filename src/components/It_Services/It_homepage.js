@@ -28,7 +28,7 @@ const It_homepage = () => {
 
               <div className="col-lg-9 entries">
                 <article className="entry row">
-                  <div className="col-md-5 ">
+                  <div className="col-md-7 ">
                     <div className="entry-img">
                       <img
                         src="assets\img\zp1.jpeg"
@@ -37,7 +37,7 @@ const It_homepage = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-md-7 ">
+                  <div className="col-md-5 ">
                     <h2 className="title">
                       {/* <a href="blog-single.html"> */}
                       True To Our Motto</h2>
@@ -46,7 +46,8 @@ const It_homepage = () => {
                       <br/>
                       “PROVIDING SOLUTIONS WITH PASSION ”<br /> 
                       We create sustainable, individual solutions
-                      and accompany you in the implementation of high-quality information systems around  SAP ANALYTICS.</p>
+                      and accompany you in the implementation of high-quality information systems around  SAP ANALYTICS.<br/>
+                      With innovative, tailor-made solutions for your company, we support you throughout the entire lifecycle management.</p>
 
                   </div>
 
