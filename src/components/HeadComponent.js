@@ -39,7 +39,7 @@ const HeadComponent = () => {
                                 </Link>
                                 <ul>
                                     <li>
-                                        <a href="#">Services and Priorities</a>
+                                        <Link to='/IT-0'>Services and Priorities</Link>
                                     </li>
                                     <li>
                                         <Link to="/IT-1">
