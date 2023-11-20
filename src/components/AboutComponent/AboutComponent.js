@@ -33,30 +33,39 @@ const AboutComponent = () => {
             <img src="assets\img\about.jpg" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
+            <br/>
+            <br/>
             <h3>
-            One of the Accredited Institute by CGWA, Govt of India to carry out the Impact Assessment/Comprehensive 
-              Hydrogeological Studies, Groundwater Survey along with Rainwater Harvesting.
+            Welcome to ASP Consultancy Services
            
 
             </h3>
+            <br/>
+            
             <p className="fst-italic">
-            Consultancy Services provider company in the field of  GIS & Image Processing software’s,  & 
+            
+            
+           
+            
   
 
             </p>
             <ul>
               <li>
-                <i className="bi bi-check2-circle" /> Geology, Geophysics, Hydrogeology, Groundwater, Surface water, 
-            Watershed Modeling.
+                <i className="bi bi-check2-circle" /> At ASP Consultancy Services, we specialize in two major categories:
+             Hydrogeological Services and Information Technology (IT) Services. 
+             Our commitment to excellence, precision, and innovation sets us 
+             apart as a leading consultancy firm dedicated to delivering impactful solutions.
               </li>
+              <br/>
               <li>
-                <i className="bi bi-check2-circle" /> Handheld GPS, 
-            Differential GPS (DGPS), Groundwater Monitoring Instruments
+                <i className="bi bi-check2-circle" /> At ASP Consultancy Services, we are more than consultants; we are partners in your success. Our commitment to client satisfaction, sustainability, and technological excellence defines who we are. Join us on a journey of innovation and responsible business practices.
+
               </li>
-              <li>
+              {/* <li>
                 <i className="bi bi-check2-circle" /> Data Loggers for data 
             capture, data processing, analysis, interpretation & modeling purpose. 
-              </li>
+              </li> */}
             </ul>
             <p>
             </p>
@@ -64,16 +73,117 @@ const AboutComponent = () => {
         </div>
       </div>
     </section>
+
+    <section
+                className="why-us section-bg1"
+                data-aos="fade-up"
+                date-aos-delay={200}
+            >
+                <div className="container">
+                    <div className="row">
+
+                        <div className="col-lg-12 d-flex flex-column justify-content-center p-5">
+                            <div className="icon-box">
+                                <div className="icon">
+                                    <i className="bi bi-buildings" />
+                                </div>
+                                <h2 className="title">
+                                    <Link to="/HydroServices">Hydrogeological Services</Link>
+                                </h2>
+                                <br/>
+                                <p className="description">
+                                  <div className="about" data-aos="fade-up">
+                                <ul>
+              <li>
+                <i className="bi bi-check2-circle" /> <b>
+ Groundwater Harvesting for Industries and Mining Projects:</b>
+Harnessing the power of sustainable water resources, we conduct comprehensive hydrogeological studies to support industries and mining projects. Our expertise ensures effective water management for optimal project outcomes.
+              </li>
+              
+              <li>
+                <i className="bi bi-check2-circle" /> 
+                <b>Rain-Water Harvesting Plan and Structures:</b>
+We design and implement rainwater harvesting plans and structures to maximize water utilization and conservation. Our solutions promote environmental responsibility while meeting the unique needs of each project.
+
+              </li>
+              <li>
+                <i className="bi bi-check2-circle" /> 
+                <b>Geophysical Survey for Groundwater Exploration:</b>
+Using advanced geophysical survey methods, we explore groundwater resources to provide valuable insights for sustainable development. Our commitment to precision and reliability ensures informed decision-making in groundwater exploration.
+</li>
+              </ul>
+              </div>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                className="why-us section-bg1"
+                data-aos="fade-up"
+                date-aos-delay={200}
+            >
+                <div className="container">
+                    <div className="row">
+
+                        <div className="col-lg-12 d-flex flex-column justify-content-center p-5">
+                            <div className="icon-box">
+                                <div className="icon">
+                                    <i className="bi bi-buildings" />
+                                </div>
+                                <h2 className="title">
+                                    <Link to="/HydroServices">IT Services</Link>
+                                </h2>
+                                <br/>
+                                <p className="description">
+                                  <p>Leveraging cutting-edge technology, our IT services focus on delivering strategic solutions for businesses. With a dedicated team, precise data analysis, and advanced mapping capabilities, we contribute positively to projects of all scales.</p>
+                                  <div className="about" data-aos="fade-up">
+                                <ul>
+              <li>
+                <i className="bi bi-check2-circle" /> <b>
+                SAP Datasphere:</b>Unlock the power of data with our SAP Datasphere services, driving efficiency and innovation in your business processes.
+
+</li>
+              
+              <li>
+                <i className="bi bi-check2-circle" /> 
+                <b>Data Analytics:</b>
+                Transform raw data into actionable insights through our SAP Analytics solutions, empowering you to make informed decisions.
+
+              </li>
+              <li>
+                <i className="bi bi-check2-circle" /> 
+                <b>SAP S/4 HANA Architectural Planning:</b>
+                 Our expertise in SAP S/4 HANA ensures seamless architectural planning, optimizing your IT infrastructure for enhanced performance.
+</li>
+              </ul>
+              </div>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
     {/* End About Section */}
     {/* ======= Facts Section ======= */}
     <section className="facts section-bg text-center" data-aos="fade-up">
-    <p> We are a service providing company 
-to various mines and Industry in the area of Comprehensive Hydrogeological Survey, Rainwater Harvesting plan 
-for obtaining the NOC to Abstract Ground Water/Dewatering (NOCAP) from CGWA, Ministry of Jal Shakti and Ganga 
-Rejuvenation, Government of India for the following categories: </p>
+    <p>  </p>
       <div className="container">
         <div className="row counters">
-          <div className="col-lg-4 col-md-4 col-sm-12  text-center">
+          <p>At ASP Consultancy Services, we are not just consultants; we are orchestrators of transformative solutions. Join us on a journey where each project is a canvas, and each solution is a "Brushstroke that paints a picture of distinctive possibilities.</p>
+          {/* <div className="col-lg-4 col-md-4 col-sm-12  text-center">
             <span
               data-purecounter-start={0}
               data-purecounter-end={232}
@@ -82,7 +192,7 @@ Rejuvenation, Government of India for the following categories: </p>
             />
             
             
-            <p><b>Industrial</b></p>
+            
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -91,7 +201,7 @@ Rejuvenation, Government of India for the following categories: </p>
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p><b>Infrastructure</b></p>
+            
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span
@@ -100,8 +210,8 @@ Rejuvenation, Government of India for the following categories: </p>
               data-purecounter-duration={1}
               className="purecounter"
             />
-            <p><b>Mining</b></p>
-          </div>
+            <p><b></b></p>
+          </div> */}
         </div>
       </div>
     </section>
@@ -187,25 +297,26 @@ Rejuvenation, Government of India for the following categories: </p>
           outstanding services! The company's ability to solve complex challenges
           have greatly benefited our projects.
           </p>
+          <p>
+                <i className="bx bxs-quote-alt-left quote-icon-left" />
+                We encourage each of you to embrace challenges as opportunities,
+                 innovate fearlessly, and foster a collaborative to achieve remarkable milestones.
+                <i className="bx bxs-quote-alt-right quote-icon-right" />
+              </p>
         </div>
         <div className="testimonials-carousel swiper">
           <div className="swiper-wrapper">
             <div className="testimonial-item swiper-slide">
-              <img
+              {/* <img
                 src="assets\img\ceoimg1.jpeg"
                 className="testimonial-img"
                 alt=""
               />
-              <h3>S.K Chaurasia</h3>
-              <h4>Chief Executive</h4>
-              <p>
-                <i className="bx bxs-quote-alt-left quote-icon-left" />
-                I encourage each of you to embrace challenges as opportunities,
-                 innovate fearlessly, and foster a collaborative to achieve remarkable milestones.
-                <i className="bx bxs-quote-alt-right quote-icon-right" />
-              </p>
+              <h3>S.K Chaurasia</h3> */}
+              {/* <h4>Chief Executive</h4> */}
+              
             </div>
-            <div className="testimonial-item swiper-slide">
+            {/* <div className="testimonial-item swiper-slide">
               <img
                 src="assets/img/testimonials/testimonials-2.jpg"
                 className="testimonial-img"
@@ -270,7 +381,7 @@ Rejuvenation, Government of India for the following categories: </p>
                 cillum quid.
                 <i className="bx bxs-quote-alt-right quote-icon-right" />
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="swiper-pagination" />
         </div>

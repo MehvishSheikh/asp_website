@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeBackComponents = () => {
   return (
@@ -24,15 +25,16 @@ const HomeBackComponents = () => {
           </h2>
           <p className="animate__animated animate__fadeInUp">
           
-          Providing comprehensive consultancy services and state-of-the-art monitoring instruments that ensures the highest standards of quality and expertise in the field of water resource management.
+          Providing comprehensive IT and Hydrogeological consultancy services and state-of-the-art monitoring instruments that ensures the highest standards of quality and expertise in the field of water resource management.
           </p>
           
-          <a
-            href=""
-            className="btn-get-started animate__animated animate__fadeInUp"
-          >
-            Read More
-          </a>
+          <Link to='/About'>
+            <div className="btn-get-started animate__animated animate__fadeInUp">
+            
+            Read More 
+            </div>
+            </Link>
+          
         </div>
       </div>
       {/* Slide 2 */}
