@@ -205,54 +205,57 @@ const It_homepage = () => {
                 className="col-md-6 col-lg-4 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay={100}
-              >
+              ><Link to='/IT-0'>
                 <div className="icon-box icon-box-blue">
                   <div className="icon">
                     {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
                     <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
                   </div>
                   <h4 className="title">
-                    <Link to='/IT-0'>SAP Analytics Implementation Consulting</Link>
+                    SAP Analytics Implementation Consulting
                   </h4>
                   {/* <p className="description">
                                     Experts in hydrogeological services and groundwater assessments.
                                     </p> */}
                 </div>
+                </Link>
               </div>
               <div
                 className="col-md-6 col-lg-4 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay={100}
-              >
+              ><Link to='/IT-0'>
                 <div className="icon-box icon-box-pink">
                   <div className="icon">
                     <i className="bi bi-pc-display" />
                   </div>
                   <h4 className="title">
-                  <Link to='/IT-0'>SAP Analytics Strategy Consulting</Link>
+                   SAP Analytics Strategy Consulting 
                   </h4>
                   {/* <p className="description">
                                     Leading IT services provider, for seamless digital transformation.
                                     </p> */}
                 </div>
+                </Link>
               </div>
               <div
                 className="col-md-6 col-lg-4 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay={200}
-              >
+              ><Link to='/IT-0'>
                 <div className="icon-box icon-box-green">
                   <div className="icon">
                     <i className="bi bi-robot" />
                   </div>
                   <h4 className="title">
-                  <Link to='/IT-0'>SAP Analytics Process Consulting</Link>
+                  SAP Analytics Process Consulting
                   </h4>
                   {/* <p className="description">
                                     Cutting-edge instruments for precise data collection and analysis.
                                     
                                     </p> */}
                 </div>
+                </Link>
               </div>
 
             </div>
@@ -263,7 +266,7 @@ const It_homepage = () => {
             <div className="section-title">
               <h2>Focus</h2>
               <p>
-                In order to meet the challenges of the constantly changing SAP BI landscape, we as ZPARTNER have set ourselves priorities that we are convinced will play a major role in the future. All ZPARTNERs work internally on one of these focal points and build up the appropriate know-how so that we can use this in the future as part of our customer projects.
+                In order to meet the challenges of the constantly changing SAP BI landscape, we as ASP have set ourselves priorities that we are convinced will play a major role in the future. ASP work internally on one of these focal points and build up the appropriate know-how so that we can use this in the future as part of our customer projects.
               </p>
             </div>
             <br />

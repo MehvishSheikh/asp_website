@@ -24,7 +24,7 @@ const itSP = () => {
 
             <br />
             <div className="section-title">
-                <h2>Service</h2>
+                <h2>Services</h2>
                 <p>
                     Our team of consultants supports you in your projects related to SAP
                     ANALYTICS - from conception to implementation and documentation.
