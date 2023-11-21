@@ -54,7 +54,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails">eTrex 20x</Link></h3>
+                      <h3><Link to="/InstrumentDetails">eTrex 22x</Link></h3>
                       <div>
                         <a
                           href="assets/img/portfolio/eTrex 20x.jpg"
@@ -77,7 +77,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails2">eTrex 30x</Link></h3>
+                      <h3><Link to="/InstrumentDetails2">eTrex 32x</Link></h3>
                       <div>
                         <a
                           href="assets/img/portfolio/etrex30.jpg"

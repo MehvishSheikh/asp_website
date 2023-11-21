@@ -14,53 +14,60 @@ const HomeMidComponent = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={100}
                             >
+                                <Link to='/IT-Services'>
                                 <div className="icon-box icon-box-pink">
                                     <div className="icon">
                                         <i className="bi bi-pc-display" />
                                     </div>
                                     <h4 className="title">
-                                        <Link to='/IT-Services'>IT Services</Link>
+                                        IT Services
                                     </h4>
                                     <p className="description">
                                     Leading IT services provider, for seamless digital transformation.
                                     </p>
                                 </div>
+                                </Link>
                             </div>
                             <div
                                 className="col-md-6 col-lg-3 d-flex align-items-stretch"
                                 data-aos="fade-up"
                             >
+                                <Link to='HydroServices'>
                                 <div className="icon-box icon-box-blue">
                                     <div className="icon">
                                         {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
                                         <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
                                     </div>
                                     <h4 className="title">
-                                        <Link to='HydroServices'>Hydrogeological Services</Link>
+                                        Hydrogeological Services
                                     </h4>
                                     <p className="description">
                                     Experts in hydrogeological services and groundwater assessments.
                                     </p>
                                 </div>
+                                </Link>
                             </div>
+                            
                            
                             <div
                                 className="col-md-6 col-lg-3 d-flex align-items-stretch"
                                 data-aos="fade-up"
                                 data-aos-delay={200}
                             >
+                                <Link to='/Instruments'>
                                 <div className="icon-box icon-box-green">
                                     <div className="icon">
                                         <i className="bi bi-robot" />
                                     </div>
                                     <h4 className="title">
-                                        <Link to='Instruments'>Instruments</Link>
+                                        Instruments
                                     </h4>
                                     <p className="description">
                                     Cutting-edge instruments for precise data collection and analysis.
                                     
                                     </p>
                                 </div>
+                                </Link>
                             </div>
                             <div
                                 className="col-md-6 col-lg-3 d-flex align-items-stretch"
@@ -103,10 +110,11 @@ const HomeMidComponent = () => {
                                         <i className="bi bi-buildings" />
                                     </div>
                                     <h5 className="title">
-                                        <a href="">Crafting solutions for Success</a>
+                                        <a href="">Data Precision at its Core</a>
                                     </h5>
                                     <p className="description">
-                                    Our hydrogeological and IT services are bespoke strategies, finely crafted for the holistic success of your project.
+                                    Precision defines us, whether in groundwater studies or IT analytics, ensuring every decision is based on accurate insights.
+                                    
                                     </p>
                                 </div>
                                 <div className="icon-box">
@@ -114,10 +122,10 @@ const HomeMidComponent = () => {
                                         <i className="bi bi-building-gear" />
                                     </div>
                                     <h5 className="title">
-                                        <a href="">Data Precision at its Core</a>
+                                        <a href="">Crafting solutions for Success </a>
                                     </h5>
                                     <p className="description">
-                                    Precision defines us, whether in groundwater studies or IT analytics, ensuring every decision is based on accurate insights.
+                                    Our hydrogeological and IT services are customized strategies, finely crafted for the comprehensive success of your project.
                                     </p>
                                 </div>
                                 
@@ -129,7 +137,7 @@ const HomeMidComponent = () => {
                                         <a href="">Strategy Partnerships ,Lasting impact</a>
                                     </h5>
                                     <p className="description">
-                                    We don't just consult; we strategically partner with you for enduring solutions, be it hydrogeological challenges or digital transformation.
+                                    We don't just consult ; we strategically partner with you for enduring solutions, be it hydrogeological challenges or digital transformation.
 
                                     </p>
                                 </div>
@@ -252,11 +260,11 @@ const HomeMidComponent = () => {
                     <div className="section-title">
                             <h2>Features</h2>
                             <p>
-                            "Our company stands out with its state-of-the-art technology, 
+                            Our company stands out with its state-of-the-art technology, 
                             ensuring precision in data collection and analysis. We pride 
                             ourselves on expert consultations, timely project delivery, 
                             and a commitment to sustainable practices, making us the trusted 
-                            choice for geoscientific solutions."
+                            choice for geoscientific solutions.
                             </p>
                         </div>
                         <br/>
@@ -282,7 +290,7 @@ const HomeMidComponent = () => {
                                         <i className="bi bi-check" /> SAP Analytics
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> SAP S/4 HANA SAP Architectural Planning
+                                        <i className="bi bi-check" /> SAP S/4 HANA 
                                     </li>
                                     <li>
                                         <i className="bi bi-check" /> SAP Architectural Planning
@@ -304,13 +312,13 @@ const HomeMidComponent = () => {
                                  </p>
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Hydrogeological Studies For GroundWater Harvesting , Industries And Mining Projects
+                                        <i className="bi bi-check" /> Hydrogeological Studies For GroundWater Harvesting , Industries , Infrastructure and And Mining Projects.
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Rain-Water Harvesting Plan And Structures
+                                        <i className="bi bi-check" /> Rain-Water Harvesting Plan And Structures.
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Geophysical Survey for GroundWater Exploration 
+                                        <i className="bi bi-check" /> Geophysical Survey for GroundWater Exploration .
                                     </li>
                                 </ul>
                                 

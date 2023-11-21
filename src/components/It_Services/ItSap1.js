@@ -41,12 +41,13 @@ const ItSap1 = () => {
               />
             </div>
             <div className="col-lg-8 d-flex flex-column justify-content-center p-5">
+            <Link to="/IT-1">
               <div className="icon-box">
                 <div className="icon">
                   <i className="bi bi-buildings" />
                 </div>
                 <h2 className="title">
-                  <Link to="/IT-1"> SAP Datasphere </Link>
+                   SAP Datasphere 
                 </h2>
                 <p className="description">
                   <b>SAP Datasphere</b> is SAP's cloud-based data warehousing product for merging and harmonizing business data from a wide variety of sources. <br /> <br />
@@ -57,6 +58,7 @@ const ItSap1 = () => {
                 </p>
 
               </div>
+              </Link>
 
               {/* <div className="icon-box">
                                     <div className="icon">
@@ -80,70 +82,76 @@ const ItSap1 = () => {
               className="col-md-6 col-lg-3 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay={200}
+              
             >
+               <Link to='/IT-0'>
               <div className="icon-box icon-box-cyan">
                 <div className="icon">
                   <i className="bi bi-globe" />
                 </div>
                 <h4 className="title">
-                  <Link to='/IT-0'>Services and priorities</Link>
+                 Services and priorities
                 </h4>
                 {/* <p className="description">
                   Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
                 </p> */}
               </div>
+              </Link>
             </div>
 
             <div
               className="col-md-6 col-lg-3 d-flex align-items-stretch"
               data-aos="fade-up"
-            >
+            ><Link to='/IT-2'>
               <div className="icon-box icon-box-blue">
                 <div className="icon">
                   {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
                   <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
                 </div>
                 <h4 className="title">
-                <Link to='/IT-2'>SAP Analytics Cloud (SAC)</Link>
+                SAP Analytics Cloud (SAC)
                 </h4>
                 {/* <p className="description">
                   Experts in hydrogeological services and groundwater assessments.
                 </p> */}
               </div>
+              </Link>
             </div>
             <div
               className="col-md-6 col-lg-3 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay={100}
-            >
+            ><Link to='/IT-3'>
               <div className="icon-box icon-box-pink">
                 <div className="icon">
                   <i className="bi bi-pc-display" />
                 </div>
                 <h4 className="title">
-                <Link to='/IT-3'>SAP S/4 Hana - Embedded Analytics</Link>
+                SAP S/4 Hana - Embedded Analytics
                 </h4>
                 {/* <p className="description">
                   Leading IT services provider, for seamless digital transformation.
                 </p> */}
               </div>
+              </Link>
             </div>
             <div
               className="col-md-6 col-lg-3 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay={200}
-            >
+            ><Link to='/IT-4'>
               <div className="icon-box icon-box-green">
                 <div className="icon">
                   <i className="bi bi-robot" />
                 </div>
                 <h4 className="title">
-                <Link to='/IT-4'>SAP Planning Architectures</Link>
+                SAP Planning Architectures
                 </h4>
                 {/* <p className="description">
                   Cutting-edge instruments for precise data collection and analysis.
                 </p> */}
               </div>
+              </Link>
             </div>
             
           </div>

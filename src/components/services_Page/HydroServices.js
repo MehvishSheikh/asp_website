@@ -49,7 +49,7 @@ const HydroServices = () => {
                                         <a href=""></a>
                                     </h4> */}
                                     <p className="description"><b>
-                                    Hydrogeological Studies For GroundWater Harvesting , Industries And Mining Projects</b>
+                                    Hydrogeological Studies For GroundWater Harvesting , Industries ,Infrastructure and Mining Projects</b>
                                     </p>
                                 </div>
                                 <div className="icon-box">
@@ -163,7 +163,7 @@ const HydroServices = () => {
                                 <h3>"Innovation"</h3>
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Supply and Installation of Digital Water Meter
+                                        <i className="bi bi-check" /> Supply and Installation of Digital Water Flow Meter (TELEMETRY)
 
 
                                     </li>

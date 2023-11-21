@@ -54,12 +54,14 @@ const AboutComponent = () => {
               <li>
                 <i className="bi bi-check2-circle" /> At ASP Consultancy Services, we specialize in two major categories:
              Hydrogeological Services and Information Technology (IT) Services. 
-             Our commitment to excellence, precision, and innovation sets us 
+             Our commitment to excellence, precision and innovation sets us 
              apart as a leading consultancy firm dedicated to delivering impactful solutions.
               </li>
               <br/>
               <li>
-                <i className="bi bi-check2-circle" /> At ASP Consultancy Services, we are more than consultants; we are partners in your success. Our commitment to client satisfaction, sustainability, and technological excellence defines who we are. Join us on a journey of innovation and responsible business practices.
+                <i className="bi bi-check2-circle" /> At ASP Consultancy Services, we are more than consultants; we are
+                 partners in your success. Our commitment to client satisfaction, sustainability, and technological 
+                 excellence defines who we are. Join us on a journey of innovation and responsible business practices.
 
               </li>
               {/* <li>
@@ -96,19 +98,19 @@ const AboutComponent = () => {
                                 <ul>
               <li>
                 <i className="bi bi-check2-circle" /> <b>
- Groundwater Harvesting for Industries and Mining Projects:</b>
+ Groundwater Studies for Industries , Infrastructure and Mining Projects : </b>
 Harnessing the power of sustainable water resources, we conduct comprehensive hydrogeological studies to support industries and mining projects. Our expertise ensures effective water management for optimal project outcomes.
               </li>
               
               <li>
                 <i className="bi bi-check2-circle" /> 
-                <b>Rain-Water Harvesting Plan and Structures:</b>
+                <b>Rain-Water Harvesting Plan and Structures : </b>
 We design and implement rainwater harvesting plans and structures to maximize water utilization and conservation. Our solutions promote environmental responsibility while meeting the unique needs of each project.
 
               </li>
               <li>
                 <i className="bi bi-check2-circle" /> 
-                <b>Geophysical Survey for Groundwater Exploration:</b>
+                <b>Geophysical Survey for Groundwater Exploration : </b>
 Using advanced geophysical survey methods, we explore groundwater resources to provide valuable insights for sustainable development. Our commitment to precision and reliability ensures informed decision-making in groundwater exploration.
 </li>
               </ul>
@@ -182,7 +184,8 @@ Using advanced geophysical survey methods, we explore groundwater resources to p
     <p>  </p>
       <div className="container">
         <div className="row counters">
-          <p>At ASP Consultancy Services, we are not just consultants; we are orchestrators of transformative solutions. Join us on a journey where each project is a canvas, and each solution is a "Brushstroke that paints a picture of distinctive possibilities.</p>
+          <p>At ASP Consultancy Services, we are not just consultants; we are orchestrators of transformative solutions.<br/> 
+            Join us on a journey where "Each project is a Canvas" and "Each solution is a Brushstroke that paints a picture of distinctive possibilities."</p>
           {/* <div className="col-lg-4 col-md-4 col-sm-12  text-center">
             <span
               data-purecounter-start={0}

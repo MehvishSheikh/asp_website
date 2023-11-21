@@ -25,7 +25,7 @@ const HomeBackComponents = () => {
           </h2>
           <p className="animate__animated animate__fadeInUp">
           
-          Providing comprehensive IT and Hydrogeological consultancy services and state-of-the-art monitoring instruments that ensures the highest standards of quality and expertise in the field of water resource management.
+          Providing comprehensive IT Services and Hydrogeological consultancy services and state-of-the-art monitoring instruments that ensures the highest standards of quality and expertise in the field of water resource management.
           </p>
           
           <Link to='/About'>
@@ -44,8 +44,8 @@ const HomeBackComponents = () => {
            Our Mission
           </h2>
           <p className="animate__animated animate__fadeInUp">
-          Our Mission is to provide outstanding Software solutions
-           & services by understanding the requirement of the
+          Our Mission is to provide outstanding Software solutions, Instruments and Consultancy
+           Services by understanding the requirement of the
             clients and to build long term relationship through
              mutual trust & co-ordination.
           
@@ -70,7 +70,7 @@ const HomeBackComponents = () => {
           Our vision is to excel in Geoscientific services, prioritizing user
           empowerment through cutting-edge techniques and technology. We are
           committed to leading the industry, ensuring our clients have access
-          to the latest advancements in the field."
+          to the latest advancements in the field.
           </p>
           <a
             href=""
