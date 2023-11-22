@@ -77,11 +77,11 @@ We translate experiences from customer projects into “lessons learned” and c
     <section className="services">
       <div className="container">
         <div className="row">
-        <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+        <Link to='/IT-0'
+            className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
             data-aos="fade-up"
             data-aos-delay={200}
-          ><Link to='/IT-0'>
+          >
             <div className="icon-box icon-box-cyan">
               <div className="icon">
                 <i className="bi bi-globe" />
@@ -93,13 +93,13 @@ We translate experiences from customer projects into “lessons learned” and c
                 Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
               </p> */}
             </div>
+            
             </Link>
-          </div>
 
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            <Link to='/IT-1'
+            className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
             data-aos="fade-up"
-          ><Link to='/IT-1'>
+          >
             <div className="icon-box icon-box-blue">
               <div className="icon">
                 {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
@@ -112,13 +112,13 @@ We translate experiences from customer projects into “lessons learned” and c
                 Experts in hydrogeological services and groundwater assessments.
               </p> */}
             </div>
+            
             </Link>
-          </div>
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            <Link to='/IT-3'
+            className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
             data-aos="fade-up"
             data-aos-delay={100}
-          ><Link to='/IT-3'>
+          >
             <div className="icon-box icon-box-pink">
               <div className="icon">
                 <i className="bi bi-pc-display" />
@@ -130,13 +130,13 @@ We translate experiences from customer projects into “lessons learned” and c
                 Leading IT services provider, for seamless digital transformation.
               </p> */}
             </div>
+            
             </Link>
-          </div>
-          <div
-            className="col-md-6 col-lg-3 d-flex align-items-stretch"
+            <Link to='/IT-4'
+            className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
             data-aos="fade-up"
             data-aos-delay={200}
-          ><Link to='/IT-4'>
+          >
             <div className="icon-box icon-box-green">
               <div className="icon">
                 <i className="bi bi-robot" />
@@ -148,8 +148,8 @@ We translate experiences from customer projects into “lessons learned” and c
                 Cutting-edge instruments for precise data collection and analysis.
               </p> */}
             </div>
+            
             </Link>
-          </div>
           
         </div>
       </div>

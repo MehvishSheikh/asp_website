@@ -201,11 +201,11 @@ const It_homepage = () => {
             <h2>Service Features</h2></div>
           <div className="container">
             <div className="row">
-              <div
-                className="col-md-6 col-lg-4 d-flex align-items-stretch"
+            <Link to='/IT-0'
+                className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
                 data-aos-delay={100}
-              ><Link to='/IT-0'>
+              >
                 <div className="icon-box icon-box-blue">
                   <div className="icon">
                     {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
@@ -218,13 +218,13 @@ const It_homepage = () => {
                                     Experts in hydrogeological services and groundwater assessments.
                                     </p> */}
                 </div>
+                
                 </Link>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 d-flex align-items-stretch"
+              <Link to='/IT-0'
+                className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
                 data-aos-delay={100}
-              ><Link to='/IT-0'>
+              >
                 <div className="icon-box icon-box-pink">
                   <div className="icon">
                     <i className="bi bi-pc-display" />
@@ -236,13 +236,13 @@ const It_homepage = () => {
                                     Leading IT services provider, for seamless digital transformation.
                                     </p> */}
                 </div>
+                
                 </Link>
-              </div>
-              <div
-                className="col-md-6 col-lg-4 d-flex align-items-stretch"
+              <Link to='/IT-0'
+                className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
                 data-aos-delay={200}
-              ><Link to='/IT-0'>
+              >
                 <div className="icon-box icon-box-green">
                   <div className="icon">
                     <i className="bi bi-robot" />
@@ -255,8 +255,8 @@ const It_homepage = () => {
                                     
                                     </p> */}
                 </div>
+                
                 </Link>
-              </div>
 
             </div>
           </div>

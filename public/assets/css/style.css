@@ -748,6 +748,21 @@ section {
   border-color: #2282ff;
 }
 
+.custom-link {
+  color: black; /* Set the default text color */
+  /* You can add other styling properties as needed */
+
+  /* Styles for hover state */
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.custom-link:hover {
+  color: rgb(34, 34, 125); /* Set the text color on hover */
+  /* You can add other styling properties for the hover state as needed */
+}
+
+
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
