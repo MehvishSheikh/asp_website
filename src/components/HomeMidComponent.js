@@ -9,13 +9,14 @@ const HomeMidComponent = () => {
                 <section className="services">
                     <div className="container">
                         <div className="row">
-                        <div
-                                className="col-md-6 col-lg-3 d-flex align-items-stretch"
+                        <Link to='/IT-Services'
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
                                 data-aos="fade-up"
                                 data-aos-delay={100}
-                            >
-                                <Link to='/IT-Services'>
+                             >
+                                
                                 <div className="icon-box icon-box-pink">
+                                
                                     <div className="icon">
                                         <i className="bi bi-pc-display" />
                                     </div>
@@ -25,15 +26,17 @@ const HomeMidComponent = () => {
                                     <p className="description">
                                     Leading IT services provider, for seamless digital transformation.
                                     </p>
+                                    
                                 </div>
                                 </Link>
-                            </div>
-                            <div
-                                className="col-md-6 col-lg-3 d-flex align-items-stretch"
+                            
+                            <Link to='HydroServices'
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
                                 data-aos="fade-up"
                             >
-                                <Link to='HydroServices'>
+                                
                                 <div className="icon-box icon-box-blue">
+                                
                                     <div className="icon">
                                         {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
                                         <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
@@ -44,18 +47,21 @@ const HomeMidComponent = () => {
                                     <p className="description">
                                     Experts in hydrogeological services and groundwater assessments.
                                     </p>
+                                    
                                 </div>
                                 </Link>
-                            </div>
+                               
+                            
                             
                            
-                            <div
-                                className="col-md-6 col-lg-3 d-flex align-items-stretch"
+                            <Link to='/Instruments'
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
                                 data-aos="fade-up"
                                 data-aos-delay={200}
                             >
-                                <Link to='/Instruments'>
+                                
                                 <div className="icon-box icon-box-green">
+                                
                                     <div className="icon">
                                         <i className="bi bi-robot" />
                                     </div>
@@ -66,11 +72,13 @@ const HomeMidComponent = () => {
                                     Cutting-edge instruments for precise data collection and analysis.
                                     
                                     </p>
+                                      
                                 </div>
-                                </Link>
-                            </div>
-                            <div
-                                className="col-md-6 col-lg-3 d-flex align-items-stretch"
+                              
+                            
+                            </Link>
+                            <Link to='/'
+                                className="col-md-6 col-lg-3 d-flex align-items-stretch custom-link"
                                 data-aos="fade-up"
                                 data-aos-delay={200}
                             >
@@ -79,15 +87,16 @@ const HomeMidComponent = () => {
                                         <i className="bi bi-globe" />
                                     </div>
                                     <h4 className="title">
-                                        <a href="">Other Services</a>
+                                        Other Services
                                     </h4>
                                     <p className="description">
                                     Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
                                     </p>
                                 </div>
-                            </div>
+                                </Link>
                         </div>
-                    </div>
+                        </div>
+                    
                 </section>
                 {/* End Services Section */}
                 {/* ======= Why Us Section ======= */}

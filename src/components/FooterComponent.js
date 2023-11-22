@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const FooterComponent = () => {
     return (
         <div className='FooterComponent'>
+            
             <footer
                 id="footer"
                 data-aos="fade-up"
