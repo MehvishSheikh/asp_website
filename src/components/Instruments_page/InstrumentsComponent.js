@@ -47,17 +47,19 @@ const InstrumentsComponent = () => {
                 data-aos-duration={500}
               >
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
+                <Link to="/InstrumentDetails">
+
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/eTrex 20x.jpg"
+                      src="assets/img/portfolio/etrex22.jpg"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails">eTrex 22x</Link></h3>
+                      <h3>eTrex 22x</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/eTrex 20x.jpg"
+                          href="assets/img/portfolio/etrex22.jpg"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 1"
@@ -67,20 +69,23 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
+               
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
+                <Link to="/InstrumentDetails2">
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/etrex30.jpg"
+                      src="assets/img/portfolio/etrex32.jpg"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails2">eTrex 32x</Link></h3>
+                      <h3>eTrex 32x</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/etrex30.jpg"
+                          href="assets/img/portfolio/etrex32.jpg"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 3"
@@ -90,9 +95,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
+                <Link to="/InstrumentDetails3">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/oregon750.jpg"
@@ -100,7 +107,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails3">OREGON 750</Link></h3>
+                      <h3>OREGON 750</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/oregon750.jpg"
@@ -114,9 +121,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
+                <Link to="/InstrumentDetails4">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/montana680.jpg"
@@ -124,7 +133,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails4">MONTANA 680</Link></h3>
+                      <h3>MONTANA 680</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/montana680.jpg"
@@ -137,9 +146,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
+                <Link to="/InstrumentDetails5">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/sp-85.jpg"
@@ -147,7 +158,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails5">DGPS SP-85</Link></h3>
+                      <h3>DGPS SP-85</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/sp-85.jpg"
@@ -160,9 +171,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                <Link to="/InstrumentDetails6">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/sp-80.jpg"
@@ -170,7 +183,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails6">DGPS SP-80</Link></h3>
+                      <h3>DGPS SP-80</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/sp-80.jpg"
@@ -183,9 +196,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                <Link to="/InstrumentDetails7">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/Aquameter.jpg"
@@ -193,7 +208,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails7">Aquameter CRM</Link></h3>
+                      <h3>Aquameter CRM</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/Aquameter.jpg"
@@ -206,9 +221,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                <Link to="/InstrumentDetails8">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/DWLR.jpg"
@@ -216,7 +233,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails8">DWLR</Link></h3>
+                      <h3>DWLR</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/DWLR.jpg"
@@ -229,9 +246,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
+                <Link to="/InstrumentDetails9">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/UD.jpg"
@@ -239,7 +258,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails9">Telemetry</Link></h3>
+                      <h3>Telemetry</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/UD.jpg"
@@ -252,9 +271,11 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
                 <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                <Link to="/InstrumentDetails10">
                   <div className="portfolio-item">
                     <img
                       src="assets/img/portfolio/WLI.jpg"
@@ -262,7 +283,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3><Link to="/InstrumentDetails10">EWLI/EWLS</Link></h3>
+                      <h3>EWLI/EWLS</h3>
                       <div>
                         <a
                           href="assets/img/portfolio/WLI.jpg"
@@ -275,6 +296,7 @@ const InstrumentsComponent = () => {
                       </div>
                     </div>
                   </div>
+                  </Link>
                 </div>
 
               </div>
