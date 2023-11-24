@@ -31,7 +31,7 @@ const InstrumentDetails6 = () => {
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
-                <div className="col-lg-8">
+                <div className="col-lg-4">
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
@@ -47,7 +47,7 @@ const InstrumentDetails6 = () => {
                     <div className="swiper-pagination" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-8">
                   <div className="portfolio-info">
                     <h3>SP-80 information</h3>
                     <ul>

@@ -31,14 +31,14 @@ const InstrumentDetails2 = () => {
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
-                <div className="col-lg-8">
+                <div className="col-lg-4">
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
-                        <img src="assets/img/portfolio/eTrex 20x.jpg" alt="" />
+                        <img src="assets/img/portfolio/etrex32.jpg" alt="" />
                       </div>
                       <div className="swiper-slide">
-                        <img src="assets/img/portfolio/eTrex30x.jpg" alt="" />
+                        <img src="assets/img/portfolio/etrex32.jpg" alt="" />
                       </div>
                       <div className="swiper-slide">
                         <img src="assets/img/portfolio/oregon750.jpg" alt="" />
@@ -47,7 +47,7 @@ const InstrumentDetails2 = () => {
                     <div className="swiper-pagination" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-8">
                   <div className="portfolio-info">
                     <h3>eTrex-30x information</h3>
                     <ul>

@@ -31,7 +31,7 @@ const InstrumentDetails9 = () => {
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
-                <div className="col-lg-8">
+                <div className="col-lg-4">
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
@@ -47,7 +47,7 @@ const InstrumentDetails9 = () => {
                     <div className="swiper-pagination" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-8">
                   <div className="portfolio-info">
                     <h3>Ultrasonic Digital Water Flow Meter (Telemetry) information</h3>
                     <ul>
