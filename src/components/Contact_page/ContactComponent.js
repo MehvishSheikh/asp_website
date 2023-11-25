@@ -37,7 +37,7 @@ const ContactComponent = () => {
               <div className="col-md-12">
                 <div className="info-box">
                   <i className="bx bx-map" />
-                  <h3>Our Address</h3>
+                  <h3>Address</h3>
                   <p>Plot No. 44, Chhatrapati Nagar , 
                                     Wardha Road , 
                                     Nagpur - 440 015 <br/>
@@ -51,7 +51,7 @@ const ContactComponent = () => {
                   <i className="bx bx-envelope" />
                   <h3>Email Us</h3>
                   <p>
-                  aspcsp122@gmail.com
+                  aspcspl22@gmail.com
                   </p>
                 </div>
               </div>
