@@ -54,7 +54,7 @@ const HydroServices = () => {
                                 </div>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-b" />
+                                        <i className="bi bi-water" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
@@ -73,7 +73,7 @@ const HydroServices = () => {
                                     </h4> */}
                                     <p className="description"><b>
                                     Geophysical Survey for Groundwater Exploration</b>
-                                    </p>
+``                                    </p>
                                 </div>
                                 
                             </div>
