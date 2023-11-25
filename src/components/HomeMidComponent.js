@@ -108,7 +108,7 @@ const HomeMidComponent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 video-box">
-                                <img src="assets\img\homeimg.jpg" className="img-fluid" alt="" />
+                                <img src="assets\img\homeimg.jpeg" className="img-fluid" alt="" />
                                 <a
                                     href="assets\img\homeimg.jpg"
                                 />
