@@ -43,7 +43,7 @@ const HydroServices = () => {
                             <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-moisture" />
+                                        <i className="bi bi-droplet-half" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
@@ -66,7 +66,7 @@ const HydroServices = () => {
                                 
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-droplet-half" />
+                                        <i className="bi bi-moisture" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
