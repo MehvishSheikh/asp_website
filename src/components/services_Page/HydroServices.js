@@ -43,18 +43,18 @@ const HydroServices = () => {
                             <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-buildings" />
+                                        <i className="bi bi-moisture" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
                                     </h4> */}
                                     <p className="description"><b>
-                                    Hydrogeological Studies For GroundWater Harvesting , Industries ,Infrastructure and Mining Projects</b>
+                                    Hydrogeological Studies For Groundwater , Industries , Infrastructure and Mining Projects</b>
                                     </p>
                                 </div>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-building-gear" />
+                                        <i className="bi bi-b" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
@@ -66,13 +66,13 @@ const HydroServices = () => {
                                 
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-minecart-loaded" />
+                                        <i className="bi bi-droplet-half" />
                                     </div>
                                     {/* <h4 className="title">
                                         <a href=""></a>
                                     </h4> */}
                                     <p className="description"><b>
-                                    Geophysical Survey for GroundWater Exploration</b>
+                                    Geophysical Survey for Groundwater Exploration</b>
                                     </p>
                                 </div>
                                 
