@@ -109,15 +109,15 @@ const HydroServices = () => {
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Site visit / field survey of the project area as per requirements.
+                                        <i className="bi bi-check" /> Field survey of the project area as per requirements.
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Borewell Recharge and Drainage Plan for the area (River/ nala, etc)
+                                        <i className="bi bi-check" /> Borewell and Dugwell Recharge Plan for the area.
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Preparation of Recharge proposal
+                                        <i className="bi bi-check" /> Recharge proposal for the area.
                                     </li>
                                     <li>
                                         <i className="bi bi-check" />  Preparation of Report for ground water abstraction by Land use plan details of the existing or proposed Industrial unit premises
