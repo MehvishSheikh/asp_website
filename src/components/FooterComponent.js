@@ -98,7 +98,7 @@ const FooterComponent = () => {
                             <div className="col-lg-3 col-md-6 footer-info">
                                 <h3>About ASP</h3>
                                 <p>
-                                    We have 20 Years of experience
+                                    We have experience
                                     for the supply of various software's and Instruments to the Agency
                                 </p>
                                 <div className="social-links mt-3">
