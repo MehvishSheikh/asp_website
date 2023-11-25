@@ -173,6 +173,11 @@ const HydroServices = () => {
 
                                     </li>
                                     <li>
+                                        <i className="bi bi-check" /> Supply and lnstallation of Resistivity Meter.
+
+
+                                    </li>
+                                    <li>
                                         <i className="bi bi-check" /> Construction of Rainwater Harvesting Structure
 
 
