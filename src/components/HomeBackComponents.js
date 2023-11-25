@@ -163,7 +163,7 @@ const HomeBackComponents = () => {
       <div className="carousel-item">
         <div className="carousel-container">
           <h2 className="animate__animated animate__fadeInDown">
-            Our Vission
+            Our Vision
           </h2>
           <p className="animate__animated animate__fadeInUp">
           Our vision is to excel in Geoscientific services, prioritizing user

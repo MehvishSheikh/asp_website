@@ -36,9 +36,7 @@ const ItSap3 = () => {
         <div className="row">
           <div className="col-lg-4 video-box">
             <img src="assets\img\saphana.jpg" className="img-fluid" alt="" />
-            <a
-              href="assets\img\homeimg.jpg"
-            />
+            
           </div>
           <div className="col-lg-8 d-flex flex-column justify-content-center p-5">
             <div className="icon-box">
