@@ -138,18 +138,21 @@ const HydroServices = () => {
                                 We carry out following works:
                                  </p>
                                 <ul>
-                                    <li>
-                                        <i className="bi bi-check" /> Preparation of Groundwater availability report and Implementation of Rain Water Harvesting Structures.
-</li>
-                                    <li>
-                                        <i className="bi bi-check" /> Borewell Recharge and Drainage Plan for the area (River/ nala) etc.
-                                    </li>
+                                    
                                     <li>
                                         <i className="bi bi-check" /> Study of Sources of availability of surface water for Industrial use, if any
                                     </li>
                                     <li>
                                         <i className="bi bi-check" /> Preparation / Details of water requirement /recycled water usage (STP/ ETP)
 
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Construction of Rainwater Harvesting Structure
+
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Our team consists of competent professionals with extensive experience in their respective disciplines. Their expertise ensures quality service and support.
                                     </li>
                                 </ul>
                                 
@@ -163,28 +166,26 @@ const HydroServices = () => {
                                 <h3>"Innovation"</h3>
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Supply and Installation of Digital Water Flow Meter (TELEMETRY)
+                                        <i className="bi bi-check" /> Supply and Training of Resistivity Meter.
 
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Supply and lnstallation of DWLR (Digital Water Level Recorder)
+                                        <i className="bi bi-check" /> Supply and Installation of Digital Water Flow Meter (TELEMETRY).
 
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Supply and lnstallation of Resistivity Meter.
+                                        <i className="bi bi-check" /> Supply and Comissioning of Water Level Sounder .
 
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Construction of Rainwater Harvesting Structure
+                                        <i className="bi bi-check" /> Supply and lnstallation of DWLR (Digital Water Level Recorder).
 
 
                                     </li>
-                                    <li>
-                                        <i className="bi bi-check" /> Our team consists of competent professionals with extensive experience in their respective disciplines. Their expertise ensures quality service and support.
-                                    </li>
+                                    
                                     
                                 </ul>
                             </div>
