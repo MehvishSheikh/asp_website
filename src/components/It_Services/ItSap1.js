@@ -35,7 +35,7 @@ const ItSap1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 video-box">
-              <img src="assets\img\saphana.jpg" className="img-fluid" alt="" />
+              <img src="assets\img\sapimg1.jpeg" className="img-fluid" alt="" />
               <a
                 href="assets\img\saphana.jpg"
               />
