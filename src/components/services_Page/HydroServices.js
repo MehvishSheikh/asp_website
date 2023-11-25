@@ -120,7 +120,7 @@ const HydroServices = () => {
                                         <i className="bi bi-check" /> Recharge proposal for the area.
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" />  Preparation of Report for ground water abstraction by Land use plan details of the existing or proposed Industrial unit premises
+                                        <i className="bi bi-check" />  Geophysical studies for ground water abstraction of the existing or proposed project premises.
 
                                     </li>
                                     
