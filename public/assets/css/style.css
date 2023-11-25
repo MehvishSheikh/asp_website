@@ -712,7 +712,8 @@ h6,
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgba(20, 0, 21, 0.5) 0%, rgba(24, 0, 24, 0.5) 100%), url("../img/hero-bg.jpg") center top no-repeat;
+  /* background: linear-gradient(0deg, rgba(20, 0, 21, 0.5) 0%, rgba(24, 0, 24, 0.5) 100%), url("../img/hero-bg.jpg") center top no-repeat; */
+  background: linear-gradient(0deg, rgba(82, 6, 83, 0.4)0% , rgba(241, 240, 244, 0.2) 100%),url("../img/hero-bg.jpg") center top no-repeat;
   
   padding: 0;
 }
@@ -724,14 +725,15 @@ h6,
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(171, 153, 203, 0.5) 0%, rgba(169, 190, 231, 0.5) 100%);
+  /* background: linear-gradient(0deg, rgba(171, 153, 203, 0.5) 0%, rgba(169, 190, 231, 0.5) 100%); */
+  background: linear-gradient(0deg, rgba(23, 16, 1, 0.4) 0%, rgba(12, 0, 106, 0.4)100%);
   opacity:0;
   transition: opacity 0.5s ease;
   /* border-radius: 0 0 100% 0; */
   
 }
 #hero:hover::before {
-  opacity: 0.5; /* Change opacity on hover to reveal the background change */
+  opacity: 0.7; /* Change opacity on hover to reveal the background change */
 }
 
 #hero::after {
