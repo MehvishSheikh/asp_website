@@ -15,10 +15,9 @@ const FooterComponent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <h4>Our Newsletter</h4>
+                                <h4>Blog</h4>
                                 <p>
-                                    Tamen quem nulla quae legam multos aute sint culpa legam noster
-                                    magna
+                                    Our New Blogs
                                 </p>
                             </div>
                             <div className="col-lg-6">
@@ -98,8 +97,7 @@ const FooterComponent = () => {
                             <div className="col-lg-3 col-md-6 footer-info">
                                 <h3>About ASP</h3>
                                 <p>
-                                    We have 20 Years of experience
-                                    for the supply of various software's and Instruments to the Agency
+                                    ASP Consultancy Services is your partner for success,seemlessly combining expertise and innovation to deliver enduring solutions that stand the test of time.
                                 </p>
                                 <div className="social-links mt-3">
                                     <a href="#" className="twitter">
