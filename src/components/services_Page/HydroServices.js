@@ -105,7 +105,7 @@ const HydroServices = () => {
                                 
                                 <ul>
                                     <li>
-                                        <i className="bi bi-check" /> Preparation of Groundwater Availability & Rain Water Harvesting report for ground water abstraction 
+                                        <i className="bi bi-check" /> Preparation of HydroGeological & Rain Water Harvesting report for ground water abstraction 
 
                                     </li>
                                     <li>
