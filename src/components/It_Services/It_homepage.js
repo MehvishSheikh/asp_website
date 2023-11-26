@@ -28,27 +28,26 @@ const It_homepage = () => {
 
               <div className="col-lg-9 entries">
                 <article className="entry row">
-                  <div className="col-md-7 ">
+                  <div className="col-md-6 ">
                     <div className="entry-img">
                       <img
-                        src="assets\img\zp1.jpeg"
+                        src="assets\img\zp1.jpg"
                         alt=""
                         className="img-fluid"
                       />
                     </div>
                   </div>
-                  <div className="col-md-5 ">
+                  <div className="col-md-6 ">
                     <h2 className="title">
                       {/* <a href="blog-single.html"> */}
                       True To Our Motto</h2>
 
                     <p>
-                      <br/>
-                      “PROVIDING SOLUTIONS WITH PASSION ”<br /> 
-                      We create sustainable, individual solutions
-                      and accompany you in the implementation of high-quality information systems around  SAP ANALYTICS.<br/>
-                      With innovative, tailor-made solutions for your company, we support you throughout the entire lifecycle management.</p>
-
+                      <br />
+                      <b>PASSIONATE SOLUTION DELIVERY </b><br />
+                      We specialize in creating sustainable, personalized solutions for SAP ANALYSIS, guiding you through
+                      implementation and supporting you across the entire lifecycle management journey.
+                    </p>
                   </div>
 
 
@@ -201,7 +200,7 @@ const It_homepage = () => {
             <h2>Service Features</h2></div>
           <div className="container">
             <div className="row">
-            <Link to='/IT-0'
+              <Link to='/IT-0'
                 className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
                 data-aos-delay={100}
@@ -209,7 +208,7 @@ const It_homepage = () => {
                 <div className="icon-box icon-box-blue">
                   <div className="icon">
                     {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
-                    <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
+                    <i className="bi bi-graph-up-arrow" /> {/* Bootstrap water droplet icon */}
                   </div>
                   <h4 className="title">
                     SAP Analytics Implementation Consulting
@@ -218,8 +217,8 @@ const It_homepage = () => {
                                     Experts in hydrogeological services and groundwater assessments.
                                     </p> */}
                 </div>
-                
-                </Link>
+
+              </Link>
               <Link to='/IT-0'
                 className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
@@ -227,17 +226,17 @@ const It_homepage = () => {
               >
                 <div className="icon-box icon-box-pink">
                   <div className="icon">
-                    <i className="bi bi-pc-display" />
+                    <i className="bi bi-clipboard2-data" />
                   </div>
                   <h4 className="title">
-                   SAP Analytics Strategy Consulting 
+                    SAP Analytics Strategy Consulting
                   </h4>
                   {/* <p className="description">
                                     Leading IT services provider, for seamless digital transformation.
                                     </p> */}
                 </div>
-                
-                </Link>
+
+              </Link>
               <Link to='/IT-0'
                 className="col-md-6 col-lg-4 d-flex align-items-stretch custom-link"
                 data-aos="fade-up"
@@ -245,18 +244,18 @@ const It_homepage = () => {
               >
                 <div className="icon-box icon-box-green">
                   <div className="icon">
-                    <i className="bi bi-robot" />
+                    <i className="bi bi-bar-chart-steps" />
                   </div>
                   <h4 className="title">
-                  SAP Analytics Process Consulting
+                    SAP Analytics Process Consulting
                   </h4>
                   {/* <p className="description">
                                     Cutting-edge instruments for precise data collection and analysis.
                                     
                                     </p> */}
                 </div>
-                
-                </Link>
+
+              </Link>
 
             </div>
           </div>
@@ -266,7 +265,12 @@ const It_homepage = () => {
             <div className="section-title">
               <h2>Focus</h2>
               <p>
-                In order to meet the challenges of the constantly changing SAP BI landscape, we as ASP have set ourselves priorities that we are convinced will play a major role in the future. ASP work internally on one of these focal points and build up the appropriate know-how so that we can use this in the future as part of our customer projects.
+                To navigate the dynamic SAP BI landscape successfully,
+                ASP has outlined key priorities crucial for the future. Internally,
+                we're dedicating efforts to build expertise in one of these areas.
+                This strategic focus positions us to seamlessly integrate the
+                latest solutions into customer projects,
+                ensuring they benefit from the forefront of SAP BI technology.
               </p>
             </div>
             <br />
@@ -275,7 +279,7 @@ const It_homepage = () => {
               <div className="col-md-5">
                 {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
 
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp2.jpeg" className="img-fluid" alt="" />
 
               </div>
               <div className="col-md-7 pt-4">
@@ -311,7 +315,7 @@ const It_homepage = () => {
             </div>
             <div className="row" data-aos="fade-up">
               <div className="col-md-5 order-1 order-md-2">
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp21.jpg" className="img-fluid" alt="" />
               </div>
               <div className="col-md-7 pt-5 order-2 order-md-1">
 
@@ -341,7 +345,7 @@ const It_homepage = () => {
             </div>
             <div className="row" data-aos="fade-up">
               <div className="col-md-5">
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp22.jpg" className="img-fluid" alt="" />
               </div>
               <div className="col-md-7 pt-5">
                 <h3>Innovation

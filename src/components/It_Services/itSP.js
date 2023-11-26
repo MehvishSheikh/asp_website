@@ -111,14 +111,14 @@ const itSP = () => {
 
             <section className="features">
           <div className="container">
-           
+            
             <br />
             <br />
             <div className="row" data-aos="fade-up">
               <div className="col-md-5">
                 {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
 
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp2.jpeg" className="img-fluid" alt="" />
 
               </div>
               <div className="col-md-7 pt-4">
@@ -154,7 +154,7 @@ const itSP = () => {
             </div>
             <div className="row" data-aos="fade-up">
               <div className="col-md-5 order-1 order-md-2">
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp21.jpg" className="img-fluid" alt="" />
               </div>
               <div className="col-md-7 pt-5 order-2 order-md-1">
 
@@ -184,7 +184,7 @@ const itSP = () => {
             </div>
             <div className="row" data-aos="fade-up">
               <div className="col-md-5">
-                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
+                <img src="assets\img\zp22.jpg" className="img-fluid" alt="" />
               </div>
               <div className="col-md-7 pt-5">
                 <h3>Innovation
