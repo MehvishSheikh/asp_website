@@ -82,9 +82,9 @@ const HeadComponent = () => {
 
 
 
-                            <li>
+                            {/* <li>
                                 <Link to="/Portfolio" >Blog</Link>
-                            </li>
+                            </li> */}
 
 
                             <li>

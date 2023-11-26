@@ -130,12 +130,11 @@ const HomeBackComponents = () => {
          and state-of-the-art monitoring instruments that ensures the highest standards
           of quality and expertise in the field of water resource management.
           </p>
-          <a
-            href="#about"
+          <Link to='/About'
             className="btn-get-started animate__animated animate__fadeInUp scrollto"
           >
             Read More
-          </a>
+          </Link>
         </div>
       </div>
       {/* Slide 2 */}
@@ -151,12 +150,12 @@ const HomeBackComponents = () => {
           mutual trust & co-ordination.
           
           </p>
-          <a
-            href="#about"
+          <Link to='/About'
             className="btn-get-started animate__animated animate__fadeInUp scrollto"
           >
             Read More
-          </a>
+          </Link>
+          
         </div>
       </div>
       {/* Slide 3 */}
@@ -171,12 +170,12 @@ const HomeBackComponents = () => {
       committed to leading the industry, ensuring our clients have access
        to the latest advancements in the field.
           </p>
-          <a
-            href="#about"
+          <Link to='/About'
             className="btn-get-started animate__animated animate__fadeInUp scrollto"
           >
             Read More
-          </a>
+          </Link>
+          
         </div>
       </div>
       <a
