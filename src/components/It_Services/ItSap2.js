@@ -35,13 +35,13 @@ const ItSap2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 video-box">
-            <img src="assets\img\sapimg2.png" className="img-fluid" alt="" />
+            <img src="assets\img\sapimg2.jpg" className="img-fluid" alt="" />
            
           </div>
           <div className="col-lg-8 d-flex flex-column justify-content-center p-5">
             <div className="icon-box">
               <div className="icon">
-                <i className="bi bi-buildings" />
+                <i className="bi bi-cloud-upload-fill" />
               </div>
               <h2 className="title">
                 <Link to="/IT-2"> SAP ANALYTICS CLOUD (SAC) </Link>
@@ -82,7 +82,7 @@ We translate experiences from customer projects into “lessons learned” and c
           >
             <div className="icon-box icon-box-cyan">
               <div className="icon">
-                <i className="bi bi-globe" />
+                <i className="bi bi-bookmark-check-fill" />
               </div>
               <h4 className="title">
                 Services and priorities
@@ -101,7 +101,7 @@ We translate experiences from customer projects into “lessons learned” and c
             <div className="icon-box icon-box-blue">
               <div className="icon">
                 {/* <i className="bi bi-house-door" /> Bootstrap house door icon */}
-                <i className="bi bi-moisture" /> {/* Bootstrap water droplet icon */}
+                <i className="bi bi-pie-chart-fill" /> {/* Bootstrap water droplet icon */}
               </div>
               <h4 className="title">
               SAP Datasphere (formerly DWC)
@@ -119,7 +119,7 @@ We translate experiences from customer projects into “lessons learned” and c
           >
             <div className="icon-box icon-box-pink">
               <div className="icon">
-                <i className="bi bi-pc-display" />
+                <i className="bi bi-database-fill-gear" />
               </div>
               <h4 className="title">
               SAP S/4 Hana - Embedded Analytics
@@ -137,7 +137,7 @@ We translate experiences from customer projects into “lessons learned” and c
           >
             <div className="icon-box icon-box-green">
               <div className="icon">
-                <i className="bi bi-robot" />
+                <i className="bi bi-file-earmark-bar-graph-fill" />
               </div>
               <h4 className="title">
               SAP Planning Architectures
@@ -158,11 +158,12 @@ We translate experiences from customer projects into “lessons learned” and c
       <div className="section-title">
                             <h2>Focus</h2>
                             <p>
-                            "Our company stands out with its state-of-the-art technology, 
-                            ensuring precision in data collection and analysis. We pride 
-                            ourselves on expert consultations, timely project delivery, 
-                            and a commitment to sustainable practices, making us the trusted 
-                            choice for geoscientific solutions."
+                            To navigate the dynamic SAP BI landscape successfully,
+                ASP has outlined key priorities crucial for the future. Internally,
+                we're dedicating efforts to build expertise in one of these areas.
+                This strategic focus positions us to seamlessly integrate the
+                latest solutions into customer projects,
+                ensuring they benefit from the forefront of SAP BI technology.
                             </p>
                         </div>
                         <br/>
