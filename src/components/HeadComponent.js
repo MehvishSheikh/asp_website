@@ -12,13 +12,14 @@ const HeadComponent = () => {
             >
                 <div className="container d-flex justify-content-between align-items-center">
                     <div className="logo">
-                        <h1 className="text-light">
+                        {/* <h1 className="text-light">
                             
                                 <span> <h1><b>ASP</b></h1></span>
                             
-                        </h1>
+                        </h1> */}
                         {/* Uncomment below if you prefer to use an image logo */}
-                        {/* <a href="index.html"><img src="assets/img/about.jpg" alt="" class="img-fluid"> </a> */}
+                        <a href="index.html"><img src="assets/img/asp-logo.png" alt="" class="img-fluid" /> </a>
+                        {/* <img src="assets/img/asp-logo.png" alt="Logo" style="height: 16px; width: 16px;"/>  */}
                     </div>
                     <nav id="navbar" className="navbar">
                         <ul>
