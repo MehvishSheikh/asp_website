@@ -1,6 +1,7 @@
 import React from 'react'
 import HeadComponent from '../HeadComponent'
 import FooterComponent from '../FooterComponent'
+import { Link } from 'react-router-dom'
 
 const ContactComponent = () => {
   return (
@@ -15,7 +16,7 @@ const ContactComponent = () => {
           <h2>Contact</h2>
           <ol>
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home </Link> 
             </li>
             <li>Contact</li>
           </ol>
