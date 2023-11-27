@@ -7,9 +7,7 @@ const InstrumentsComponent = () => {
   return (
     <div className="Instruments">
       <>
-      <head>
-        
-      </head>
+     
         <HeadComponent />
         <main id="main">
           {/* ======= Our Portfolio Section ======= */}
