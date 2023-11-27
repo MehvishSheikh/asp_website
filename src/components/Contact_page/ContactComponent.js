@@ -1,6 +1,7 @@
 import React from 'react'
 import HeadComponent from '../HeadComponent'
 import FooterComponent from '../FooterComponent'
+import ContactForm from './ContactReact'
 
 const ContactComponent = () => {
   return (
@@ -71,7 +72,8 @@ const ContactComponent = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <form
+          <ContactForm/>
+            {/* <form
               action="forms/contact.php"
               method="post"
               role="form"
@@ -135,8 +137,10 @@ We’re here to help and answer any question you might have. We look forward to 
               <div className="text-center">
                 <button type="submit">Send Message</button>
               </div>
-            </form>
+            </form> */}
           </div>
+{/* 
+          <ContactForm/> */}
         </div>
       </div>
     </section>
