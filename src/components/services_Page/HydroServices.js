@@ -147,7 +147,7 @@ const HydroServices = () => {
 
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Assist to imply easierregulatory compliance.
+                                        <i className="bi bi-check" /> Assist to imply easier regulatory compliance.
 
                                     </li>
                                     <li>
