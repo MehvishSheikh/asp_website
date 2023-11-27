@@ -309,7 +309,7 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5 order-1 order-md-2">
-                                <img src="assets/img/features-1.jpg" className="img-fluid" alt="" />
+                                <img src="assets/img/service-details-1.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5 order-2 order-md-1">
 
