@@ -140,10 +140,14 @@ const HydroServices = () => {
                                 <ul>
                                     
                                     <li>
-                                        <i className="bi bi-check" /> Study of Sources of availability of surface water for Industrial use, if any
+                                        <i className="bi bi-check" /> Assessment to increased system performance.
                                     </li>
                                     <li>
-                                        <i className="bi bi-check" /> Preparation / Details of water requirement /recycled water usage (STP/ ETP)
+                                        <i className="bi bi-check" /> Assist to achieve higher water efficiency.
+
+                                    </li>
+                                    <li>
+                                        <i className="bi bi-check" /> Assist to imply easierregulatory compliance.
 
                                     </li>
                                     <li>
