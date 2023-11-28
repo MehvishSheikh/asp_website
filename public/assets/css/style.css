@@ -248,11 +248,11 @@ h6,
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #1e49b6;
   font-size: 28px;
   cursor: pointer;
   display: none;
-  line-height: 0;
+  line-height: 1;
   transition: 0.5s;
 }
 
@@ -266,7 +266,78 @@ h6,
   }
 }
 
+/* Mobile Navigation Styles */
 .navbar-mobile {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 15%;
+  background-color: #1e4356;
+  overflow-y: auto;
+  transition:0.3s;
+  width:80%;
+  height:57%;
+  border-radius: 4%;
+  /* z-index: 1000; */
+}
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  bottom: 15px;
+  left: 5px;
+  padding: 3px 0;
+/*   
+  overflow-y: auto; */
+  transition: 0.3s;
+}
+
+/* .navbar-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+.navbar-mobile li {
+  padding: 10px;
+  border-bottom: 1px solid #fff; 
+}
+
+.navbar-mobile a {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+
+.navbar-mobile .dropdown {
+  position: relative;
+}
+
+.navbar-mobile .dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /* background-color: #f4090df0;  */
+  z-index: 1001;
+}
+
+.navbar-mobile .dropdown:hover ul {
+  display: block;
+}
+
+.navbar-mobile .dropdown li {
+  border-bottom: 1px solid #fff; 
+  background-color: #18d26e;
+}
+
+/* Adjust styles as needed based on your design preferences */
+
+
+/* .navbar-mobile {
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -314,8 +385,10 @@ h6,
   margin: 15px;
 }
 
+
+
 .navbar-mobile .dropdown ul {
-  position: static;
+  position: relative;
   display: none;
   margin: 10px 20px;
   padding: 10px 0;
@@ -346,11 +419,12 @@ h6,
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
-}
+} */
+
 
 /*--------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+-------------------------------------------------------f-------*/
 /* #hero {
   width: 100%;
   height: 90vh;
