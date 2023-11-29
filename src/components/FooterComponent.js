@@ -41,7 +41,7 @@ const FooterComponent = () => {
                                     <li>
                                         <i className="bx bx-chevron-right" /> <Link to="/About">About us</Link>
                                     </li>
-                                    <div className="social-links mt-3">
+                                    {/* <div className="social-links mt-3">
                                     <a href="#" className="twitter">
                                         <i className="bx bxl-twitter" />
                                     </a>
@@ -54,7 +54,7 @@ const FooterComponent = () => {
                                     <a href="#" className="linkedin">
                                         <i className="bx bxl-linkedin" />
                                     </a>
-                                </div>
+                                </div> */}
                                     
                                     
                                 </ul>

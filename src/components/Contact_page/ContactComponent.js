@@ -55,7 +55,20 @@ const ContactComponent = () => {
                   <i className="bx bx-envelope" />
                   <h3>Email Us</h3>
                   <p>
-                  aspcspl22@gmail.com
+                  aspcspl22@gmail.com<br/>
+                  skc@aspcspl.com<br/>
+                  pravin@aspcspl.com<br/>
+                  
+                  
+                  
+                  </p>
+                </div>
+                <div className="info-box">
+                 
+                  <h3>Support</h3>
+                  <p>
+                  support@aspcspl.com
+          
                   </p>
                 </div>
               </div>
@@ -63,6 +76,7 @@ const ContactComponent = () => {
                 <div className="info-box">
                   <i className="bx bx-phone-call" />
                   <h3>Call Us</h3>
+                  <br/>
                   <p>
                   +91 7972657590 
 
@@ -71,6 +85,17 @@ const ContactComponent = () => {
                     +91  8830763438
                   </p>
                 </div>
+                <div className="info-box">
+                 
+                  <h3>Accounts</h3>
+                  <p>
+                  accounts@aspcspl.com<br/>
+          
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6">
+                
               </div>
             </div>
           </div>
