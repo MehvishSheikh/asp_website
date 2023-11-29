@@ -87,7 +87,7 @@ const AboutComponent = () => {
                         <div className="col-lg-12 d-flex flex-column justify-content-center p-5">
                             <div className="icon-box">
                                 <div className="icon">
-                                    <i className="bi bi-buildings" />
+                                    <i className="bi bi-moisture" />
                                 </div>
                                 <h2 className="title">
                                     <Link to="/HydroServices">Hydrogeological Services</Link>
@@ -135,7 +135,7 @@ Using advanced geophysical survey methods, we explore groundwater resources to p
                         <div className="col-lg-12 d-flex flex-column justify-content-center p-5">
                             <div className="icon-box">
                                 <div className="icon">
-                                    <i className="bi bi-buildings" />
+                                    <i className="bi bi-pc-display" />
                                 </div>
                                 <h2 className="title">
                                     <Link to="/HydroServices">IT Services</Link>

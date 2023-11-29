@@ -116,7 +116,7 @@ const HomeMidComponent = () => {
                             <div className="col-lg-8 d-flex flex-column justify-content-center p-5">
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-buildings" />
+                                        <i className="bi bi-database-check" />
                                     </div>
                                     <h5 className="title">
                                         <a href="">Data Precision at its Core</a>
@@ -128,7 +128,7 @@ const HomeMidComponent = () => {
                                 </div>
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-building-gear" />
+                                        <i className="bi bi-award" />
                                     </div>
                                     <h5 className="title">
                                         <a href="">Crafting solutions for Success </a>
@@ -140,10 +140,10 @@ const HomeMidComponent = () => {
                                 
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <i className="bi bi-minecart-loaded" />
+                                        <i className="bi bi-graph-up-arrow" />
                                     </div>
                                     <h5 className="title">
-                                        <a href="">Strategy Partnerships ,Lasting impact</a>
+                                        <a href="">Strategy Partnerships and Lasting impact</a>
                                     </h5>
                                     <p className="description">
                                     We don't just consult ; we strategically partner with you for enduring solutions, be it hydrogeological challenges or digital transformation.
