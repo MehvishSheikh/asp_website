@@ -984,6 +984,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+
 }
 
 .section-title h2 {
@@ -992,6 +993,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+ 
 }
 
 .section-title h2::before {
@@ -1066,6 +1068,8 @@ section {
     display: inline-block;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Our Services
@@ -1436,6 +1440,15 @@ section {
   transition: 0.9s;
 }
 
+
+.it_title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 1px;
+  padding-bottom: 3px;
+  position: relative;
+  color: #4a9bde; /* Replace #FF0000 with the color code you want */
+}
 /*--------------------------------------------------------------
 # Tetstimonials
 --------------------------------------------------------------*/
