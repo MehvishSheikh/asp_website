@@ -4,13 +4,14 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function ContactForm() {
-  const [to, setTo] = useState('');
+  const [name, setName] = useState('');
+  const [emailid, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [text, setText] = useState('');
 
   const handleSendEmail = async () => {
     try {
-      const response = await axios.post('http://localhost:3001/send-email', { to, subject, text });
+      const response = await axios.post('http://localhost:3001/send-email', { name, emailid, subject, text });
       console.log('Server response:', response.data);
       alert('Email sent successfully!');
     } catch (error) {
@@ -44,6 +45,8 @@ We’re here to help and answer any question you might have. We look forward to 
                   <input
                     type="text"
                     name="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     className="form-control"
                     id="name"
                     placeholder="Your Name"
@@ -53,8 +56,8 @@ We’re here to help and answer any question you might have. We look forward to 
                 <div className="col-md-6 form-group mt-3 mt-md-0">
                   <input
                     type="email"
-                    value={to}
-                    onChange={(e) => setTo(e.target.value)}
+                    value={emailid}
+                    onChange={(e) => setEmail(e.target.value)}
                     className="form-control"
                     name="email"
                     id="email"
