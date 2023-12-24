@@ -19,13 +19,13 @@ const transporter = nodemailer.createTransport({
 });
 
 app.post('/send-email', (req, res) => {
-  const { to, subject, text } = req.body;
-     const emailid=to.toString;
+  const { name,emailid, subject, text } = req.body;
+      
   const mailOptions = {
     from: 'sahajichau99@gmail.com', // replace with your email
     to: 'sheikhms_3@rknec.edu',
     subject: subject,
-    text: text+{emailid}
+    text: `Name: ${name}\nEmail: ${emailid}\n\n${text}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
