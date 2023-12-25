@@ -19,8 +19,12 @@ const HomeBackComponents = () => {
       {/* Slide 1 */}
       <div className="carousel-item active">
         <div className="carousel-container">
+          <br/>
+          <br/>
+          <br/>
           <h2 className="animate__animated animate__fadeInDown">
             Welcome to <span>ASP <br/>
+            
             <h3>Consultancy Services Pvt Ltd.</h3></span>
           </h2>
           <p className="animate__animated fanimate__adeInUp">
