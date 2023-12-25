@@ -1,4 +1,5 @@
 {
+  "start":"node server.js",
   "name": "bootstrap",
   "version": "0.1.0",
   "private": true,
