@@ -64,15 +64,15 @@ const FooterComponent = () => {
                                 <ul>
                                 <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">IT Services</a>
+                                        <Link to="/IT-Services">IT Services</Link>
                                     </li>
                                     <li>
-                                        <i className="bx bx-chevron-right" /> <a href="#"> Hydrogeological Services </a>
+                                        <i className="bx bx-chevron-right" /> <Link to="/HydroServices">Hydrogeological Services</Link> 
                                     </li>
                                     
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="#">Instruments</a>
+                                        <Link to="/Instruments">Instruments</Link>
                                     </li>
                                     {/* <li>
                                         <i className="bx bx-chevron-right" /> <a href="#">Marketing</a>
@@ -84,7 +84,7 @@ const FooterComponent = () => {
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-contact">
-                                <h4>Contact Us</h4>
+                            <Link to="/Contact"><h4>Contact Us</h4></Link>
                                 <p>
                                     Plot No. 44, Chhatrapati Nagar , <br />
                                     Wardha Road , <br/>
