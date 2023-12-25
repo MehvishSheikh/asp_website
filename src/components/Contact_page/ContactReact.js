@@ -9,16 +9,31 @@ function ContactForm() {
   const [subject, setSubject] = useState('');
   const [text, setText] = useState('');
 
-  const handleSendEmail = async () => {
-    try {
-      const response = await axios.post('http://localhost:3001/send-email', { name, emailid, subject, text });
-      console.log('Server response:', response.data);
-      alert('Email sent successfully!');
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Error sending email. Check console for details.');
-    }
-  };
+  // const handleSendEmail = async () => {
+  //   try {
+  //     const response = await axios.post('http://localhost:3001/send-email', { name, emailid, subject, text });
+  //     console.log('Server response:', response.data);
+  //     alert('Email sent successfully!');
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     alert('Error sending email. Check console for details.');
+  //   }
+  // };
+
+  const API_URL = process.env.NODE_ENV === 'development'
+  ? 'http://localhost:3001'
+  : 'https://asp-services.vercel.app';
+
+const handleSendEmail = async () => {
+  try {
+    const response = await axios.post('${API_URL}/send-email', { name, emailid, subject, text });
+    console.log('Server response:', response.data);
+    alert('Email sent successfully!');
+  } catch (error) {
+    console.error('Error sending email:', error);
+    alert('Error sending email. Check console for details.');
+  }
+};
   return (
     <div className="container">
         <div className="contact-form">
