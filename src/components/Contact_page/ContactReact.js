@@ -20,13 +20,13 @@ function ContactForm() {
   //   }
   // };
 
-  const API_URL = process.env.NODE_ENV === 'development'
-  ? 'http://localhost:3001'
-  : 'https://asp-services.vercel.app';
+  // const API_URL = process.env.NODE_ENV === 'development'
+  // ? 'http://localhost:3001'
+  // : 'https://asp-services.vercel.app';
 
 const handleSendEmail = async () => {
   try {
-    const response = await axios.post('${API_URL}/send-email', { name, emailid, subject, text });
+    const response = await axios.post('https://asp-api.vercel.app/api/send-email', { name, emailid, subject, text });
     console.log('Server response:', response.data);
     alert('Email sent successfully!');
   } catch (error) {
