@@ -2791,3 +2791,10 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+
+.error-message {
+  color: red;
+  margin-top: 5px; /* Adjust the spacing as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+}
