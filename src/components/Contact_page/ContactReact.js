@@ -234,21 +234,29 @@ function ContactForm() {
             <div className="error-message">{textError}</div>
           </div>
           <div className="my-3"></div>
+          
           <div className="text-center">
+          <div className="buttonstyle">
             <button
               type="submit"
               onClick={handleSendEmail}
-              style={{
-                backgroundColor: 'skyblue',
-                color: 'white',
-                padding: '10px 20px',
-                border: 'none',
-                borderRadius: '5px',
-                cursor: 'pointer',
-              }}
+              // style={{
+              //   backgroundColor: 'skyblue',
+              //   color: 'white',
+              //   padding: '10px 20px',
+              //   border: 'none',
+              //   borderRadius: '5px',
+              //   cursor: 'pointer',
+                // animation: 'both',
+                // transition: 'transform 0.5s ease',
+                  
+                
+                  
+              
             >
               Send Message
             </button>
+            </div>
           </div>
         </div>
       </div>
