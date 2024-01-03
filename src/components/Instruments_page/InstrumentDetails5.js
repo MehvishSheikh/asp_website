@@ -9,11 +9,10 @@ const InstrumentDetails5 = () => {
       <>
         <HeadComponent />
         <main id="main">
-          {/* ======= Our Portfolio Section ======= */}
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2> SP-85 </h2>
+                <h2> PARTH_1000 (GNSS RECIEVER) </h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -21,13 +20,12 @@ const InstrumentDetails5 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> SP-85 detail </li>
+                  <li> PARTH_1000 (GNSS RECIEVER) details </li>
                 </ol>
               </div>
             </div>
           </section>
-          {/* End Our Portfolio Section */}
-          {/* ======= Portfolio Details Section ======= */}
+          
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
@@ -35,7 +33,7 @@ const InstrumentDetails5 = () => {
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
-                        <img src="assets/img/portfolio/sp-85.jpg" alt="" />
+                        <img src="assets/img/portfolio/parth.png" alt="" />
                       </div>
                       <div className="swiper-slide">
                         <img src="assets/img/portfolio/montana680.jpg" alt="" />
@@ -49,7 +47,7 @@ const InstrumentDetails5 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>SP-85 information</h3>
+                    <h3>PARTH-1000 (GNSS RECIEVER)</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: DGPS (Differential Global Positioning System)
@@ -61,40 +59,26 @@ const InstrumentDetails5 = () => {
                         <strong>Instrument Type</strong>: DGPS
                       </li>
                       <li>
-                        <strong>Instrument Name</strong>: SP-85
+                        <strong>Instrument Name</strong>: PARTH_1000
                       </li>
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>SP-85 detail</h2>
+                    <h2>PARTH-1000</h2>
                     <p>
-                      The Spectra Geospatial® SP85 is a next generation GNSS receiver that combines
-                      decades of GNSS RTK technology with revolutionary new GNSS processing.
-                      Featuring the new 600-channel “7G” chipset combined with the patented Z-Blade
-                      technology, the SP85 system is optimized for tracking and processing
-                      signals from all GNSS constellations in challenging environments. With unmatched
-                      connectivity in the GNSS receiver market, the SP85 offers a unique combination of 
-                      integrated 3.5G cellular, WiFi and UHF communications with SMS, email and anti-theft technology.
+                      
 
-                      • 600 GNSS channels
-                      • GPS		• GLONASS
-                      • Beidou		• Galileo
-                      • SBAS		• IRNSS
-                      REAL-TIME ACCURACY (RMS)
-                      SBAS (WAAS/EGNOS/MSAS/GAGAN)
-                      • Horizontal: is less than 50 cm	• Vertical: is less than 85 cm
-                      Real-Time DGPS position
-                      • Horizontal: 25 cm + 1 ppm	• Vertical: 50 cm + 1 ppm
-                      Real-Time Kinematic Position (RTK)
-                      • Horizontal: 8 mm + 1 ppm	• Vertical: 15 mm + 1 ppm
-                      Network RTK
-                      • Horizontal: 8 mm + 0.5 ppm	• Vertical: 15 mm + 0.5 ppm
-                      POST-PROCESSING ACCURACY (RMS)
-                      Static & Fast Static
-                      • Horizontal: 3 mm + 0.5 ppm	• Vertical: 5 mm + 0.5 ppm
-                      High-Precision Static
-                      • Horizontal: 3 mm + 0.1 ppm	• Vertical: 3.5 mm + 0.4 ppm
-
+                      • IRNSS enable<br/>
+                      • 965 channels <br/>
+                      • GPS L1/L2/L5, BeiDou B1/B2/B3, <br/>
+                      • BeiDou Global B1C/B2a, <br/>
+                      • GLONASS L1/L2, Galileo E1/E5a/E5b and SBAS <br/>
+                      • Advanced QUANTUMTM Technology WIFI/UHF/4G Module <br/>
+                      • Tilt Compensation<br/>
+                      • Smart Battery Design(Hot SwapBattery)<br/>
+                      • Low Power Consumption<br/>
+                      
+                      
 
 
                     </p>
@@ -103,9 +87,9 @@ const InstrumentDetails5 = () => {
               </div>
             </div>
           </section>
-          {/* End Portfolio Details Section */}
+         
         </main>
-        {/* End #main */}
+    
         <FooterComponent />
       </>
 

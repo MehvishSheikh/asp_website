@@ -9,7 +9,6 @@ const InstrumentDetails = () => {
       <>
         <HeadComponent />
         <main id="main">
-          {/* ======= Our Portfolio Section ======= */}
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
@@ -26,8 +25,6 @@ const InstrumentDetails = () => {
               </div>
             </div>
           </section>
-          {/* End Our Portfolio Section */}
-          {/* ======= Portfolio Details Section ======= */}
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">

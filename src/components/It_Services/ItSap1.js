@@ -83,9 +83,6 @@ const ItSap1 = () => {
                 <h4 className="title">
                  Services and priorities
                 </h4>
-                {/* <p className="description">
-                  Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
-                </p> */}
               </div>
               
             
@@ -104,9 +101,6 @@ const ItSap1 = () => {
                 <h4 className="title">
                 SAP Analytics Cloud (SAC)
                 </h4>
-                {/* <p className="description">
-                  Experts in hydrogeological services and groundwater assessments.
-                </p> */}
               </div>
               
               </Link>
@@ -122,9 +116,6 @@ const ItSap1 = () => {
                 <h4 className="title">
                 SAP S/4 Hana - Embedded Analytics
                 </h4>
-                {/* <p className="description">
-                  Leading IT services provider, for seamless digital transformation.
-                </p> */}
               </div>
               
               </Link>
@@ -140,9 +131,6 @@ const ItSap1 = () => {
                 <h4 className="title">
                 SAP Planning Architectures
                 </h4>
-                {/* <p className="description">
-                  Cutting-edge instruments for precise data collection and analysis.
-                </p> */}
               </div>
               
               </Link>
