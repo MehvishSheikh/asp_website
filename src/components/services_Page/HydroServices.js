@@ -123,6 +123,10 @@ const HydroServices = () => {
                                         <i className="bi bi-check" />  Geophysical studies for ground water abstraction of the existing or proposed project premises.
 
                                     </li>
+                                    <li>
+                                        <i className="bi bi-check" />  Water Audit.
+
+                                    </li>
                                     
                                 </ul>
                             </div>
