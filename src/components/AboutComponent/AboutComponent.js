@@ -95,7 +95,7 @@ const AboutComponent = () => {
               <li>
                 <i className="bi bi-check2-circle" /> <b>
  Groundwater Studies for Industries , Infrastructure and Mining Projects : </b>
-Harnessing the power of sustainable water resources, we conduct comprehensive hydrogeological studies to support industries and mining projects. Our expertise ensures effective water management for optimal project outcomes.
+Harnessing the power of sustainable water resources, we conduct comprehensive hydrogeological studies to support various projects. Our expertise ensures effective water management for optimal project outcomes.
               </li>
               
               <li>
@@ -187,20 +187,20 @@ Using advanced geophysical survey methods, we explore groundwater resources to p
     <section className="testimonials" data-aos="fade-up">
       <div className="container">
         <div className="section-title">
-          <h2>Testimonials</h2>
-          <p>
+          {/* <h2>Testimonials</h2> */}
+          {/* <p>
           Our clients speak volumes about our exceptional services.
           Discover the testimonials that reflect our commitment 
           to excellence and client satisfaction.Exceptional team and
           outstanding services! The company's ability to solve complex challenges
           have greatly benefited our projects.
-          </p>
-          <p>
+          </p> */}
+          {/* <p> */}
                 {/* <i className="bx bxs-quote-alt-left quote-icon-left" /> */}
-                " We encourage each of you to embrace challenges as opportunities,
-                 innovate fearlessly, and foster a collaborative to achieve remarkable milestones."
+                {/* " We encourage each of you to embrace challenges as opportunities,
+                 innovate fearlessly, and foster a collaborative to achieve remarkable milestones." */}
                 {/* <i className="bx bxs-quote-alt-right quote-icon-right" /> */}
-              </p>
+              {/* </p> */}
         </div>
         <div className="testimonials-carousel swiper">
           <div className="swiper-wrapper">

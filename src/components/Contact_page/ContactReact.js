@@ -5,11 +5,13 @@ function ContactForm() {
   const [emailid, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [text, setText] = useState('');
+  const [mobile, setMobile] = useState('')
 
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [subjectError, setSubjectError] = useState('');
   const [textError, setTextError] = useState('');
+  const [mobileError, setMobileError] = useState('');
 
   const handleSendEmail = async () => {
     // Perform form validation before sending email
@@ -25,6 +27,13 @@ function ContactForm() {
       return;
     } else {
       setEmailError('');
+    }
+
+    if (!mobile || !/^\d{10}$/.test(mobile)) {
+      setMobileError('Please enter a valid mobile number');
+      return;
+    } else {
+      setMobileError('');
     }
 
     if (!subject) {
@@ -45,6 +54,7 @@ function ContactForm() {
       const response = await axios.post('https://asp-api.vercel.app/api/send-email', {
         name,
         emailid,
+        mobile,
         subject,
         text,
       });
@@ -90,6 +100,20 @@ function ContactForm() {
                 required=""
               />
               <div className="error-message">{emailError}</div>
+            </div>
+            <br/>
+            <div className="col-md-6 form-group mt-3 mt-md-0">
+              <input
+                type="text"
+                value={mobile}
+                onChange={(e) => setMobile(e.target.value)}
+                className="form-control"
+                name="mobile"
+                id="mobile"
+                placeholder="Your Mobile No."
+                required=""
+              />
+              <div className="error-message">{mobileError}</div>
             </div>
           </div>
           <div className="form-group mt-3">
