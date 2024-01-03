@@ -9,7 +9,7 @@ const HydroServices = () => {
     <div>
         <HeadComponent />
         <main id="main">
-          {/* ======= Our Portfolio Section ======= */}
+         
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
@@ -194,104 +194,10 @@ const HydroServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* <div className="row" data-aos="fade-up">
-                            <div className="col-md-5 order-1 order-md-2">
-                                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-md-7 pt-5 order-2 order-md-1">
-                                <h3>
-                                    Other Services
-                                </h3>
-                                <p className="fst-italic">
-                                In addition to our advanced instruments, we offer a 
-                                    comprehensive suite of services aimed at enhancing 
-                                    geoscientific research and water resource management.
-                                    
-                                    
-                                </p>
-                                <p>
-                                Our expert team provides tailored consultancy services,
-                                    precise data analysis, geophysical surveys, and groundwater
-                                    modeling to  to optimize processes. 
-                                   
-                                </p>
-                            </div>
-                        </div> */}
                     </div>
                 </section>
-          
-          {/* <section className="breadcrumbs">
-          <section id="portfolio-details" className="portfolio-details">
-            <div className="container">
-              <div className="row gy-4">
-                <div className="col-lg-5">
-                  <div className="portfolio-details-slider swiper">
-                    <div className="swiper-wrapper align-items-center">
-                      <div className="swiper-slide">
-                        <img src="assets/img/hydro1.jpg" alt="" />
-                        <br/>
-                        <br/>
-                        <br/>
-                        <img src="assets/img/hydro.jpg" alt="" />
-                        <br/>
-                        <br/>
-                        <br/>
-                        
-                        
-                      </div>
-                      <div className="swiper-slide">
-                        <img src="assets/img/portfolio/eTrex30x.jpg" alt="" />
-                      </div>
-                      <div className="swiper-slide">
-                        <img src="assets/img/portfolio/oregon750.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="swiper-pagination" />
-                  </div>
-                </div>
-                
-                <div className="col-lg-7">
-                  
-                  <h2>This service will have followings features / scope of work:</h2>
-                  <p className="card-text">
-                  
-Preparation of Groundwater Availability & Rain Water Harvesting report for ground water abstraction by visit and survey the industrial/Infrastructure/Mining areas as per the Guidelines of CGWA
-Site visit / field survey of the project area as per the Guidelines of CGWA
-Preparation of Recharge proposal / report for ground water abstraction by Land use plan / details of the existing/proposed Industrial unit premises
-Online submission of report to CGWA (Central Ground Water Authority)
-Response to queries, if any raised by CGWB/ CGWA
-Response to queries or presentation of entire work to CGWA, New Delhi if required for getting the approval and NOC.
-
-                </p>
-                  <div className="portfolio-description">
-                    <h2>We also carry out the following works.</h2>
-                    <p>
-                    Preparation of Groundwater availability report
-Compliance of NOC
-Implementation of Rain Water Harvesting Structures as per the guidelines of CGWA
-Dug well/Borewell Recharge
-Drainage Plan for the area (River/ nala, etc)
-Study of Sources of availability of surface water for Industrial use, if any
-Preparation / Details of water requirement /recycled water usage (STP/ ETP)
-Supply and Installation of Digital Water Meter
-Constructions of Piezo meters
-Supply and lnstallation of DWLR (Digital Water Level Recorder)
-Renewal of NOC
-Construction of Rainwater Harvesting Structure
-	Our team consists of competent professionals with extensive experience in their respective disciplines. Their expertise ensures quality service and support.
-
-
-                    </p>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-            </section>
-          </section> */}
         
         </main>
-        {/* End #main */}
         <FooterComponent />
           </div>
       

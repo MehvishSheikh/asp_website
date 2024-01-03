@@ -58,17 +58,6 @@ In addition to reviewing the architecture of your current SAP planning landscape
               </p>
 
             </div>
-
-            {/* <div className="icon-box">
-                                  <div className="icon">
-                                      <i className="bi bi-minecart-loaded" />
-                                  </div>
-                                  <h4 className="title">
-                                      <a href="">MINING</a>
-                                  </h4>
-              
-                              </div> */}
-
           </div>
         </div>
       </div>
@@ -89,9 +78,6 @@ In addition to reviewing the architecture of your current SAP planning landscape
               <h4 className="title">
                 Services and priorities
               </h4>
-              {/* <p className="description">
-                Comprehensive services tailored to diverse project needs, ensuring optimal outcomes and client satisfaction.
-              </p> */}
             </div>
             
             </Link>
@@ -108,9 +94,6 @@ In addition to reviewing the architecture of your current SAP planning landscape
               <h4 className="title">
               SAP Datasphere (formerly DWC)
               </h4>
-              {/* <p className="description">
-                Experts in hydrogeological services and groundwater assessments.
-              </p> */}
             </div>
             </Link>
           
@@ -126,9 +109,6 @@ In addition to reviewing the architecture of your current SAP planning landscape
               <h4 className="title">
               SAP Analytics Cloud (SAC)
               </h4>
-              {/* <p className="description">
-                Leading IT services provider, for seamless digital transformation.
-              </p> */}
             </div>
             
             </Link>
@@ -144,9 +124,6 @@ In addition to reviewing the architecture of your current SAP planning landscape
               <h4 className="title">
               SAP S/4 Hana - Embedded Analytics                                                                 
               </h4>
-              {/* <p className="description">
-                Cutting-edge instruments for precise data collection and analysis.
-              </p> */}
             </div>
             
             </Link>

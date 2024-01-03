@@ -11,24 +11,7 @@ const FooterComponent = () => {
                 data-aos-easing="ease-in-out"
                 data-aos-duration={500}
             >
-                {/* <div className="footer-newsletter">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <h4>Blog</h4>
-                                <p>
-                                    Our New Blogs
-                                </p>
-                            </div>
-                            <div className="col-lg-6">
-                                <form action="" method="post">
-                                    <input type="email" name="email" />
-                                    <input type="submit" defaultValue="Subscribe" />
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
@@ -40,22 +23,7 @@ const FooterComponent = () => {
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" /> <Link to="/About">About us</Link>
-                                    </li>
-                                    {/* <div className="social-links mt-3">
-                                    <a href="#" className="twitter">
-                                        <i className="bx bxl-twitter" />
-                                    </a>
-                                    <a href="#" className="facebook">
-                                        <i className="bx bxl-facebook" />
-                                    </a>
-                                    <a href="#" className="instagram">
-                                        <i className="bx bxl-instagram" />
-                                    </a>
-                                    <a href="#" className="linkedin">
-                                        <i className="bx bxl-linkedin" />
-                                    </a>
-                                </div> */}
-                                    
+                                    </li>                                   
                                     
                                 </ul>
                             </div>
@@ -110,22 +78,6 @@ const FooterComponent = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="container">
-                    <div className="copyright">
-                        © Copyright{" "}
-                        <strong>
-                            <span>Moderna</span>
-                        </strong>
-                        . All Rights Reserved
-                    </div> */}
-                    {/* <div className="credits"> */}
-                        {/* All the links in the footer should remain intact. */}
-                        {/* You can delete the links only if you purchased the pro version. */}
-                        {/* Licensing information: https://bootstrapmade.com/license/ */}
-                        {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ */}
-                        {/* Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> */}
-                    {/* </div> */}
-                {/* </div> */}
             </footer>
         </div>
     )

@@ -9,11 +9,10 @@ const InstrumentDetails6 = () => {
       <>
         <HeadComponent />
         <main id="main">
-          {/* ======= Our Portfolio Section ======= */}
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2> SP-80 </h2>
+                <h2> SP-60 </h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -21,13 +20,11 @@ const InstrumentDetails6 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> SP-80 detail </li>
+                  <li> SP-60 detail </li>
                 </ol>
               </div>
             </div>
           </section>
-          {/* End Our Portfolio Section */}
-          {/* ======= Portfolio Details Section ======= */}
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
@@ -35,7 +32,7 @@ const InstrumentDetails6 = () => {
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
-                        <img src="assets/img/portfolio/sp-80.jpg" alt="" />
+                        <img src="assets/img/portfolio/sp-60.png" alt="" />
                       </div>
                       <div className="swiper-slide">
                         <img src="assets/img/portfolio/montana680.jpg" alt="" />
@@ -49,7 +46,7 @@ const InstrumentDetails6 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>SP-80 information</h3>
+                    <h3>SP-60 information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: DGPS (Differential Global Positioning System)
@@ -61,35 +58,32 @@ const InstrumentDetails6 = () => {
                         <strong>Instrument Type</strong>: DGPS
                       </li>
                       <li>
-                        <strong>Instrument Name</strong>: SP-80
+                        <strong>Instrument Name</strong>: SP-60
                       </li>
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>SP-80 detail</h2>
+                    <h2>SP-60 GNSS RECEIVER detail</h2>
                     <p>
-                      The SP80's Z-Blade GNSS-centric technology delivers fast
-                      and reliable GNSS positioning utilizing all available GNSS signals
-                      to produce the optimal solution even in challenging environments.
-                      GNSS CHARACTERISTICS
+                    The Spectra Geospatial SP60 is a new generation GNSS receiver <br/>
+offering a high level of flexibility to cover any demand from GIS<br/>
+all the way up to sophisticated RTK and Trimble RTX™ capable<br/>
+solutions. <br/>
+<br/>
 
-                      • 240 GNSS channels
-                      • GPS	• GLONASS	• BeiDou
-                      • Galileo
-                      • SBAS
-                      REAL-TIME ACCURACY (RMS)
-                      SBAS (WAAS/EGNOS/MSAS/GAGAN)
-                      • Horizontal: is less than 50 cm
-                      • Vertical: is less than 85 cm
-                      Real-Time DGPS position
-                      • Horizontal: 25 cm	• Vertical: 50 cm
-                      Real-Time Kinematic position (RTK)
-                      • Horizontal: 8 mm	• Vertical: 15 mm
-                      POST-PROCESSING ACCURACY (RMS)
-                      Static & Fast static
-                      • Horizontal: 3 mm	• Vertical: 5 mm
-                      High-Precision Static
-                      • Horizontal: 3 mm	• Vertical: 3.5 mm
+Combining the unique all-signals-tracking and processing Z-Blade <br/>
+GNSS-centric technology and L-band capability for satellitedelivered Trimble RTX correction services, the SP60 receiver <br/>
+provides the most reliable measurements and the highest <br/>
+possible accuracy under any conditions anywhere in the world.<br/>
+<br/>
+KEY FEATURES:<br/>
+• Extended scalability<br/>
+• Z-Blade GNSS-centric technology<br/>
+• 240-channel 6G ASIC<br/>
+• Anti-theft technology<br/>
+• Long Range Bluetooth<br/>
+• Trimble RTX correction services<br/>
+                    
 
 
                     </p>
@@ -98,9 +92,7 @@ const InstrumentDetails6 = () => {
               </div>
             </div>
           </section>
-          {/* End Portfolio Details Section */}
         </main>
-        {/* End #main */}
         <FooterComponent />
       </>
 

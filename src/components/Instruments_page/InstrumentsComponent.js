@@ -10,7 +10,6 @@ const InstrumentsComponent = () => {
      
         <HeadComponent />
         <main id="main">
-          {/* ======= Our Portfolio Section ======= */}
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
@@ -24,8 +23,6 @@ const InstrumentsComponent = () => {
               </div>
             </div>
           </section>
-          {/* End Our Portfolio Section */}
-          {/* ======= Portfolio Section ======= */}
           <section className="portfolio">
             <div className="container">
               <div className="row">
@@ -151,15 +148,15 @@ const InstrumentsComponent = () => {
                 <Link to="/InstrumentDetails5">
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/sp-85.jpg"
+                      src="assets/img/portfolio/parth.png"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3>DGPS SP-85</h3>
+                      <h3>PARTH - 1000</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/sp-85.jpg"
+                          href="assets/img/portfolio/parth.png"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="Web 2"
@@ -176,15 +173,15 @@ const InstrumentsComponent = () => {
                 <Link to="/InstrumentDetails6">
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/sp-80.jpg"
+                      src="assets/img/portfolio/sp-60.png"
                       className="img-fluid"
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3>DGPS SP-80</h3>
+                      <h3>DGPS SP-60</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/sp-80.jpg"
+                          href="assets/img/portfolio/sp-60.png"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 3"
@@ -300,9 +297,7 @@ const InstrumentsComponent = () => {
               </div>
             </div>
           </section>
-          {/* End Portfolio Section */}
         </main>
-        {/* End #main */}
         <FooterComponent />
 
         <a

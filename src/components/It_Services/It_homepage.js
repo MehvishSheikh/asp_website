@@ -64,11 +64,6 @@ const It_homepage = () => {
                   <h3 className="sidebar-title">Services</h3>
                   <div className="sidebar-item categories">
                     <ul>
-                      {/* <li>
-                    <a href="#">
-                      General <span>(25)</span>
-                    </a>
-                  </li> */}
                       <li>
                         <Link to="/IT-1">
 
@@ -186,15 +181,11 @@ const It_homepage = () => {
                   </li>
                 </ul>
               </div> */}
-                  {/* End sidebar tags*/}
                 </div>
-                {/* End sidebar */}
               </div>
-              {/* End blog sidebar */}
             </div>
           </div>
         </section>
-        {/* End Blog Section */}
         <section className="services">
           <div className="section-title">
             <h2>Service Features</h2></div>
@@ -213,9 +204,7 @@ const It_homepage = () => {
                   <h4 className="title">
                     SAP Analytics Implementation Consulting
                   </h4>
-                  {/* <p className="description">
-                                    Experts in hydrogeological services and groundwater assessments.
-                                    </p> */}
+                  
                 </div>
 
               </Link>
@@ -231,9 +220,7 @@ const It_homepage = () => {
                   <h4 className="title">
                     SAP Analytics Strategy Consulting
                   </h4>
-                  {/* <p className="description">
-                                    Leading IT services provider, for seamless digital transformation.
-                                    </p> */}
+                
                 </div>
 
               </Link>
@@ -249,10 +236,7 @@ const It_homepage = () => {
                   <h4 className="title">
                     SAP Analytics Process Consulting
                   </h4>
-                  {/* <p className="description">
-                                    Cutting-edge instruments for precise data collection and analysis.
-                                    
-                                    </p> */}
+                
                 </div>
 
               </Link>
