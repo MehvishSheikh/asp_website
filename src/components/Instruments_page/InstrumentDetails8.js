@@ -20,7 +20,7 @@ const InstrumentDetails8 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> Digital Water Level Recorder (DWLR) detail </li>
+                  <li> Digital Water Level Recorder (DWLR) </li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails8 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>Digital Water Level Recorder (DWLR) information</h3>
+                    <h3>Digital Water Level Recorder (DWLR) Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Digital Water Level Recorder (DWLR)
@@ -64,7 +64,7 @@ const InstrumentDetails8 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>Digital Water Level Recorder (DWLR)</h2>
+                    <h2>Digital Water Level Recorder (DWLR) Details</h2>
                     <p>
                       Application <br /><br />
                       Digital Water Level Recorder (DWLR),

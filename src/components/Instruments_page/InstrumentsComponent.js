@@ -52,16 +52,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>eTrex 22x</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/etrex22.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 1"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -78,16 +69,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>eTrex 32x</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/etrex32.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 3"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -103,17 +85,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>OREGON 750</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/oregon750.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 2"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -129,16 +101,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>MONTANA 680</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/montana680.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 3"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -154,16 +117,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>PARTH - 1000</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/sp-60.png"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="Web 2"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -179,16 +133,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>DGPS SP-60</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/parth.png"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 3"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -204,16 +149,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>Aquameter CRM</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/Aquameter.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="Card 1"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -229,16 +165,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>DWLR</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/DWLR.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="Card 3"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -254,16 +181,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>Telemetry</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/UD.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="Web 1"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>
@@ -279,16 +197,7 @@ const InstrumentsComponent = () => {
                     />
                     <div className="portfolio-info">
                       <h3>EWLI/EWLS</h3>
-                      <div>
-                        <a
-                          href="assets/img/portfolio/WLI.jpg"
-                          data-gallery="portfolioGallery"
-                          className="portfolio-lightbox"
-                          title="App 1"
-                        >
-                          <i className="bx bx-plus" />
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                   </Link>

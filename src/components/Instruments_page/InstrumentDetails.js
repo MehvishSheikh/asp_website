@@ -12,7 +12,7 @@ const InstrumentDetails = () => {
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2>eTrex-22x Details</h2>
+                <h2>eTrex-22x</h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -46,7 +46,7 @@ const InstrumentDetails = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>eTrex-22x information</h3>
+                    <h3>eTrex-22x Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Global Positioning System
@@ -63,7 +63,7 @@ const InstrumentDetails = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>eTrex 22x detail</h2>
+                    <h2>eTrex 22x Details</h2>
                     <p>
                     2.2” sunlight-readable color display with 240 x 320 display pixels for improved readability<br/>
 Preloaded with TopoActive maps with routable roads and trails for cycling and hiking<br/></p>

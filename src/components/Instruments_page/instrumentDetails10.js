@@ -12,7 +12,7 @@ const InstrumentDetails10 = () => {
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2> Sounder (EWLI/ EWLS) </h2>
+                <h2>Digital Water Level Indicator/Sounder (EWLI/ EWLS) </h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ const InstrumentDetails10 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> Digital Water Level Indicator </li>
+                  <li> EWLI/ EWLS</li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails10 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>Sounder (EWLI/ EWLS) information</h3>
+                    <h3>Digital Water Level Indicator/Sounder (EWLI/ EWLS) Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Digital Water Level Indicator
@@ -66,7 +66,7 @@ const InstrumentDetails10 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>Digital Water Level Indicator/Sounder (EWLI/ EWLS)</h2>
+                    <h2>Digital Water Level Indicator/Sounder (EWLI/ EWLS) Details</h2>
                     <p>
                       <br />
                       <br />

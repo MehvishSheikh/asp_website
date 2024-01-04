@@ -20,7 +20,7 @@ const InstrumentDetails9 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> Ultrasonic Digital Water Flow Meter (Telemetry) detail </li>
+                  <li> Telemetry </li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails9 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>Ultrasonic Digital Water Flow Meter (Telemetry) information</h3>
+                    <h3>Ultrasonic Digital Water Flow Meter (Telemetry) Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Ultrasonic Digital Water Flow Meter
@@ -64,7 +64,7 @@ const InstrumentDetails9 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>Ultrasonic Digital Water Flow Meter (Telemetry)</h2>
+                    <h2>Ultrasonic Digital Water Flow Meter (Telemetry) Details</h2>
                     <p>
                       <br />
                       <br />

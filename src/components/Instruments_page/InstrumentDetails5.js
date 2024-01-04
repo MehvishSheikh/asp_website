@@ -20,7 +20,7 @@ const InstrumentDetails5 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> SP-60 detail </li>
+                  <li> SP-60 </li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails5 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>SP-60 information</h3>
+                    <h3>SP-60 Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: DGPS (Differential Global Positioning System)
@@ -63,7 +63,7 @@ const InstrumentDetails5 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>SP-60 GNSS RECEIVER detail</h2>
+                    <h2>SP-60 GNSS RECEIVER Details</h2>
                     <p>
                     The Spectra Geospatial SP60 is a new generation GNSS receiver <br/>
 offering a high level of flexibility to cover any demand from GIS<br/>

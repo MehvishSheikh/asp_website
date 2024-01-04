@@ -12,7 +12,7 @@ const InstrumentDetails7 = () => {
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2> Resistivity Meter </h2>
+                <h2>Aquameter CRM</h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ const InstrumentDetails7 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> Resistivity Meter detail </li>
+                  <li>Aquameter CRM</li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails7 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>Resistivity Meter information</h3>
+                    <h3>Aquameter CRM Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Resistivity Meter
@@ -63,7 +63,7 @@ const InstrumentDetails7 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>Aquameter CRM Auto-D</h2>
+                    <h2>Aquameter CRM Details</h2>
                     <p>
                       Resistivity (geo-electrical) surveying is one of the most versatile and
                       successful geophysical prospecting methods for ground water prospecting

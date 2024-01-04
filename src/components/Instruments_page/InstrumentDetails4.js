@@ -20,7 +20,7 @@ const InstrumentDetails4 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> MONTANA 680 detail </li>
+                  <li> MONTANA 680 </li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails4 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>MONTANA 680 information</h3>
+                    <h3>MONTANA 680 Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>:Global Positioning System
@@ -63,7 +63,7 @@ const InstrumentDetails4 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>MONTANA 680 detail</h2>
+                    <h2>MONTANA 680 Details</h2>
                     <p>
                     Montana 680 features a bold 4 inches color touchscreen dual orientation 
                     display & supports multiple mapping options like BirdsEye™ Satellite Imagery

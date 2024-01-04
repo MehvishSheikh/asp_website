@@ -46,7 +46,7 @@ const InstrumentDetails2 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>eTrex-32x information</h3>
+                    <h3>eTrex-32x Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Global Positioning System
@@ -63,7 +63,7 @@ const InstrumentDetails2 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>eTrex 32x detail</h2>
+                    <h2>eTrex 32x Details</h2>
                     <p>
                     2.2” sunlight-readable color display with 240 x 320 display pixels for improved readability<br/>
 Preloaded with TopoActive maps with routable roads and trails for cycling and hiking<br/></p>

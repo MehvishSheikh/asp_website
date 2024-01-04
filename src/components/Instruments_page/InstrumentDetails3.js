@@ -20,7 +20,7 @@ const InstrumentDetails3 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> OREGON 750 detail </li>
+                  <li> OREGON 750  </li>
                 </ol>
               </div>
             </div>
@@ -46,7 +46,7 @@ const InstrumentDetails3 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>OREGON 750 information</h3>
+                    <h3>OREGON 750 Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: Global Positioning System
@@ -63,7 +63,7 @@ const InstrumentDetails3 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>OREGON 750 detail</h2>
+                    <h2>OREGON 750 Details</h2>
                     <p>
                       Oregon 750: With high-sensitivity GPS & GLONASS satellite tracking,
                       worldwide basemap with shaded relief & customizable buttons for 1-touch

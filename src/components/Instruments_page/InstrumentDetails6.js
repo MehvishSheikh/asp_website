@@ -20,7 +20,7 @@ const InstrumentDetails6 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> PARTH_1000 (GNSS RECIEVER) details </li>
+                  <li> PARTH-1000 (GNSS RECIEVER) details </li>
                 </ol>
               </div>
             </div>
@@ -47,7 +47,7 @@ const InstrumentDetails6 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>PARTH-1000 (GNSS RECIEVER)</h3>
+                    <h3>PARTH-1000 (GNSS RECIEVER) Information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: DGPS (Differential Global Positioning System)
@@ -64,7 +64,7 @@ const InstrumentDetails6 = () => {
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>PARTH-1000</h2>
+                    <h2>PARTH-1000 (GNSS RECIEVER) Details</h2>
                     <p>
                       
 
