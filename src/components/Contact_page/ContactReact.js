@@ -92,7 +92,7 @@ function ContactForm() {
               <input
                 type="text"
                 value={mobile}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => setMobile(e.target.value)}
                 className="form-control"
                 name="mobile"
                 id="mobile"
@@ -107,7 +107,7 @@ function ContactForm() {
               <input
                 type="email"
                 value={emailid}
-                onChange={(e) => setMobile(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
                 className="form-control"
                 name="email"
                 id="email"
