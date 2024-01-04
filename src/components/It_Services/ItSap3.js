@@ -18,7 +18,7 @@ const ItSap3 = () => {
           <h2> <b>SAP S/4 HANA - Embedded Analytics </b> </h2>
           <ol>
             <li>
-              <Link to='IT-Services'> IT-Services </Link>
+              <Link to="/IT-Services"> IT-Services </Link>
             </li>
             <li> SAP S/4 Hana </li>
           </ol>

@@ -12,7 +12,7 @@ const InstrumentDetails5 = () => {
           <section className="breadcrumbs">
             <div className="container">
               <div className="d-flex justify-content-between align-items-center">
-                <h2> PARTH_1000 (GNSS RECIEVER) </h2>
+                <h2> SP-60 </h2>
                 <ol>
                   <li>
                     <Link to="/">Home</Link>
@@ -20,12 +20,11 @@ const InstrumentDetails5 = () => {
                   <li>
                     <Link to="/Instruments">Instruments</Link>
                   </li>
-                  <li> PARTH_1000 (GNSS RECIEVER) details </li>
+                  <li> SP-60 detail </li>
                 </ol>
               </div>
             </div>
           </section>
-          
           <section id="portfolio-details" className="portfolio-details">
             <div className="container">
               <div className="row gy-4">
@@ -33,7 +32,7 @@ const InstrumentDetails5 = () => {
                   <div className="portfolio-details-slider swiper">
                     <div className="swiper-wrapper align-items-center">
                       <div className="swiper-slide">
-                        <img src="assets/img/portfolio/parth.png" alt="" />
+                        <img src="assets/img/portfolio/sp-60.png" alt="" />
                       </div>
                       <div className="swiper-slide">
                         <img src="assets/img/portfolio/montana680.jpg" alt="" />
@@ -47,7 +46,7 @@ const InstrumentDetails5 = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="portfolio-info">
-                    <h3>PARTH-1000 (GNSS RECIEVER)</h3>
+                    <h3>SP-60 information</h3>
                     <ul>
                       <li>
                         <strong>Category</strong>: DGPS (Differential Global Positioning System)
@@ -59,26 +58,32 @@ const InstrumentDetails5 = () => {
                         <strong>Instrument Type</strong>: DGPS
                       </li>
                       <li>
-                        <strong>Instrument Name</strong>: PARTH_1000
+                        <strong>Instrument Name</strong>: SP-60
                       </li>
                     </ul>
                   </div>
                   <div className="portfolio-description">
-                    <h2>PARTH-1000</h2>
+                    <h2>SP-60 GNSS RECEIVER detail</h2>
                     <p>
-                      
+                    The Spectra Geospatial SP60 is a new generation GNSS receiver <br/>
+offering a high level of flexibility to cover any demand from GIS<br/>
+all the way up to sophisticated RTK and Trimble RTX™ capable<br/>
+solutions. <br/>
+<br/>
 
-                      • IRNSS enable<br/>
-                      • 965 channels <br/>
-                      • GPS L1/L2/L5, BeiDou B1/B2/B3, <br/>
-                      • BeiDou Global B1C/B2a, <br/>
-                      • GLONASS L1/L2, Galileo E1/E5a/E5b and SBAS <br/>
-                      • Advanced QUANTUMTM Technology WIFI/UHF/4G Module <br/>
-                      • Tilt Compensation<br/>
-                      • Smart Battery Design(Hot SwapBattery)<br/>
-                      • Low Power Consumption<br/>
-                      
-                      
+Combining the unique all-signals-tracking and processing Z-Blade <br/>
+GNSS-centric technology and L-band capability for satellitedelivered Trimble RTX correction services, the SP60 receiver <br/>
+provides the most reliable measurements and the highest <br/>
+possible accuracy under any conditions anywhere in the world.<br/>
+<br/>
+KEY FEATURES:<br/>
+• Extended scalability<br/>
+• Z-Blade GNSS-centric technology<br/>
+• 240-channel 6G ASIC<br/>
+• Anti-theft technology<br/>
+• Long Range Bluetooth<br/>
+• Trimble RTX correction services<br/>
+                    
 
 
                     </p>
@@ -87,9 +92,7 @@ const InstrumentDetails5 = () => {
               </div>
             </div>
           </section>
-         
         </main>
-    
         <FooterComponent />
       </>
 

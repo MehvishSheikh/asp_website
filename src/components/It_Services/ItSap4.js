@@ -18,7 +18,7 @@ const ItSap4 = () => {
           <h2> <b> SAP PLANNING ARCHITECTURES </b> </h2>
           <ol>
             <li>
-              <Link to='IT-Services'> IT-Services </Link>
+              <Link to="/IT-Services"> IT-Services </Link>
             </li>
             <li> SAP PLANNING </li>
           </ol>

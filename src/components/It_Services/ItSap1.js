@@ -18,7 +18,7 @@ const ItSap1 = () => {
             <h2> <b>SAP Datasphere (formerly DWC)</b> </h2>
             <ol>
               <li>
-                <Link to='IT-Services'> IT-Services </Link>
+                <Link to="/IT-Services"> IT-Services </Link>
               </li>
               <li> SAP Datasphere </li>
             </ol>

@@ -18,7 +18,7 @@ const ItSap2 = () => {
           <h2> <b>SAP Analytics Cloud (SAC) </b> </h2>
           <ol>
             <li>
-              <Link to='IT-Services'> IT-Services </Link>
+              <Link to="/IT-Services"> IT-Services </Link>
             </li>
             <li> SAP Analytics </li>
           </ol>

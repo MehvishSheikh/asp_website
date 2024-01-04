@@ -69,7 +69,7 @@ const InstrumentDetails3 = () => {
                       worldwide basemap with shaded relief & customizable buttons for 1-touch
                       image capture & waypoint marking.</p>
                       <p>
-                      Oregon 650 opens a new world of GPS mapping &
+                      Oregon 750 opens a new world of GPS mapping &
                       positioning. 8 MP autofocus camera with LED flash/torch.
                       </p>
                       <p>

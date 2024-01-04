@@ -148,7 +148,7 @@ const InstrumentsComponent = () => {
                 <Link to="/InstrumentDetails5">
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/parth.png"
+                      src="assets/img/portfolio/sp-60.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -156,7 +156,7 @@ const InstrumentsComponent = () => {
                       <h3>PARTH - 1000</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/parth.png"
+                          href="assets/img/portfolio/sp-60.png"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="Web 2"
@@ -173,7 +173,7 @@ const InstrumentsComponent = () => {
                 <Link to="/InstrumentDetails6">
                   <div className="portfolio-item">
                     <img
-                      src="assets/img/portfolio/sp-60.png"
+                      src="assets/img/portfolio/parth.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -181,7 +181,7 @@ const InstrumentsComponent = () => {
                       <h3>DGPS SP-60</h3>
                       <div>
                         <a
-                          href="assets/img/portfolio/sp-60.png"
+                          href="assets/img/portfolio/parth.png"
                           data-gallery="portfolioGallery"
                           className="portfolio-lightbox"
                           title="App 3"

@@ -118,7 +118,7 @@ const itSP = () => {
               <div className="col-md-5">
                 {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
 
-                <img src="assets\img\zp2.jpeg" className="img-fluid" alt="" />
+                <img src="assets\img\zp2.jpg" className="img-fluid" alt="" />
 
               </div>
               <div className="col-md-7 pt-4">

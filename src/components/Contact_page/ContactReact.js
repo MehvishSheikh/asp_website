@@ -90,27 +90,28 @@ function ContactForm() {
             </div>
             <div className="col-md-6 form-group mt-3 mt-md-0">
               <input
-                type="email"
-                value={emailid}
+                type="text"
+                value={mobile}
                 onChange={(e) => setEmail(e.target.value)}
                 className="form-control"
-                name="email"
-                id="email"
-                placeholder="Your Email"
+                name="mobile"
+                id="mobile"
+                placeholder="Your Mobile No."
                 required=""
               />
               <div className="error-message">{emailError}</div>
             </div>
             <br/>
-            <div className="col-md-6 form-group mt-3 mt-md-0">
+            <br/>
+            <div className="col-md-6 form-group mt-3">
               <input
-                type="text"
-                value={mobile}
+                type="email"
+                value={emailid}
                 onChange={(e) => setMobile(e.target.value)}
                 className="form-control"
-                name="mobile"
-                id="mobile"
-                placeholder="Your Mobile No."
+                name="email"
+                id="email"
+                placeholder="Your Email"
                 required=""
               />
               <div className="error-message">{mobileError}</div>
