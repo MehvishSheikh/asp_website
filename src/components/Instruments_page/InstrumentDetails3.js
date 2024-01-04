@@ -67,8 +67,12 @@ const InstrumentDetails3 = () => {
                     <p>
                       Oregon 750: With high-sensitivity GPS & GLONASS satellite tracking,
                       worldwide basemap with shaded relief & customizable buttons for 1-touch
-                      image capture & waypoint marking, Oregon 650 opens a new world of GPS mapping &
+                      image capture & waypoint marking.</p>
+                      <p>
+                      Oregon 650 opens a new world of GPS mapping &
                       positioning. 8 MP autofocus camera with LED flash/torch.
+                      </p>
+                      <p>
                       3-axis compass with accelerometer & barometric altimeter sensors.
                     </p>
                   </div>

@@ -66,10 +66,13 @@ const InstrumentDetails2 = () => {
                     <h2>eTrex 32x detail</h2>
                     <p>
                     2.2” sunlight-readable color display with 240 x 320 display pixels for improved readability<br/>
-Preloaded with TopoActive maps with routable roads and trails for cycling and hiking<br/>
+Preloaded with TopoActive maps with routable roads and trails for cycling and hiking<br/></p>
+<p>
 Support for GPS and GLONASS satellite systems allows for tracking in more challenging environments than GPS alone<br/>
-8 GB of internal memory plus a microSD™ card slot<br/>
-eTrex 32x adds a 3-axis compass and barometric altimeter<br/>
+8 GB of internal memory plus a microSD™ card slot<br/></p>
+<p>
+eTrex 32x adds a 3-axis compass and barometric altimeter<br/></p>
+<p>
 Battery life: up to 25 hours in GPS mode with 2 AA batteries<br/>
 
 
