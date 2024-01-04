@@ -67,7 +67,8 @@ const InstrumentDetails4 = () => {
                     <p>
                     Montana 680 features a bold 4 inches color touchscreen dual orientation 
                     display & supports multiple mapping options like BirdsEye™ Satellite Imagery
-                    & it has a 8 megapixel Camera to boot. Montana has key features for the 
+                    & it has a 8 megapixel Camera to boot. </p>
+                    <p>Montana has key features for the 
                     outdoors such as a 3-axis tilt-compensated compass & barometric altimeter, 
                     wireless data sharing, high-sensitivity GPS receiver,  microSD™ card slot, 8 
                     GB Internal Memory.

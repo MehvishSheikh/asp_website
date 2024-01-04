@@ -76,25 +76,25 @@ const InstrumentDetails8 = () => {
                       <br />
                       Salient Features:
                       <br />
-                      ● Online Ground water level recorder. 	 ● Continuous Data Logging Facility.
-                      ● Factory-calibrated sensor.		 ● Facility for Wall/Pipe mounting.
-                      ● IP 65 grade rated enclosure. 	 ● Durable and rugged design
-                      ● Data can be uploaded on Cloud Server 	 ● Battery
-                      ● Including Telemetry for online Data transfer and one year free of cost Server
-                      ● Data transfer to server with 50 to 200m cable.
+                      ● Online Ground water level recorder. <br />	 ● Continuous Data Logging Facility.<br />
+                      ● Factory-calibrated sensor.	<br />	 ● Facility for Wall/Pipe mounting.<br />
+                      ● IP 65 grade rated enclosure. <br />	 ● Durable and rugged design<br />
+                      ● Data can be uploaded on Cloud Server 	 y<br />
+                      ● Including Telemetry for online Data transfer and one year free of cost Server<br />
+                      ● Data transfer to server with 50 to 200m cable.<br />
                       ● Imported pressure transducer (sensor) with capability of measuring till 160 meters’ depth.
                       <br />
                       <br />
                       Technical Specifications
                       <br />
                       <br />
-                      ● Accuracy: 0.25 % F.S 		 ● Compensated temperature: -200C to +850C.
-                      ● Operating temperature: -400C to +1250C 	 ● Current consumption: 5mA
-                      ● Vibration: ±20g, MIL-STD-810C 	 ● Dielectric strength: 2mA @500VAC, 1min
-                      ● Display: 16x2 LCD display 		 ● Enclosure: IP65
-                      ● Data Output: Microso􀄦 Excel format 	 ● Clock: Real time internal clock
-                      ● Cable Length: 50m or as per requirement	 ● Input Power: 220V 50Hz AC
-                      ● Power Adapter output: 12V, 1A DC 	 ● Lithium Ion Battery Pack 11.1 V 4.4A
+                      ● Accuracy: 0.25 % F.S <br />		 ● Compensated temperature: -200C to +850C.<br />
+                      ● Operating temperature: -400C to +1250C<br /> 	 ● Current consumption: 5mA<br />
+                      ● Vibration: ±20g, MIL-STD-810C <br />	 ● Dielectric strength: 2mA @500VAC, 1min<br />
+                      ● Display: 16x2 LCD display <br />		 ● Enclosure: IP65<br />
+                      ● Data Output: Microso􀄦 Excel format<br /> 	 ● Clock: Real time internal clock<br />
+                      ● Cable Length: 50m or as per requirement<br />	 ● Input Power: 220V 50Hz AC<br />
+                      ● Power Adapter output: 12V, 1A DC <br />	 ● Lithium Ion Battery Pack 11.1 V 4.4A<br />
                       ● Wetted Material: 17-4PH or 316L Stainless Steel Port, 316L Stainless Steel Snubber
                     </p>
                   </div>

@@ -72,7 +72,7 @@ const InstrumentDetails10 = () => {
                       <br />
                       Monitoring of ground water table has assumed great significance in
                       view of depleting ground water reserves. The basic measurement of ground
-                      water level can be done by Open Standpipe or constructing observation wells.
+                      water level can be done by Open Standpipe or constructing observation wells.<br/>
                       The model EPP-10/6 water level sounder is widely used for measurement of water
                       level in boreholes, wells, casagrande piezometers and standpipes. It is accurate,
                       robust, light weight and convenient to use.
@@ -87,16 +87,16 @@ const InstrumentDetails10 = () => {
 
                       <br />
                       <br />
-                      Tape Length 'L' 		(m) 30, 50, 100, 150, 200, 300
-                      Resolution (for tape length in m) 	1 mm standard
-                      Imperial unit (optional) Tape Length 'L'(ft) 50, 100, 150, 300, 500
-                      Resolution (for tape length in ft) 	0.1” standard
-                      Cable/Tape 		High tensile virtually nonexpendable, non-stretch, PE insulated flat steel tape
-                      Tape/Cable Size 		10 mm wide x 2 mm thick
-                      Probe 		Stainless steel with 12.7 mm diameter
-                      Power Supply 		9 V PP-3 size battery
-                      Audio Signal 		Sound buzzer
-                      Visual Signal 		Green LED light signal
+                      • Tape Length 'L' 		(m) 30, 50, 100, 150, 200, 300<br />
+                      • Resolution (for tape length in m) 	1 mm standard<br />
+                      • Imperial unit (optional) Tape Length 'L'(ft) 50, 100, 150, 300, 500<br />
+                      • Resolution (for tape length in ft) 	0.1” standard<br />
+                      • Cable/Tape 		High tensile virtually nonexpendable, non-stretch, PE insulated flat steel tape<br />
+                      • Tape/Cable Size 		10 mm wide x 2 mm thick<br />
+                      • Probe 		Stainless steel with 12.7 mm diameter<br />
+                      • Power Supply 		9 V PP-3 size battery<br />
+                      • Audio Signal 		Sound buzzer<br />
+                      • Visual Signal 		Green LED light signal<br />
 
 
                       <br />

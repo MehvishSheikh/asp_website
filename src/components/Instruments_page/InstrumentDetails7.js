@@ -70,40 +70,42 @@ const InstrumentDetails7 = () => {
                       mineral prospecting, ground resistance measurements, geological and geo-technical
                       mapping, bedrock studies, certain civil engineering applications.
                       <br />
-                      Specification Transmitter
                       <br />
-                      •  Power Output :                     40W
-                      •  Constant Current                  1mA to 500mA in     14 Steps
-                      •  Maximum Voltage                 400V
-                      •  Peak to Peak Voltage	800V
-                      •  Current Selection	Automatic Selection of Current as per Ground Conditions Receiver
-                      •  Input Impedance	10MΩ
-                      •  Input Voltage Range	0.1mV to 200V
-                      •  Precision	                        0.05 mV
-                      •  Accuracy	                        ± 1.0 %
-                      •  Noise Rejection	95 dB at 50 Hz
-                      •  Self Potential Cancellation	Automatic
-                      Resistance Measuring Range	1 mΩ to 100 KΩ
+                      Specification Transmitter
+                      <br/>
+                      <br />
+                      •  Power Output :                     40W<br />
+                      •  Constant Current                  1mA to 500mA in     14 Steps<br />
+                      •  Maximum Voltage                 400V<br />
+                      •  Peak to Peak Voltage	800V<br />
+                      •  Current Selection	Automatic Selection of Current as per Ground Conditions Receiver<br />
+                      •  Input Impedance	10MΩ<br />
+                      •  Input Voltage Range	0.1mV to 200V<br />
+                      •  Precision	                        0.05 mV<br />
+                      •  Accuracy	                        ± 1.0 %<br />
+                      •  Noise Rejection	95 dB at 50 Hz<br />
+                      •  Self Potential Cancellation	Automatic<br />
+                      •  Resistance Measuring Range	1 mΩ to 100 KΩ
                       <br />
                       Input Power Source
                       <br />
-                      • Rechargeable Battery Pack	12V and 12 Ah Capacity
-                      •  Measuring Capacity	200 Readings at 500 mA
-                      • Option for External Battery Source Connection  Provision for External Battery Connection System Data
-                      •  Cycle Time	                8 - 12 Seconds
-                      •  Data Averaging            1/4/16/64 Cycles    Selectable
-                      •  Diagnostic Display         09 Codes
-                      •  Operating Temperature  0 - 60 Degree C Output
-                      •  Display	                 Survey Code, Date, Time, Electrode Spacing, Resistance, Apparent Resistivity.
-                      •  Display Unit	                20 X 4 Alphanumeric Liquid Crystal Display, Clearly Visible in Intense Sun - Light
-                      •  Data Transfer	The Data can be transferred directly to any Window - based PC through SD
-                      Card
-                      •  Storage Capacity         16 GB Data sufficient to store 1000 survey readings
+                      • Rechargeable Battery Pack	12V and 12 Ah Capacity<br />
+                      •  Measuring Capacity	200 Readings at 500 mA<br />
+                      • Option for External Battery Source Connection  Provision for External Battery Connection System Data<br />
+                      •  Cycle Time	                8 - 12 Seconds<br />
+                      •  Data Averaging            1/4/16/64 Cycles    Selectable<br />
+                      •  Diagnostic Display         09 Codes<br />
+                      •  Operating Temperature  0 - 60 Degree C Output<br />
+                      •  Display	                 Survey Code, Date, Time, Electrode Spacing, Resistance, Apparent Resistivity.<br />
+                      •  Display Unit	                20 X 4 Alphanumeric Liquid Crystal Display, Clearly Visible in Intense Sun - Light<br />
+                      •  Data Transfer	The Data can be transferred directly to any Window - based PC through SD<br />
+                     
+                      •  Storage Capacity         16 GB Data sufficient to store 1000 survey readings<br /> <br/>
                       Interaction with the System        User friendly menu operation with 4 X 4 feather- touch Key - Pad and 20 X 4
-                      Alphanumeric Liquid Crystal Display.
+                      Alphanumeric Liquid Crystal Display.<br />
                       System Protection     Inbuilt protection of circuit provided against overload or surge voltage
                       Depth of Penetration	Under favorable Geological / Field condition, the System is capable of probing 600 m.
-                      GPS	             Provision of GPS connection available
+                      GPS	             Provision of GPS connection available<br />
 
 
 
