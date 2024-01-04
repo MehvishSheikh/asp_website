@@ -116,7 +116,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3>PARTH - 1000</h3>
+                      <h3>DGPS SP-60</h3>
                       
                     </div>
                   </div>
@@ -132,7 +132,7 @@ const InstrumentsComponent = () => {
                       alt=""
                     />
                     <div className="portfolio-info">
-                      <h3>DGPS SP-60</h3>
+                      <h3>PARTH - 1000 </h3>
                       
                     </div>
                   </div>
