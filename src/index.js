@@ -26,6 +26,8 @@ import ItSap2 from './components/It_Services/ItSap2';
 import ItSap3 from './components/It_Services/ItSap3';
 import ItSap4 from './components/It_Services/ItSap4';
 import ItSP from './components/It_Services/itSP';
+import Instrumentsgps from './components/Instruments_page/Instrumentsgps';
+import Instrumentsdgps from './components/Instruments_page/Instrumentsdgps';
 
 
 
@@ -138,6 +140,14 @@ const router = createBrowserRouter([
   {
     path:"/IT-0",
     element: <ItSP/>
+  },
+  {
+    path:"/Instrugps",
+    element: <Instrumentsgps/>
+  },
+  {
+    path:"/Instrudgps",
+    element: <Instrumentsdgps/>
   }
  
 

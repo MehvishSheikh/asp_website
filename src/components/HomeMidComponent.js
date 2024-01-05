@@ -225,6 +225,8 @@ const HomeMidComponent = () => {
                         </div>
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-5">
+                                <br/>
+                                <br/>
                                 <img src="assets/img/features-3.jpg" className="img-fluid" alt="" />
                             </div>
                             <div className="col-md-7 pt-5">
