@@ -92,14 +92,20 @@ const HydroServices = () => {
                         </div>
                         <br/>
                         <br/>
-                        <div className="row" data-aos="fade-up">
-                            <div className="col-md-5">
-                                {/* <img src="assets/img/features-2.jpg" className="img-fluid" alt="" /> */}
-                                
-                                <img src="assets/img/hydro1.jpg" className="img-fluid" alt="" />
-                                
-                            </div>
-                            <div className="col-md-7 pt-4">
+
+
+                        <div
+        className="why-us section-bg"
+        data-aos="fade-up"
+        date-aos-delay={200}
+      >
+        <div className="container">
+          <div className="row">
+           
+            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+            
+              <div className="icon-box">
+             
                             <h3>"Integrated Water Solutions: Expertise Beyond Boundaries"<br/></h3>
                             <p>Features of Services that we provide are:</p>
                                 
@@ -129,15 +135,46 @@ const HydroServices = () => {
                                     </li>
                                     
                                 </ul>
-                            </div>
-                        </div>
-                        <div className="row" data-aos="fade-up">
-                            <div className="col-md-5 order-1 order-md-2">
-                                <img src="assets\img\rainy.jpg" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-md-7 pt-5 order-2 order-md-1">
+                            
+                
+                
+               
 
-                            <h3>"Empowering Sustainability through Comprehensive Water Management"</h3>
+              </div>
+          
+            </div>
+            <div className="col-lg-6 video-box">
+                <br/>
+                <br/>
+                
+                
+              <img src="assets/img/hydro1.jpg" className="img-fluid" alt="" />
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div
+        className="why-us section-bg"
+        data-aos="fade-up"
+        date-aos-delay={200}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 video-box">
+                <br/>
+                <br/>
+              <img src="assets/img/rainy.jpg" className="img-fluid" alt="" />
+              
+            </div>
+            <div className="col-lg-7 d-flex flex-column justify-content-center p-5">
+            
+              <div className="icon-box">
+             
+              <h3>"Empowering Sustainability through Comprehensive Water Management"</h3>
                                 <p className="fst-italic">
                                 We carry out following works:
                                  </p>
@@ -163,15 +200,33 @@ const HydroServices = () => {
                                         <i className="bi bi-check" /> Our team consists of competent professionals with extensive experience in their respective disciplines. Their expertise ensures quality service and support.
                                     </li>
                                 </ul>
-                                
-                            </div>
-                        </div>
-                        <div className="row" data-aos="fade-up">
-                            <div className="col-md-5">
-                                <img src="assets/img/hydro.jpg" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-md-7 pt-5">
-                                <h3>"Innovation"</h3>
+                            
+                
+                
+               
+
+              </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div
+        className="why-us section-bg"
+        data-aos="fade-up"
+        date-aos-delay={200}
+      >
+        <div className="container">
+          <div className="row">
+            
+            <div className="col-lg-7 d-flex flex-column justify-content-center p-5">
+            
+              <div className="icon-box">
+             
+              <h3>"Innovation"</h3>
                                 <ul>
                                     <li>
                                         <i className="bi bi-check" /> Supply and Training of Resistivity Meter.
@@ -196,8 +251,23 @@ const HydroServices = () => {
                                     
                                     
                                 </ul>
-                            </div>
-                        </div>
+                
+                
+               
+
+              </div>
+          
+            </div>
+            <div className="col-lg-5 video-box">
+                
+               
+              <img src="assets/img/hydro.jpg" className="img-fluid" alt="" />
+              
+            </div>
+          </div>
+        </div>
+      </div>
+                       
                     </div>
                 </section>
         

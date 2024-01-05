@@ -3,7 +3,7 @@ import HeadComponent from '../HeadComponent'
 import FooterComponent from '../FooterComponent'
 import { Link } from 'react-router-dom'
 
-const InstrumentsComponent = () => {
+const Instrumentsgps = () => {
   return (
     <div className="Instruments">
       <>
@@ -28,8 +28,8 @@ const InstrumentsComponent = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <ul id="portfolio-flters">
-                   <Link to="/Instruments"> <li data-filter="*" className="filter-active"> All </li></Link>
-                   <Link to="/Instrugps"><li data-filter=".filter-app">GPS</li></Link>
+                   <Link to="/Instruments"> <li data-filter="*" > All </li></Link>
+                   <Link to="/Instrugps"><li data-filter=".filter-app" className="filter-active">GPS</li></Link>
                    <Link to="/Instrudgps"><li data-filter=".filter-card">DGPS</li></Link>
                    <Link to="/InstrumentDetails7"><li data-filter=".filter-web">CRM</li></Link>
                    <Link to="/InstrumentDetails8"><li data-filter=".filter-web">DWLR</li></Link>
@@ -110,102 +110,16 @@ const InstrumentsComponent = () => {
                   </Link>
                 </div>
 
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                <Link to="/InstrumentDetails5">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/sp-60.png"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>DGPS SP-60</h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
+                
 
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                <Link to="/InstrumentDetails6">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/parth.png"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>PARTH - 1000 </h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
+                
 
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                <Link to="/InstrumentDetails7">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/Aquameter.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>Aquameter CRM</h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
+               
+              
 
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                <Link to="/InstrumentDetails8">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/DWLR.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>DWLR</h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
+               
 
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                <Link to="/InstrumentDetails9">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/UD.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>Telemetry</h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
-
-                <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                <Link to="/InstrumentDetails10">
-                  <div className="portfolio-item">
-                    <img
-                      src="assets/img/portfolio/WLI.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <h3>EWLI/EWLS</h3>
-                      
-                    </div>
-                  </div>
-                  </Link>
-                </div>
-
+                
               </div>
             </div>
           </section>
@@ -225,4 +139,4 @@ const InstrumentsComponent = () => {
   )
 }
 
-export default InstrumentsComponent
+export default Instrumentsgps

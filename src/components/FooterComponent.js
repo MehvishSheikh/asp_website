@@ -16,7 +16,12 @@ const FooterComponent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 footer-links">
+                            
+                           
+                           
+         
                                 <h4>Useful Links</h4>
+                                
                                 <ul>
                                     <li>
                                         <i className="bx bx-chevron-right" /> <Link to="/">Home</Link>
@@ -69,7 +74,11 @@ const FooterComponent = () => {
                                 </p>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-info">
-                                <h3>About ASP</h3>
+                            <img src="assets\img\fimage.png" className="img-fluid" alt="" />
+                            <br/>
+                            <br/>
+                                <Link to="/About">
+                                <h3>About ASP</h3></Link>
                                 <p>
                                     ASP Consultancy Services is your partner for success,seemlessly combining expertise and innovation to deliver enduring solutions that stand the test of time.
                                 </p>
