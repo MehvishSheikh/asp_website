@@ -22,18 +22,18 @@ function ContactForm() {
       setNameError('');
     }
 
-    if (!emailid || !/^\S+@\S+\.\S+$/.test(emailid)) {
-      setEmailError('Please enter a valid email address');
-      return;
-    } else {
-      setEmailError('');
-    }
-
     if (!mobile || !/^\d{10}$/.test(mobile)) {
       setMobileError('Please enter a valid mobile number');
       return;
     } else {
       setMobileError('');
+    }
+
+    if (!emailid || !/^\S+@\S+\.\S+$/.test(emailid)) {
+      setEmailError('Please enter a valid email address');
+      return;
+    } else {
+      setEmailError('');
     }
 
     if (!subject) {
@@ -76,6 +76,7 @@ function ContactForm() {
             </h3>
             <p>We’re here to help and answer any question you might have. We look forward to hearing from you!</p>
             <div className="col-md-6 form-group">
+            
               <input
                 type="text"
                 name="name"
@@ -89,6 +90,7 @@ function ContactForm() {
               <div className="error-message">{nameError}</div>
             </div>
             <div className="col-md-6 form-group mt-3 mt-md-0">
+           
               <input
                 type="text"
                 value={mobile}
@@ -99,11 +101,12 @@ function ContactForm() {
                 placeholder="Your Mobile No."
                 required=""
               />
-              <div className="error-message">{emailError}</div>
+               <div className="error-message">{mobileError}</div>
             </div>
             <br/>
             <br/>
             <div className="col-md-6 form-group mt-3">
+          
               <input
                 type="email"
                 value={emailid}
@@ -114,10 +117,12 @@ function ContactForm() {
                 placeholder="Your Email"
                 required=""
               />
-              <div className="error-message">{mobileError}</div>
+             
+              <div className="error-message">{emailError}</div>
             </div>
           </div>
           <div className="form-group mt-3">
+          
             <input
               type="text"
               value={subject}
@@ -131,6 +136,7 @@ function ContactForm() {
             <div className="error-message">{subjectError}</div>
           </div>
           <div className="form-group mt-3">
+            <p> Explain your requirments briefly</p>
             <textarea
               value={text}
               onChange={(e) => setText(e.target.value)}
