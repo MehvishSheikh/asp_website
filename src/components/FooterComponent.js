@@ -80,7 +80,7 @@ const FooterComponent = () => {
                                 <Link to="/About">
                                 <h3>About ASP</h3></Link>
                                 <p>
-                                    ASP Consultancy Services is your partner for success,seemlessly combining expertise and innovation to deliver enduring solutions that stand the test of time.
+                                    ASP Consultancy Services is your partner for success, that deliver top-notch IT services, hydrogeological consultancy, and advanced monitoring tools. Our focus on quality and expertise ensures excellence in water resource management solutions.
                                 </p>
                                
                             </div>
