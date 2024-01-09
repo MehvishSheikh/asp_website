@@ -79,10 +79,11 @@ const FooterComponent = () => {
                             <br/>
                                 <Link to="/About">
                                 <h3>About ASP</h3></Link>
-                                <p>
-                                    ASP Consultancy Services is your partner for success, that deliver top-notch IT services, hydrogeological consultancy, and advanced monitoring tools. Our focus on quality and expertise ensures excellence in water resource management solutions.
+                                <p style={{ textAlign: 'justify' }}>
+                                    ASP Consultancy Services is your partner for success, that deliver top-notch IT services, hydrogeological consultancy, and advanced monitoring tools. Our focus on quality and expertise ensures transformative excellence in water resource management solutions.
                                 </p>
-                               
+   
+
                             </div>
                         </div>
                     </div>
