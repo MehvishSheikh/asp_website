@@ -148,7 +148,7 @@ const HydroServices = () => {
                 <br/>
                 
                 
-              <img src="assets/img/hydro1.jpg" className="img-fluid" alt="" />
+              <img src="assets/img/hservices1.jpg" className="img-fluid" alt="" />
               
             </div>
           </div>
@@ -167,7 +167,7 @@ const HydroServices = () => {
             <div className="col-lg-5 video-box">
                 <br/>
                 <br/>
-              <img src="assets/img/rainy.jpg" className="img-fluid" alt="" />
+              <img src="assets/img/hservices2.jpg" className="img-fluid" alt="" />
               
             </div>
             <div className="col-lg-7 d-flex flex-column justify-content-center p-5">
@@ -261,7 +261,7 @@ const HydroServices = () => {
             <div className="col-lg-5 video-box">
                 
                
-              <img src="assets/img/hydro.jpg" className="img-fluid" alt="" />
+              <img src="assets/img/hservices3.jpg" className="img-fluid" alt="" />
               
             </div>
           </div>
